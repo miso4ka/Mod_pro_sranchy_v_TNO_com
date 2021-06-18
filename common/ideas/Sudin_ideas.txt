@@ -1,0 +1,64 @@
+ideas = {
+   country = {
+	Sudin_defend_revolution = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+
+			}
+
+			removal_cost = -1
+			
+			picture = BRY_army_soldiers
+			
+			modifier = {
+			war_support_factor = 0.10
+			drift_defence_factor = 0.1
+			conscription = 0.02
+			}
+		}
+	Sudin_fightback_from_shturmoviks = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+
+			}
+
+			removal_cost = -1
+			
+			picture = WRS_Soldiers_of_the_Long_War
+			
+			modifier = {
+			custom_effect_tooltip = Sudin_Shtur_bandity_tt
+			stability_factor = -0.1
+			}
+		}
+	Sudin_beetwen_tno_infighting = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+
+			}
+
+			removal_cost = -1
+			
+			picture = stratified_strong
+			
+			modifier = {
+			stability_factor = -0.2
+			political_power_gain = -0.4
+			army_org_regain = -0.2
+			army_org_factor = -0.15
+			}
+		}
+   }
+}

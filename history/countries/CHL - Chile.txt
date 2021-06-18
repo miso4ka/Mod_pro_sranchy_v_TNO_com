@@ -1,0 +1,255 @@
+capital = 279
+
+oob = "CHL_1962"
+set_stability = 0.56
+set_war_support = 0.15
+
+PRU = { add_opinion_modifier = { target = CHL modifier = SOUTHAM_war_pacific } }
+BOL = { add_opinion_modifier = { target = CHL modifier = SOUTHAM_war_pacific } }
+
+add_opinion_modifier = { target = ARG modifier = SOUTHAM_beagle }
+ARG = { add_opinion_modifier = { target = CHL modifier = SOUTHAM_beagle } }
+
+add_ideas = {
+	## Spirits
+	CHL_idea_FDC_moderate_dominance
+	CHL_idea_la_hacienda_1
+	CHL_idea_crippled_sovereignty
+	CHL_idea_ethnic_tension_1
+
+	# Ministers
+	CHL_Enrique_Escobar_hog
+	CHL_Vergara_Donoso_pol
+	CHL_Julio_Philippi_eco
+	CHL_Carlos_Vial_sec
+
+	##Laws
+	#Political
+	tno_political_parties_multiparty_system
+	tno_religious_rights_pluralism
+	tno_trade_unions_nonsocialist_allowed
+	tno_immigration_open_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_registered_voting
+	tno_refugees_vetted_entry
+	#Military
+	tno_conscription_one_year_draft
+	tno_women_banned
+	tno_military_supervision_military_policing
+	tno_military_spending_medium_spending 
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_civil_service_deferment
+	#Social
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_few_regulations
+	tno_education_elite_only
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_security_service
+	#Economics
+	tno_trade_laws_free_trade
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_low_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_trinket_minimum_wage
+	tno_max_workhours_12_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_trinket_pensions
+	tno_unemployment_no_subsidies
+	##Societal Development
+}
+
+add_manpower = 35000
+
+set_technology = {
+	##INFANTRY##
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	infantry_weapons_improvements_5 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	support_weapons4 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	
+	motorized_infantry = 1
+	motorized_rocket_unit = 1
+	motorized_infantry_1 = 1
+	marines = 1
+	tech_mountaineers = 1
+	tech_mountaineers2 = 1
+	tech_mountaineers3 = 1
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers2 = 1
+	tech_engineers_flamethrowers_2 = 1
+	tech_engineers3 = 1
+	tech_engineers_flamethrowers_3 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	APC_1950_basic_armor = 1
+	APC_1960 = 1
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	IFV_1950_basic_armor = 1
+	#IFV_1950_basic_engine = 1
+	IFV_1960 = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+	MBT_1950_basic_armor = 1
+	MBT_1960 = 1
+	
+	##ARTILLERY##
+	
+	antiair5 = 1
+	antiair_1950 = 1
+	light_SPAA_1950 = 1
+	light_SPAA_1960 = 1
+	SPAA_1950 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	artillery_1950 = 1
+	light_SPART_1950 = 1
+	light_SPART_1950_soft_attack = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+
+}
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1958.9.4"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 5.12
+    socialist = 16.5
+    social_democrat = 4.5
+    social_liberal = 32
+    social_conservative = 20
+    authoritarian_democrat = 15
+    fascism = 6.88
+}
+
+create_country_leader = {
+	name = "Jorge Alessandri"
+	picture = "Portrait_Chile_Jorge_Alessandri.dds"
+	expire = "1964.9.4"
+	ideology = social_liberal_subtype
+	desc = "POLITICS_ALESSANDRI_DESC"
+	traits = {
+		el_paleta_latin
+	}
+}
+create_country_leader = {
+	name = "Eduardo Frei Montalva"
+	picture = "Portrait_Chile_Frei_Montalva.dds"
+	expire = "1964.9.4"
+	ideology = social_conservative_subtype
+	desc = "POLITICS_FREI_MONTALVA_DESC"
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Various Leaders"
+	picture = "Portrait_Chile_Jorge_Alessandri.dds"
+	expire = "1964.9.4"
+	ideology = social_democrat_subtype
+	desc = "POLITICS_ALESSANDRI_DESC"
+	traits = {
+		el_paleta_latin
+	}
+}
+create_country_leader = {
+	name = "Jorge Prat Echaurren"
+	picture = "Portrait_Chile_Jorge_Prat.dds"
+	expire = "1999.9.4"
+	ideology = authoritarian_democrat_subtype
+	desc = "POLITICS_JORGE_PRAT_DESC"
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Ramón Callís Arrigorriaga"
+	picture = "Portrait_Chile_Ramon_Callis.dds"
+	expire = "1999.9.4"
+	ideology = fascism_subtype
+	desc = "POLITICS_JORGE_PRAT_DESC"
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Salvador Allende Gossens"
+	picture = "Portrait_Chile_Salvador_Allende.dds"
+	expire = "1999.9.4"
+	ideology = socialist_subtype
+	desc = "POLITICS_SALVADOR_ALLENDE_DESC"
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Clotario Blest Riffo"
+	picture = "Portrait_Chile_Clotario_Blest.dds"
+	expire = "1999.9.4"
+	ideology = communist_subtype
+	desc = "POLITICS_SALVADOR_ALLENDE_DESC"
+	traits = {
+		#
+	}
+}
+
+#Starting Equipment
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 2000
+	producer = CHL
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_3
+	amount = 500
+	producer = CHL
+}

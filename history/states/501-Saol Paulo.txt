@@ -1,0 +1,56 @@
+
+state={
+	id=501
+	name="STATE_501"
+	resources={
+        steel=48.000
+		aluminium=36.00
+	}
+
+	history={
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+			arms_factory = 4
+			industrial_complex = 4
+			dockyard = 1
+			air_base = 3
+			infrastructure = 6
+			5112 = {
+				naval_base = 4
+
+			}
+
+		}
+		victory_points = {
+			10360 20 
+		}
+		victory_points = {
+			10513 25 
+		}
+		victory_points = {
+			1583 3 
+		}
+		victory_points = {
+			8148 10 
+		}
+		victory_points = {
+			12977 5 
+		}
+		victory_points = {
+			12334 3 
+		}
+		victory_points = {
+			10931 3 
+		}
+
+	}
+
+	provinces={
+		1583 5112 5167 5186 7553 7636 10360 10432 10513 10947 10994 11003 11008 12438 12937 12972
+		10945 12977 2167 8210 12479 2185 12334 8148 8226 7589 4570 12938 7476 12923 12909 10931 2218 2190 8233 5223 12903
+	}
+	manpower=24671749
+	buildings_max_level_factor=3.000
+	state_category=large_city
+}

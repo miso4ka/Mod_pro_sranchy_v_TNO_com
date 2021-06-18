@@ -1,0 +1,141 @@
+focus_tree = {
+	id = SUDIN_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ORE
+		}
+	}
+	default = no
+	focus = {
+		id = MOS_revolt
+		icon = GFX_TNO_generic_left_unity_revolution
+		cost = 10
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = SOV_vse_za_sudinom
+		icon = GFX_sudin
+		cost = 10
+		prerequisite = {
+			focus = MOS_revolt
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = MOS_vlast_trud
+		icon = GFX_RAJ_India_Worker_Rights
+		cost = 10
+		prerequisite = {
+			focus = SOV_vse_za_sudinom
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = MOS_rab_and_krest
+		icon = GFX_generic_socialist_progressive_values
+		cost = 10
+		prerequisite = {
+			focus = MOS_vlast_trud
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = MOS_mir_narodam
+		icon = GFX_generic_communist_deal
+		cost = 10
+		prerequisite = {
+			focus = SOV_vse_za_sudinom
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = MOS_sudin_guard
+		icon = GFX_MOS_reds
+		cost = 10
+		prerequisite = {
+			focus = SOV_vse_za_sudinom
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = MOS_expand_commisars
+		icon = GFX_TNO_generic_soviet_nkvd
+		cost = 10
+		prerequisite = {
+			focus = MOS_sudin_guard
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = MOS_more_partriots
+		icon = GFX_TNO_generic_Marching_Men_Soviet
+		cost = 10
+		prerequisite = {
+			focus = MOS_rab_and_krest
+		}
+		prerequisite = {
+			focus = MOS_mir_narodam
+		}
+		prerequisite = {
+			focus = MOS_expand_commisars
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = MOS_contra
+		icon = GFX_generic_execute
+		cost = 10
+		prerequisite = {
+			focus = MOS_more_partriots
+		}
+		prerequisite = {
+			focus = MOS_army_to_protect_workers
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = MOS_gulags
+		icon = GFX_gulags
+		cost = 10
+		prerequisite = {
+			focus = MOS_contra
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = MOS_army_to_protect_workers
+		icon = GFX_generic_victory_parade_commie
+		cost = 10
+		prerequisite = {
+			focus = MOS_mir_narodam
+		}
+		prerequisite = {
+			focus = MOS_expand_commisars
+		}
+		x = 9
+		y = 4
+
+	}
+}

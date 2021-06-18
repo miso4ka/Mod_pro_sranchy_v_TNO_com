@@ -1,0 +1,866 @@
+capital = 505
+
+add_political_power = 10
+oob = "BRA_1962"
+set_country_flag = BRA_operation_lobster_flag
+set_country_flag = BRA_lottquadros_category_allowed
+set_country_flag = BRA_military_category_allowed
+set_country_flag = gui_alert_visible
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	early_ship_hull_very_light = 1
+	basic_ship_hull_very_light = 1
+	improved_ship_hull_very_light = 1
+	early_ship_hull_more_light = 1
+	basic_ship_hull_more_light = 1
+	improved_ship_hull_more_light = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	improved_ship_hull_light = 1
+	basic_depth_charges = 1
+	sonar = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_carrier = 1
+	basic_ship_hull_carrier = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	basic_torpedo = 1
+	improved_ship_torpedo_launcher = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_medium_battery = 1
+	basic_heavy_battery = 1
+	basic_secondary_battery = 1
+	damage_control_1 = 1
+	fire_control_methods_1 = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	improved_submarine_mine_laying = 1
+	improved_naval_mines = 1
+	mtg_transport = 1
+	}
+	set_naval_oob = "BRA_1962_naval_mtg"
+	}
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		ww2_destroyer = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		ww2_cruiser = 1
+		basic_cruiser = 1
+		improved_cruiser = 1
+		ww2_battleship = 1
+		ww2_carrier = 1
+		early_carrier = 1
+		improved_carrier = 1
+		ww2_submarine = 1
+		basic_submarine = 1
+		improved_submarine = 1
+		transport = 1
+		landing_craft = 1
+	}
+	set_naval_oob = "BRA_1962_naval"
+}
+
+set_research_slots = 3
+
+set_convoys = 150
+
+add_opinion_modifier = { target = CHL modifier = SOUTHAM_CHL_BRA_allies }
+CHL = { add_opinion_modifier = { target = BRA modifier = SOUTHAM_CHL_BRA_allies } }
+
+add_opinion_modifier = { target = GER modifier = embargo }
+add_opinion_modifier = { target = GGR modifier = embargo }
+add_opinion_modifier = { target = BGR modifier = embargo }
+add_opinion_modifier = { target = HGR modifier = embargo }
+add_opinion_modifier = { target = SGR modifier = embargo }
+add_opinion_modifier = { target = CZE modifier = embargo }
+add_opinion_modifier = { target = GGN modifier = embargo }
+add_opinion_modifier = { target = SLO modifier = embargo }
+add_opinion_modifier = { target = UKR modifier = embargo }
+add_opinion_modifier = { target = MCW modifier = embargo }
+add_opinion_modifier = { target = OST modifier = embargo }
+add_opinion_modifier = { target = COG modifier = embargo }
+add_opinion_modifier = { target = CAU modifier = embargo }
+add_opinion_modifier = { target = SER modifier = embargo }
+add_opinion_modifier = { target = DEN modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = NOR modifier = embargo }
+add_opinion_modifier = { target = CRN modifier = embargo }
+add_opinion_modifier = { target = MAD modifier = embargo }
+add_opinion_modifier = { target = MZB modifier = embargo }
+add_opinion_modifier = { target = ANG modifier = embargo }
+add_opinion_modifier = { target = HOL modifier = embargo }
+add_opinion_modifier = { target = BRG modifier = embargo }
+add_opinion_modifier = { target = BUL modifier = embargo }
+add_opinion_modifier = { target = ENG modifier = embargo }
+add_opinion_modifier = { target = FRA modifier = embargo }
+add_opinion_modifier = { target = BRT modifier = embargo }
+add_opinion_modifier = { target = IRE modifier = embargo }
+
+set_variable = { BRA_lottquadros_lott_influence = 55 }
+set_variable = { BRA_lottquadros_quadros_influence = 45 }
+set_variable = { BRA_lottquadros_total_influence = 100 }
+set_variable = { BRA_lottquadros_display_value = 55 }
+set_variable = { BRA_lottquadros_cooperation = 3 }
+
+
+# Military Setup
+BRA_initialize_military = yes
+
+# MAP GUI SETUP
+clear_array = BRA_map_selected_tab
+add_to_array = { BRA_map_selected_tab = 0 }
+clear_array = BRA_map_tab_frames
+add_to_array = { BRA_map_tab_frames = 2 }
+add_to_array = { BRA_map_tab_frames = 1 }
+add_to_array = { BRA_map_tab_frames = 1 }
+
+clear_array = BRA_map_election_type_frames
+add_to_array = { BRA_map_election_type_frames = 1 }
+add_to_array = { BRA_map_election_type_frames = 2 }
+
+BRA_initialize_senado = yes
+BRA_start_1962_election_preseason = yes
+BRA_initialize_develop = yes
+
+BRA_initialize_pres = yes
+
+add_dynamic_modifier = { modifier = BRA_trans_amazon_highway }
+add_dynamic_modifier = { modifier = BRA_development_modifier }
+add_dynamic_modifier = { modifier = BRA_inflation_modifier }
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1960.4.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+### DIPLOMACY ###
+COG = { add_opinion_modifier = {target = BRA modifier = TNOCS_lobster_war} }
+
+add_opinion_modifier = {target = COG modifier = TNOCS_lobster_war}
+
+complete_national_focus = BRA_the_lott_presidency
+complete_national_focus = BRA_open_brasilia
+complete_national_focus = BRA_expand_petrobras
+complete_national_focus = BRA_american_investors
+complete_national_focus = BRA_japanese_tech
+complete_national_focus = BRA_construct_the_highway
+complete_national_focus = BRA_end_coffee_strikes
+complete_national_focus = BRA_end_the_marches
+complete_national_focus = BRA_more_concessions
+complete_national_focus = BRA_back_to_work
+complete_national_focus = BRA_emergency_budget_cuts
+
+add_ideas = {
+	BRA_idea_overbearing_military
+	BRA_idea_rampant_corruption
+	BRA_idea_industrialisation_crisis_campaign
+	BRA_idea_Lobster_conflict
+	BRA_idea_trans_amazon_highway
+	BRA_increase_90_percent_pop
+	##BRA_army_nepotism_3
+	
+	##Ministers
+	BRA_Quadros_hog
+	BRA_Salles_pol
+	BRA_Neves_eco
+	BRA_Denys_sec
+
+			#POLITICAL
+	tno_political_parties_multiparty_system
+	tno_religious_rights_secularism
+	tno_trade_unions_nonsocialist_allowed
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_allowed
+	tno_press_rights_free_press
+	tno_vote_franchise_universal
+	tno_refugees_vetted_entry
+
+	    #Military Laws#
+	tno_conscription_one_year_draft
+	tno_women_noncombat_only
+	tno_military_supervision_military_policing
+	tno_military_spending_low_spending
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
+	tno_draft_exemptions_educational_deferment
+	    #ECONOMIC LAWS#
+	tno_trade_laws_export_focus
+	tno_economic_focus_civilian_economy
+	tno_tax_rate_low_taxation
+	tno_income_taxation_tax_havens
+	tno_minimum_wage_acceptable_minimum
+	tno_max_workhours_8_hour_work_day
+	tno_child_labor_illegal
+	tno_pensions_trinket_pensions
+	tno_unemployment_trinket_subsidies
+	    #Social Laws#
+	tno_safety_minimal_regulations
+	tno_health_care_private_health_care
+	tno_pollution_no_controls
+	tno_education_public_education
+	tno_penal_system_incarceration
+	tno_lgbt_rights_lgbt_allowed
+	tno_gender_rights_women_in_the_workplace
+	tno_minorities_equal_rights
+	tno_security_security_service
+
+		#SOCIETAL DEVELOPMENT
+	tno_nuclear_stockpile_none
+	tno_poverty_rate_50
+	tno_army_professionalism_political_interference
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_factory_complexes
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_secondary_schooling
+
+	#Construction Level
+	construction_level_6
+
+}
+
+set_popularities = {
+    communist = 2
+    ultranational_socialism = 0
+    socialist = 2
+    social_democrat = 26
+    social_liberal = 28
+    market_liberal = 0
+    social_conservative = 27 
+    authoritarian_democrat = 10 
+    despotism = 0
+    fascism = 5
+    burgundian_system = 0
+}
+create_country_leader = {
+	name = "Henrique Teixeira Lott"
+	desc = "POLITICS_TEIXEIRA_LOTT_DESC"
+	picture = "Portrait_BRA_Henrique_Lott.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	old_general_latin
+	}
+}
+BRA_create_leader_quadros = yes
+
+create_country_leader = {
+	name = "João Goulart"
+	desc = "POLITICS_Joao_Goulart_DESC"
+	picture = "Portrait_BRA_Joao_Goulart.dds"
+	expire = "1985.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	heir_of_vargas_latin
+	}
+}
+
+create_country_leader = {
+	name = "Plinio Salgado"
+	desc = "POLITICS_Plinio_Salgado_DESC"
+	picture = "Portrait_BRA_Plinio_Salgado.dds"
+	expire = "1985.1.1"
+	ideology = fascism_subtype
+}
+
+BRA_create_leader_adhemar = yes
+
+create_country_leader = {
+	name = "Humberto de Alencar Castelo Branco"
+	desc = "POLITICS_Humberto_Castelo_Branco_DESC"
+	picture = "Portrait_BRA_Humberto_Branco.dds"
+	expire = "1985.1.1"
+	ideology = despotism_subtype
+	traits = {
+	old_general_latin
+	}
+}
+
+create_country_leader = {
+	name = "Luis Carlos Prestes"
+	desc = "POLITICS_Luis_Carlos_Prestes_DESC"
+	picture = "Portrait_BRA_Luis_Carlos_Prestes.dds"
+	expire = "1985.1.1"
+	ideology = socialist_subtype
+}
+create_country_leader = {
+	name = "João Amazonas"
+	desc = "POLITICS_Joao_Amazona_DESC"
+	picture = "BRA_portrait_Joao_Amazonas.dds"
+	expire = "1985.1.1"
+	ideology = communist_subtype
+}
+
+########### Generals and Admirals ###########
+
+create_field_marshal = {
+	name = "Humberto de Alencar Castelo Branco"
+	picture = "Portrait_BRA_Humberto_Branco.dds"
+	traits = { old_guard career_officer politically_connected organizer  }
+
+	skill = 4
+	id = 4000
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Amaury Kruel"
+	picture = "Portrait_BRA_Amaury_Kruel.dds"
+	traits = { old_guard politically_connected aggressive_assaulter }
+
+	skill = 3
+	id = 4001
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+
+create_corps_commander = {
+	name = "Ernesto Geisel"
+	picture = "Portrait_BRA_Ernesto_Geisel.dds"
+	traits = { career_officer trait_engineer}
+
+	skill = 3
+	id = 4002
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Odílio Denys"
+	picture = "Portrait_BRA_Odílio_Denys.dds"
+	traits = { old_guard infantry_leader}
+
+	skill = 3
+	id = 4003
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Artur Da Costa e Silva"
+	picture = "Portrait_BRA_Artur_Silva.dds"
+	traits = {  career_officer infantry_leader }
+
+	skill = 3
+	id = 4004
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Olímpio Mourão Filho"
+	picture = "Portrait_BRA_Olímpio_Mourão_Filho.dds"
+	traits = { politically_connected trickster}
+
+	skill = 2
+	id = 4005
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Aurélio de Lira Tavares"
+	picture = "Portrait_BRA_Aurélio_de_Lira_Tavares.dds"
+	traits = { politically_connected cavalry_leader}
+
+	skill = 2
+	id = 4006
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Jair Dantas Ribeiro"
+	picture = "Portrait_BRA_Jair_Dantas_Ribeiro.dds"
+	traits = { panzer_leader panzer_expert}
+
+	skill = 3
+	id = 4007
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Armando de Moraes Ancora"
+	picture = "Portrait_BRA_Armando_de_Moraes_Ancora.dds"
+	traits = { trait_engineer urban_assault_specialist }
+
+	skill = 2
+	id = 4008
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Peri Constant Bevilacqua"
+	picture = "Portrait_BRA_Peri_Constant_Bevilacqua.dds"
+	traits = { career_officer bearer_of_artillery  }
+
+	skill = 3
+	id = 4009
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Siseno Ramos Sarmento"
+	picture = "Portrait_BRA_Siseno_Ramos_Sarmento.dds"
+	traits = { trickster  }
+
+	skill = 2
+	id = 4010
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Augusto Rademaker"
+	picture = "Portrait_BRA_augustorademake.dds"
+	traits = { ironside fly_swatter cruiser_captain }
+
+	skill = 4
+	id = 4011
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Arnoldo Toscano"
+	picture = "Portrait_BRA_Arnoldo_Toscano.dds"
+	traits = { fleet_protector spotter}
+
+	skill = 3
+	id = 4012
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+
+create_navy_leader = {
+	name = "Zilmar Campos"
+	picture = "Portrait_BRA_Zilmar_Campos.dds"
+	traits = { air_controller fly_swatter }
+
+	skill = 3
+	id = 4013
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+
+create_navy_leader = {
+	name = "Candido Caldas"
+	picture = "Portrait_BRA_Candino_Caldas.dds"
+	traits = { seawolf spotter }
+
+	skill = 2
+	id = 4014
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+
+create_navy_leader = {
+	name = "Cândido da Costa Aragão"
+	picture = "Portrait_BRA_Costa_Aragao.dds"
+	traits = { superior_tactician lone_wolf concealment_expert }
+
+	skill = 2
+	id = 4015
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+
+set_technology = {
+	##INFANTRY##
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	night_vision_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	
+	motorized_infantry = 1
+	motorized_rocket_unit = 1
+	motorized_infantry_1 = 1
+	marines = 1
+	paratroopers = 1
+	tech_mountaineers = 1
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers2 = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	APC_1950_basic_armor = 1
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	IFV_1950_basic_armor = 1
+	#IFV_1950_basic_engine = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+	MBT_1950_basic_armor = 1
+
+	##ARTILLERY##
+	
+	antiair5 = 1
+	antiair_1950 = 1
+	light_SPAA_1950 = 1
+	SPAA_1950 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	artillery_1950 = 1
+	light_SPART_1950 = 1
+	light_SPART_1950_soft_attack = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+
+	##helicopter_techs##
+	helicopter_engines = 1
+	very_early_helicopter = 1
+	early_helicopter = 1
+	transport_helicopter_1960 = 1
+
+	##air_techs##
+	early_fighter = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	fighter_1945 = 1
+	cv_1945_fighter = 1
+	fighter_1950 = 1
+	cv_1950_fighter = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	CAS_1945 = 1
+	cv_1945_CAS = 1
+	CAS_1950 = 1
+	cv_1950_CAS = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	scout_plane_1945 = 1
+
+	##electronics##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	radar_1950 = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	computing_machine_1950 = 1
+
+	##industry##
+	ww2_line_production = 1
+	countrywide_improvements = 1
+	resource_extraction_methods = 1
+	excavation0 = 1
+	constructionmethods = 1
+	construction0
+	military_construction0
+}
+
+##Starting Equipment##
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 2000
+	producer = BRA
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_2
+	amount = 500
+	producer = BRA
+}
+
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_0
+	amount = 250
+	producer = BRA
+}
+
+add_equipment_to_stockpile = {
+	type = MBT_equipment_1
+	amount = 75
+	producer = BRA
+}
+
+add_equipment_to_stockpile = {
+	type = transport_helicopter_equipment_1
+	amount = 50
+	producer = BRA
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	create_equipment_variant = {
+		name = "Colosso Class"
+		type = ship_hull_carrier_2
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space_medium
+			fixed_ship_deck_slot_2 = ship_deck_space_medium
+			fixed_ship_anti_air_slot = ship_anti_air_missile_battery_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_deck_space_medium
+			mid_1_custom_slot = ship_deck_space_medium
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Marcílio Dias Class"
+		type = ship_hull_light_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_depth_charge_1
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "Acre Class"
+		type = ship_hull_light_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_anti_air_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Fletcher Class"
+		type = ship_hull_light_3
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_radar_slot = ship_sonar_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_anti_air_slot = ship_anti_air_missile_battery_1
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_anti_ship_missile_battery_1
+			mid_1_custom_slot = ship_mine_sweeper_1
+			rear_1_custom_slot = ship_depth_charge_3
+		}
+	}
+create_equipment_variant = {
+		name = "Cannon Class"
+		type = ship_hull_more_light_2
+		name_group = USA_DE_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_mine_layer_1
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "Gato Class"
+		type = ship_hull_submarine_2
+		name_group = USA_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+    	}
+	}
+create_equipment_variant = {
+		name = "Ipanema Class"
+		type = ship_hull_cruiser_2
+		name_group = USA_CLAA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			mid_1_custom_slot = ship_light_medium_battery_2
+			mid_2_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = ship_anti_air_2
+    	}
+	}
+}	
+
+add_equipment_production = {
+				equipment = {
+					type = infantry_equipment_2
+					creator = "BRA"
+				}
+				requested_factories = 2
+				progress = 0.3
+				efficiency = 50
+			}
+add_equipment_production = {
+				equipment = {
+					type = artillery_equipment_3
+					creator = "BRA"
+				}
+				requested_factories = 2
+				progress = 0.3
+				efficiency = 50
+			}
+add_equipment_production = {
+				equipment = {
+					type = anti_tank_equipment_0
+					creator = "BRA"
+				}
+				requested_factories = 1
+				progress = 0.3
+				efficiency = 50
+			}
+add_equipment_production = {
+				equipment = {
+					type = MBT_equipment_1
+					creator = "BRA"
+				}
+				requested_factories = 2
+				progress = 0.3
+				efficiency = 50
+			}
+add_equipment_production = {
+				equipment = {
+					type = cv_jet_fighter_equipment_1
+					creator = "BRA"
+				}
+				requested_factories = 2
+				progress = 0.9
+				efficiency = 50
+			}
+add_equipment_production = {
+				equipment = {
+					type = transport_helicopter_equipment_1
+					creator = "BRA"
+				}
+				requested_factories = 2
+				progress = 0.9
+				efficiency = 50
+			}
+add_equipment_production = {
+				equipment = {
+					type = cv_jet_CAS_equipment_1
+					creator = "BRA"
+				}
+				requested_factories = 2
+				progress = 0.9
+				efficiency = 50
+			}
+add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_2
+					creator = "BRA" 
+					version_name = "Colosso Class"
+				}
+				requested_factories = 5
+				progress = 0.87
+				amount = 1
+			}

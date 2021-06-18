@@ -1,0 +1,211 @@
+﻿##########################################################################################################################################################################################################
+#..,;:cldxkkkkkOO0000kddddxO0k0XK0OO0KKXXX0xdxxxxkO0KXXK0000OO0OOOO00OOOOkkkxkkkxxkk0XXXXKOkkkkkkkkkkkO00O000000000000KKXXXXK0OOOOOOO000KKKKKKKKK00K0OOOOOKXXXKKKK00KK0000000000000000000000000K0KKKKKKKK#
+#......',;cloxkOO00KK0xddddxxk0XKOkkOkkO000xdxxxxxxxk0KKXXXXK000000KXK0O0Oxxxxxxxxxxk0KX0OkkkkkkkkkkkO000KXXK00KKKKXXXXXKK0OOkOOOOOOO000000KKKKK000OOOOOO0XXXKKKKKKKK0000000000000000000000000000000KKKKK#
+#.....';,''',;clccok0KOddddddx0XOddxkxkkk00xdxxxxxxxxxxO0XKKKKK000KKXX000Okkxxxxxxxxxk0KOkkkkkkkkkkOO0000KXXKK0KKKXXXXK0OkkkkkkkOOOkO00000KKKKK00OOOOOOO0KXK000KXXKKKKKKK000000000000000000000000000000KK#
+#.....'''',,;::;...':oxdoodddd0X0xdddxkkk0Oxddxxxxxxxxxxx0KKXXXKKXXXXXKKKK0kxxxxxxxxxkOOkxxxxkxxkxk0KKKKXKXXXXXXXXXXXKOkkkkkkkkkOOkkO0000000000K0OOOOOO0KK00OOO0KKKK000000OOOOOOOOOOOOOOOO00000000000KKKK#
+#'''''',,,;;::::'.....';:;;:coOXX0xkkk0XXX0dddxddddxxddddkKKKXXKKKKXKKKKK0xddddddddddddddddddddddddxO0KKKKK00000000KK0kkkkkkkkkOOOkkO0KKKKK0000K0OOOOO0K00OOOOO00OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO0000000K#
+#,'''',,;;:::::::'......''....:dxkOKKKKKXX0ddddddddddddddkKKKXXKK000OOOkxdoooooodxkOOO00000000OOkkxxddxkkkkOOKK00OkxkkxxkkkkkkkkkOkkO00KKKKKK0000OOOO00OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO#
+#''',,,;:::::cccc:,............''',:clldxkxddddddddddddddk000OOOOOOO000000000000OOOOOO0KKKKKKKXXXXXK0Okook0XXKK00OO00OxdddxkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO#
+#'',,;;:::ccc;,;:cc;.....................',;cloddddddddoloxkOO0KKKXXNXXXXXXXXXKOk0KK00OkkO0KKXXXXXX0kxodOX0kxooxxxxxOXNX0kdddxkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOO000KKKKKKKKKKKXKKKKKKKKK0000OOOOOOOOOOO#
+#',,;::cccloo;...,;c:,..................,oc''',,:clllooxk0KXNNNNNNNNNNNXXXXXX0xkXNNNNXK0OkxddkOKXK0xolx0Oxoccodox0K0kxkKNNXKkxxxkO00O000OOkOOOOOOOOOOOOOOOO000KKKXXXXXXXNXXXXXX0OKNXXXXXXXXXXXXXKK000OOOO#
+#,;;:::ccclodc'....';:;'................'ol'..'...':ok0KXNNNNNWNNNNNWNNNXXXXOdONNNNNNNXXXXK0xdodkkxxk0OdoolldookXKO0KKOxk0NNNXK0OkOO0KK00OOOOOOOOOOOOO00KKXXXXXXXXXXXXXXXXXXNKd'.c0XXXXXXXXXXXXXXXXXXXKK0#
+#;;::cccccccoc,.......','.........................:k00KNNNNNNNNNXXXNNXXXXX0xd0WWNWNNNNKOkkO0OkxddxkkxdoldolodoxOOdoxOKXX0O0KXXNNX0OkxxkkOOOOOOOOOO00KXXXXXXXXXXXXXXXXXXXXXXXX0:  .xXXXXXXXXXXXXXXXXXXXXXX#
+#::cccccccccllc;'....,;.........,cloc'.......... ..;xKNNNNNNNNNNXXK0KKKK0OodKWWWWWWWN0ocllloddxxxxOK00OxdxkOkkkkkxxxxkxkO0K000KKXXXK0kdodkkOOOO0KXXXXXNXXXXXXXXXXXXXXXXXXNXK0k,  .d00XNNXXXXXXXXXXXXXNNXX#
+#cccc:;;::ll::cc:,..:c'. ..',:okKOoxKOocoo:.... ....;dkOO0XXXXNXKOO0XX0OxodXWWWMMMMWXdcooolcoxxxxxk0XXXKOddOKKK0000000OkxxxxkOOO00KXXXKOxdxk0KXXXXXXNXXXXXXXXXXXXXXXXXXXOo:'.'.  .''.;lxKXXXXXXXXXXXXNNXX#
+#cccc:;,cOXd'.,;;'';;..,:cccldxdkOkO0Oklo0k,.... . ..',',xK0kxkOkOKK0OkxoxXWWNWWWWWNklodollxOkdddxxk0XXXXXkoxKXXXXXXXKKKKKKOkxddkkkxkKNNXKOkOKXXXXXXXXXXXXXXXXXXXXXXXX0c.              .,xXXXXXXXXXXXXXXN#
+#ccccc:,:oo:;;'....';ll:;'.......:cc:':dkkl............ .cl;.'lxkOkkxxxoxXWNNNNNNNNKoldl:oOXOodkOkxxxkOKXNNKxoOXXNNNXXNNNNNXXK0kxdxxddOKXNNX0OO0XXXXXXXXXXXXXXXXXXXXNKc.                 'kNXXXXXXXXXXXXX#
+#ccccclc:;;;,,;:cl;';;..............;'..........,;:;...  .. .:dxxxxxxxdkXNNNNNNNNNXxcoocd0X0doxOK0kxxxdx0NNNXkdkXNNNNXXXXXXXXXXXX0kdddddO0KNWNKOO0XXXXNXXXXXXXXXXXXXN0;                  .xNXXXXXXXNXNXKX#
+#cccllllcccc:..',;,..............',cllc;.........;do,'.     .lxdxxxxxxOKXNNNNNNXXX0lclcxKXXOodk0KKOxxxxdx0XXXX0xkKXXXXXXXXXXXXXXXXXKOdoodk000XNNKOOOxol:,;o0XXXXXXXXXKl.                 ,OXXXXXXXXNKxc,;#
+#cccccccccc:,........'.........',;cllodc,'..... .:OOl'..    .cddxxxdx0XXXXXXXXXXXXx::lkKNXKxoxk0KXKkxxxxddOKXXX0xO0KXXXXXXXXXXXXXXXXXKOdookKK0O0XNKo.  ..  .ckXXXNXk;lk:.               'xd;oKNXXX0o,.  .#
+#ccccccccc:;...... ...,;;::,.......,l:.....   . .,cc:,..    .;ldxxdodKXXXXXXXXXXXKl;lkKNNX0ookkKXXKOxxxxxodOXXNXkxOO0XXXXXXXXXXXXXXXXXXXOdlo0NX0OOKXx;.;d;.  ;0Xkdo; 'xOc.             ,xOc..ldx0Xo.  'od#
+#cccccclc::,. ...... ...',lkkl,.....,'.......   ......      .,oxkxolkXXXXXXXXXXXXOclk0XXXKkoxkkKXXKK0OkxkkodKNNNKdx0OOKXXXXXXXNNXXXXXXXXXXOolxXWWK0O0KOxko.  ,d:.     .,oc.  ......   ,o:..    .'oc. .lXK#
+#ccclllc:::....;,. ........,dKKkl;...........  .....,.       .;codlo0XXXXXXXXXXXXdcx0KXXXKxokOOKXXXXXXXKXKklkNNNNOdOXOkKNXXXXNNNNXXXXXXXXXNXOdd0WWWN00KK0x,  ';.        .'. 'dkxxkk:. ..         ',. 'kNX#
+#llcldoc::'....oo. ..........'ckXXOo,....... ..... ...       .':odlxKXXXXXXXXXXN0cl0XXXXXKdlOOOXXXXXNNNNNNKddKNNNXxxXXOkKNXXNNNNNNNXXXXXXXXNNXOxONMMMWXK0Okl.... .. .     .c0XXXXXXKd,.          ...;kXNX#
+#clcoxdc;'.....oO;.  ...........,cxkl,',,,:ll;.. .''.        .codoo0XXXXXXXXXXNNkcxXXXXXX0odK00XXXXNNNNNNNNOoONNNNOd0NNKOKNNXXNNNNNNNXXXNXXXNNNXOkXWMMMWN0OOxc''......  .,ckXNXXXXXXKo;.         .;xKXXXX#
+#ooodkxdl,.....l0l.  ............ ..''',;;,;xx,....'.      .'loddlxKXXXXXXXXXXNXooKXXXXNNKdxXXKXXXXNNNNNNNNKdxXNNNXxkNNNKOKNNNNNNNNNNNNNXXNNNNNNN0x0WMMMMMWX0Oxo,...... ..,kXXXXNNXN0c..  .      .'cxKXXX#
+#dddxkkxo;''...:o:.... .......... ...';;;ldox0d'.   .      'oodxolkXXXXXXXXXXNN0okXXXXXNNKxkXNXXXXNNNNNNNNNNOxXWNWNOxKWNNXO0NNNNNNNNNNNNNXXNNNNNNNKxkNMMMMMMMNK0kl;....   'oOXXXXXX0x:.             .lKNX#
+#ccloxxl:,.....;:..... .........  .. .,:''l0KKKd;..       .';:oxlo0XXXXXXXXXNNNOxKXXXXNNNXxkNNNNNNNNNNNNNNNN0kXWWWMX0XNWNNXO0NWNNNNNWNNNNNNXNNNNNNWXxxKWMMMMWWWWNKOd;..     ;0NXXXKl.           .'. .dXXX#
+#clllddc:,......:c'....................,::looldx:..      ...;lddlxXXNNXXXXXNNNXxkXXXNNNNNX00NNNNNNNNNNNNNNNNKOKWMMMWNNNNNNWXO0NWNNNNWWWNNNNNNNNNNNWWNkd0WMMMMWWNWWWNKd;.    .,xXN0:.      .  .',cko.,ONXO#
+#clclolc:,.......,,'......................... .'..      .;cokxxdlkNNNNNXXNNNNN0x0NNNNNNNNNXXNNNNNNNNNNNNNNNNKxOWMMMWWNNWNNNNXOONWNNNNNWWNNNNNNNNWWWWWNOdONMMMMWNKO0NWWXkl,.  .cKNx.       .....',;::o0Oc'#
+#clllllcc;'.......,;,,,'.....................,'..      .,:okkxxooKNNNNNNNNNNNNkxXNNNNNNNNNNNNNNNNNNXNNNNNNNNXO0WMWWWNNNNNWWNWKkONWWWWWNNNNWWWNNNWWWWWNX0xxXWMMMWWKOOKXXXNXxc'..cd'       ..ok;..:kX0d;.  #
+#cccccclc:;'.......';,,;::,...............,,.''..      .;lk00OxoxXNNNNNNNNNNNKxONNNNNNNNNNNNNNNNNNNXXXNNNNWWN0ONWWNNOkXWNWWNNNKk0NWWWWNNNWWWWWNNWWWWNNNX0xx0NWMMWWNK0KKkoldxdc;;'.     .;dkKKOkkKNO;     #
+#ccccccccc:;,'.''''''.'',;cl:;;:cc;...,;;,..         ...:k0KXKkoONNNNNNNNNNNNOxKNNNNNNNNNNXXNNNNNNNXKKKNNNWWNkxXWNNNkdKWWWWWNNN0d0NWWMWNNNWWWWNNNWWNNNNNK0kdkNWWMWWWX0KX0l.....'..      .cOXXXXXXNx.   . #
+#::;;,,,;;;;,,;;,,,,,,,,,,,;colllcc:;,:::;..        .,,,xKKKXXOkKNNNNNNNNNNWNkkXNNNNNNNNNX0KNNNNNWNXKK0KNNNWNkxKWNNNkxXMMMMWNNNXkxXWWWMWNXNWWWWNNWWWNNNNXK0klxXWWWWWWN00XXOl..           ..:xXXXXXx.    .#
+#.............';:;::::;;,,'';:,,'.',,,'......       .:cxKXXXXX00XWNNNNNNNNWWKx0NNNNNNNNNNXOONWNNWWNXXXOkKNXNNOxKWNNXkkNMMWWWWNXNXkOXNWWWWNXNNWNNWWNNWNNNNX00klo0NWWWWWN00XXXOl'..           'kNXNO,     .#
+#................;lool:,...''''''............    ...,:dKXXXXXXKKNWWNNNWWWWWWkdKWNNNWNNWWWXxoKWWWMWNXXNOcxNXXXkdKNNNXxkNWWWWWWNXXNOoOXNNNNNNXNNWNNNNNNNNNNNK0K0olkXNWWWWN00XXXXOl,,'.        .kNXX0c...   #
+#................oOkkOx:'';;,'''''.............:l'.;:oKNXXXXXK0XWMWNNWWMMWWXdkNNNWWWNWWWWXdc0WMMMWNXXNO;cXNXXkdKNNNKxONWWWWWWNNXXKl;kXNNNNNNNNNNWWWNNNNNNNNK0KKxloOXWWWWN00XXXXXKx,    .    .;xKXXKOl.   #
+#......,'.......':odxkkkocdkxc..............':d0OdocoKWNXXXXXXKNWWWNWWMMMMWOo0WWNNWWWWWMWXdl0MWWWWNXXNO,,ONXKkxKNNNOdKWNNWWWNNNXXXk';ONNNNWNNNNNWWWNNNNNNNNN00XXklcdKNWWWN00XXXXXXOo;.        .:0N0d;.   #
+#......,. .........',:ldkdlod:',;;::,';ll:';lxkdodcl0WNXXXNNNXXNWWNNWWWWWMNxdXWNNNWWWWWWNXolKWWWWNXXXNO,'ONX0xkXNNXkkXWNNWWWWNNXXX0:;kKXNNWNNNXXNWNWNNXNNNNNXO0XXOc,;xKNWWN00XXXXXXXKkc'.    . .:o:. .  .#
+#.......................,loloolllcclodxxxxdddddddolkNNNXNWWNNXXNNNNNNWNNWWKdkNWNNNWWWWNNNXooKWNWWNXXXNk;:kKXOdOXNN0x0NNWWWWWWWNK0XXoc000XNNWWNNXXNNNNNNXNNNNNKxOXXKo.'l0NWWN0OKXXXXXXXXKx:..     ...   ..#
+#.......   ..            .';::,''',;,''........clckXNNXNNNNNXXNNNNNNNNNNWWOd0NNNNNNNWWWNNKodXWNNNNXXXXd:xOKXxo0NNXkkNWWWWWWWWWN0OKXkdKX0OXNNNWNNXXNNNNNXXNNNXXklxKXXx,'cdKNWXxllcldk0KXNNN0xc'.  ...    .#
+#.......    .            .  ...  ..............:cdXNNNNNNNNNXXNNNNNNNNNNWNkxXNNXXNNNNWNNNOokNNNNNNXXK0odK0KXkxKNXOxKNWWWWWWWWWNK0KXKOKNX0OKNNNWNKKXNWNNXKXNNNXXdcx0XN0c';ckXWXd;'....,;coxk00ko:..       #
+#........   ..                    .............;oKNNNNNNNNNNXXNNNNNNNNNNNKdkNNNXXNNNNNWNXOokXNWWNXXN0xd0NK00xOXNKxONWWWWWWWWWWNX0KXKk0NXKxd0XNNNX0KNNNWNK0XNNXXOoodkXNKo,..:ONXl......    ....''..    .. #
+#......... ....                         ......,l0XNNNNNNNNNNXNNNNNNNNNNNNOoONNNXXNWNNNNNXkoxKWWNNXXXOdOXNKOOkKNXkxXWWWWWWWWWWWNXKKXKkkkxkkxxKNWWNKOKNNNNX0KNNXKKkdxdx0NNk;. .dX0:.          ..     ......#
+#   ...............                      ...';cOKXNNNNNNNNNNXNNNNNNNNNNWNxo0NNXXNNNNNWNNKxdxKWWNNXN0xd0NNXkxOXNOx0NNWWWWWWWWWWXKKK0Odx0XNNXOOXNWWXO0XNNNN0OXNKxO0dkOxdd0NKo. .:OO:          ...  .   .. .#
+#...   .............                      .,:ckOOXNNNNNNNNNNK0XNNNNNXNNWXooKXXXXNNNNNNNN0xxk0WWNNNXkk0XNNXxdKNOd0NNNWWWWWWWWWNXKX0k0OXWWWNNXOOXNWN0kKNNNWKO0XNkoOOk0Okc'l0XO:. .dx,       ....           #
+#...     .,........               ...... .,cckOkKNNNNNNNNNNNOxKWNWNXKXNW0lxXXXXXNNNNNNNX0kOOKWNNXX0dkKXXNXkkX0dxXNNNWWWWWWWWWX0KNKKKKNWWWWNNXkkXNNXOOXNNWNOOXNXddOO0K0d' .ckKx;..co.       ....      .   #
+#..      .;;'...               ......... .;cxOdONNNNNNNNNNXXkxXWNNNXKKNNklkXXXKXNWNNNXXKxddxKNXKK0xdOO0KXK0KKxd0XNNWWWWWWWWWNK0XNXKKXWWWWWWNNKkOXNN0kKNNNN0k0NN0ddkOXX0c.  .,okd,.';. ........       ..  #
+#          ...  .           .,,...........'x0odXNNNNNNNNNXXKxONNNNNXKKNNdlOXXK0KNNXXXXKOdxdxXNNNXOkXWWWNX0KKkk00XNNWWWWWWWNNX0KNNXKKXWWWWWWNNX0k0NNKO0XNNNKdkXNXkddOXXXk,...  .;c:,..  .....'''',,,;;'.. #
+#          ..          .   .;ol:'.........oOll0NNNNNNNNNNXX0x0WNNNNX0KNXoo0XXKO0NNNNNNXkk0kONNNN0kKNWWWN0O0kkKK0KNNWWWWWWNNX0KNWNXKKNWWNXXNNNK0ddKNXOkKNNNXxo0NX0xdkKNNKd'... .  .''..   .........',:c:'.#
+#         ....         ....:xdoxd;.......lkl:xXNNNNNNNNNXXXkdXWNNNXX0KN0ldKXXKO0NNNNNN0xOKOKNNNKk0NNWWWXOOxxKKKK0XNWWWWWNNNK0XWWNX0KNK0KK0xl:,:ddkXXOkXXNNN0odKNKOxdONNNOc.......   .      .........:;. .#
+#. ....               ....cxkooxxxd:'...ckoco0NNNNNNNNNXXXKdxNWNNNXXOOXOldKXX0x0NNNNNXkxK0OXNNKkONNWWWNOkxx0K0XXXNNNWWWNNNKOXNWWNKKK000x:'.   .:ldKN0OKXXNN0ooONX0OdkNWNXx:'.....            ... .ckKKl. #
+#............       . ..,oxkxloxxkxxdl;cxollxXNNNNNNNNXXXXOlkNNNNXXXkxKklkKXXOxKNNNNNOd0XkkXNXkkXNWWWNKkxk000KNX0KNNWWNNNKOKNWWWX000Oo,...,col,. .ckOOKXXXN0ddkKNK0doKWNNOcc'.....              .,xKX0:. #
+#........... .........'cddxxoldxxkxddoodclooOXNNNNNNNX0k0KolKWNNNXXXOx0xckKXKkxXNNNNKdxXKk0NXkx0XXNNK0Ox0XK0KXWXO0NNNNNNX0KNWWWN0O0x,....'kXXX0x,..'cxKXXXX0dxkOXXKkxKWNNXdcl'.                 ..;kKl.  #
+#...................,lloddddloxxkkxdoodccdldKNNNNNNNXOloKOcdXNNNXXXXxckxlkKXKxxXNNNXkoOXkxKXOx0KKKK0xdx0NXK0XNWXO0NNNNNX0KNWWWWX0Ol.......;OXXNN0;.:dkXXXXKOdkOk0XXKKNWNNWKllo'                  .lKd.   #
+#... .............;lkkoddxxoldO00kdooooloolONNNNNNNXOllk0o:kNNNNXXXKo;dxdOKX0xONNXXOdx0kooxo:clllodlcokXNX0KNWWXO0NNNNK0KWWWWWWNKo.........cKWWWNl,xkkXXXXKOxk0OOXXKKXNNWWWOcdd'      ..... ..   .,ld:.  #
+#........  ...';ldxO0kddxkdloOKKOxooldxoddkKXNNNNXKxoox0xco0WNNXXXX0d:loxOKXOk0Kkxo;.''...... .,;;,;::cdO00NWWWXO0NNNK0XWWWWWWWWKc.....:dd,'kWMMNkdOk0XXXX0kdxKKKXXX00NWWWMNdlOx,...'ooldkx:';ll:.. .'.  #
+#    ...',;:coxxxdOK0OkkkxooOKXKOdlox0xoxk0XXNNNXKdoxdxkolxNNNNXXXK0xlccx00Odoo:'... ..'cc.....cOK0KXKK0kkKWWWWXO0NX00NWWWWMMWWW0;.:c,.,dkd,oNMMWNKkkKXXXKxxxkKXXXXXKkONWWWWKodKk;..'lOKXX0:..dXX0xl;....#
+#    ,olcoddddxxxkKK00kkkooOKXX0xodOX0xxdo0XXNNX0ookxoxxoo0NNNXXXKKKxolcxOkxol;.'......;c. .....;OXKXXNWNNWWWWWXKKK0XWWWWMWWWWWWKxk0o;'.lK0llXMMWNKdoKNXXOxxdkKXXXXXX0dxNWWWN0dkX0l,...';;,. .;dk0XNX0OOO#
+#   .oo;;:::lddxOKKKK0kOxokKXXkodk0XXkddldKXXXXOolkkooddldXWNXXXK0XXxddco00x:..:c'.....'....,,. .lKXNWWWWWWWWWWX00KNWWMWWMWWMWWWXkx0o;clxNKodNMWWNO:c0NXXxoodOKXXXXXXXOldXNNNNOd0NXko:,..       ..:OXXXNX#
+#  .co;;ll:;codkKKKXKOO0xkKXNKxk0KXNKoodldKXXXOookOdlokxoONNXXX00KXXxoxllko'.'ldc. ..,'....':dl' 'OWWMMWMMWWWWWXKNWWMWWMWWWWWWMWNo,kX0KXNWKdOWWWWNOll0XXOoooxOKXXXXXKKXklo0NNNNkd0NX0O0kl,.. .;c;. ,ONXXX#
+#  ,oc;clc;;:cd0XXXK0O000XXNNXXXXKXNOokklxKXXOolxOklcxXK0XNNXXOx0XXNklol;'..,ddoo,,okd;,;'..'oko..kWMMMMMWWWMWWWWWWWMWMMMWWMWWMWWXllKWMMMN00XNWWWNXxdKNKxoodkk0XXXXXKKNXxlokXNWXkdKNNOoc'.;'.',:c' .kNXXX#
+# .oo:clc;,:cckXXXX000KXXNNNNNNX0OXXxxKklOXX0olxOOl;l0XKXNNXKOooOXNNOc:lol,.;lx000KNXOc:lll;,xKOc;OWMMMWWMWWWWWWWWWWWMMWWWWMMWWWMWNOkKNKOkOXNNWWWWNOOXXkdocdOkk0XXXXK0XWXdlodOXWXxdKWNk,  ,dOc..  .dKXXXX#
+#.lxcccc;,:ccdKXXK0kO0KXNNNNNNXOdONX0KNxlOX0olxOOo;:dK00XNXKkdxxdONNKocdOkxocckNWKllOX0olk0xkXWKoxNMWMWWWWWWWWWWMMMMMMMMMMMMWWWWMWWWNXXK0XWWWWNNNNXkkKkdxocdOOO000XXK0XWWXdlooxOXXxdKWNO;..,:....,dXNXXXX#
+#:xollc:,:c:l0NXXKxdOKXNNNNNNNKooKNNNNNxlOKdldkOd:cokOkKNXKxoO0kdokNNxlodxk00kxKWWOcoKWWNWWWWMNkxKWWWWWWMWWWWWMMMMMMMMMMMMMWWWNNNWWWMWWWWWWWWWWWWNKkOkdxOxodO000OOkOK0KNWWKd:;cdx0Kkd0NN0l. ';:k0KXXXXXXX#
+#kdlxkl;:c:cONNNKxldOKXNNNNNNKkokNNNNNNxlOklx00oclookxkXXOdokKKOoooxX0lccd00KKO0NWWXOO0NWMMWWXOOXWWWWWWWMWWWMMMMMMMMMMMMMMMWWWNXXWMWWWWWWWWWWWWNWNOdodkddkddO00OxkkxxO00NNNKc..'cdk0kd0NNKc.lKKXXXXXXXXXX#
+#klcoolcc;:xKXXKkccxOKXXNNNNXOodKNNNNNNxlxodK0o:odokOkKKkodxOKKkodxodOdclokKXNKOXNWWNXKKK0000O0NWWWWWWWWWWWWMMMMMMMMMMMMMMMWWWWWWMWMWWWWWWWWWWWWN0ddloxdx0xok00OxxOOxoxO0XNNO:.  'cxOxdkXWKdkKXXXXXXXXXXX#
+#dlloooc,,d00OOkc;odOXXNNNNX0xokNNNNNNXOddkKKxooxdoxk00l,lxdOK0koxkxddolooo0NWN0OXWNNNNNNNNNWWWWWWWWWWWWWWWWMMMMMMMMMMMMMMMMMWWWMMMMWWWWWWWWWWWNOdOKolxxk0xlx0OOxdxkkxlodkKNN0:   .,lxkxx0NKkOXXXXXXXXXXN#
+#xxdlc:'.c00OOkc'coxKXXNNNNKOodKNNNNNXXKkOXXOxddxdolxOk;.cox000xdkxxkxdlclokXWWXO0NNNNNNNNNNNNNNNNNWWWWWWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMWWWWWWWWWNKXWKllkkk0k;:xO0kc;;;codoodOXN0:.'oOOkkkOKNN0kKXNNXXXXXXX#
+#kdl:;..;O0kkkc.;coKXXNNWNKOxokXNNNNXXNNXXN0xxxxxxlcxKXl,coOKOOxxkxxxkkxolldOXNWKOKNNNNNNNNWNNWWWWWWWWWWWWWWMMMMMMMMMMMMMMMMMMMMMMMWMMMMMWWWWWWWWWWx:oO0OOk;.'oOk;..'cxkxddxk0X0odKXXXKOkk0NXO0XXXXXXK00O#
+#xl:,. 'x0kkx:.,:lOXXNWWNX0kdd0XNNNKO0NNNNXOxxkOkdcd0KKkc'oXKkkkOkxxkOkkkkoldk0NWX0KNWNNNNWWWWWWWWWWWWWWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWMMWMMWWMWWOclxOK0Ok;  .cd:''.,codxxOkkOKKOOKXXXXK0kO0OkO00OOOOOOO#
+#l;.. .lOkxd;.';:xKKXNNNX0kxoxXXNNXkxKWWWNXOxOK0kkdoOK0k;'xN0xk0kxxdx0Oxdxxox0kkKNX00NWWWWWWWWWWWWWWWWWNWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWMWW0llxxk0kdkl.  .''.....,coddxkxxO0kkO0000OkxxdodkOOOOOOOO#
+#'.  .cxxxo'..;;d00KXXXK0OkdoOXNNXOoONWWWNKOOKKOOx::0WW0::0N0xx0Kkk0Ok0KOoooo0X0OOKX0OKNWWWWWWWWWWWWWWWWWWWWMMMMMMMMMMMMMMMMMMMMMWNNWMMMWMWMMWWNkclxxxk0kdOx'  ...  ....';:cldxddxxdxkOOOOOOkxddkOOOOOOOk#
+#   .:dxdc. .,,lO00KXXK0Okd:oKXNX0odKNWWNXK0XKxxx;'cxXWNkxXNOdkKNKxdxkKWWOdO0O000kodkOOKNWWWWWWWWWWWWWWWWWNNNWMMMMMMWMMMMMMMMWMMW0OXWMMMMMMWWWXdcoxxxxxOxlk0c.     .........':odxdolokOOOOOOOOOOOkxdoc:,.#
+#  ..;oo;. .''ckOO0KXK0OOl.'xXXXKxlONNNNXKKXKxod;.lockNXxkNX0kOXWNl.:ONWMXdlxOxlkXKxooxOOKNWWWWWWWWWWMMWWWWKO0XXXNWWMMMMWMMMMWWNKKNWMMMMMMWWWKdodxxxxxxOxckkc,.  .............:odxdooxkkxxdolc::;,...  ..#
+#....,c'  .'.;xOOOKXKOOk:. ;0XXKOldXNNNNKKXXOoo;.:xdcl0Kx0NX00KWWKc;xKWMWNl...;dXWXOK0dxOOO0XWWWWWWMWWWWWWWWWWNXKKKKXXNNNNNNNWWWWWMMMMMMMMWNkdk0kxxkOkkOxcxd,;'  .',,.........'c:',''''.....   .......'''#
+#.. ... ..'.,okkO0KKOko'. .cKXK0oo0NNNNK0KXOol:.,xkxolO0xKWK00NWWkcoOXWMWK: .;dKWM0loKX00XX0O0NWWWWWWWWWWWWWWWWWWWWWWNNNNNNNWMMWMMWMMMMWWW0oo0XKOxx00Ok0k:od.';... ............;;..............''',,,,,,,#
+#.     .....cxkkO0KOx:.   .dXK0dlOXNNNX0KK0oc:..okkxxxOxoKNXKXWMNxd0XWMMWd..:dXWWNo. .cxOOXWWWWWWWWWWMWWWWWWWWWWMWWMMWMMMMMMMMMMMMWWMMWWXo,cokKXKkkKKOOKO;ld. ,;.     ..........,,',',,,,'',',,'''',,,'',#
+#... ....  ;dxkkO0Ol'.    'kXKx:oKXNNX00KOl::. :ddkxox0dl0XKXNWNKkOKNWWW0;'lxKWWNx'..  .:kXNNWWWWWWWWMWWWWWWWWWWWMMMMMMMMMMMMMMMMWWMWWXx,. ,loOXX0k0X00XO;:o' .,'    ...........'''',::;,,',;;,',,,'',,,,#
+#......   .lxxkkOOc.      ;OXO;.dXNNX0O0k:.,' 'lclkd:;o:cK0dOXXKkxKXWWWXl:k0KWWWO'.ld' .;kKXNNWWWWWWWWWWWWWMWWWWWMMMMMMMMMMMMMMMMWWWNx;.   .:loKNXO0XXXN0;,c.  ...  ...............'',,,;,,,,;,,,,,',,,''#
+#..      .;dxxxkOc.   .   :0k;.;0XNX0OOo' .'..:::kKXKOk:cKO:o0Xk:cx0KXKdcoOKXNNO;........;;:ccloxOXNWWWWWMWWWWWWWWWWMMMMMMMMMMMMWWNk;.      'c:xNX00KXXX0;'c'   ................''',,;;::,'''',,'''',,,''#
+#...     .lddxxo:.   ..  .ok, .oXXXKkd:.  .. 'c,lKKK0kOdlKK:,coo,.',:oxl::;,;ldool,,;;,'...     ..'cxO0NWWWWMWWMWWMMMWMMMMMMMMMWXx;.      . .;;:0XK0KXXX0;.:'    ...............''';:coxkxdoc:,''''',,'',#
+#,..    .;ddxd:..     .  .c:  ,OXXKkc.   ..  ;;'xNXNXKKxlKK;.;:od;''.'cOx:;,'.'xNKxlokOOxdol;'.   ...';lkKNNWWWWWWWWWWWWMMMWMWXd,.           ';'oXXKKXXXO;.;.    ...............'....'.,ckXWWX0kdolc:;;,'#
+#l,.    .cddo,. .   .    ... .cKXKd,.    .. .;'.kNNNNXXOo00;.;;;od:,,,,l0xcc;'.'dXKdlkXNNXXNNKkl;.    ..,:dkdodxkO0KXNNWWWMWKd'          ..  .,.,OXXKXXXO,.,. .  ...................'.....,ldkO0KXXXXXK0O#
+#.....  'odl.      .....  .. .xX0l.         .,.'OWNNNXX0OK0:,lxxxOOxddolxOkdccllokOO0XNNWWWWWWWNXOl,.   .,c:.   ....'',:ccc:'            ...  '..lKXXXXXk'..... .................................',,;:ccc#
+#.....  ;dc.      ......     ,OO;.....      .'.,0WNNNNX0kKKo:,,lkKXXXXXXXXXX00K0KKXNNNWWWMMMMMWWWNN0dl;. .,.           ...  ..                .. .kXXXXXx'...   ..................................       #
+#.....  ;c.      ...  ...    ;l'..          .. 'OWNNWNXKolOd,.  .,lx0XXXXXXXXXXXXXXNNNWWWWWMWWWWWWNNXK0o. ''  ...    ......  ..       .  .    ..  :KNXXXd.     .......................................   #
+#.....  .'.      ..    ...  ...       ..    .. .kNNNNNNKo;xk,.......':oOKNNXXXXXXXXXKXXNNNNNNNNNNNNNXXK0o.... ..   .cdd:........        ..     .  .xNNNXc.    ...........................................#
+#.. ..  ..            ..             ......    .dNNNWNNKo:cdc. .........;lxOXNXkdk00OkdxkO0KKXNNNNNNNNXKO:.''.  ..'l00dl;........    .      .      :KNN0;    ............................................#
+#.....               ...     .  .. ........     :KNNNNNOdl;ld, ............';cl:;:kKKkolccccllldkOKXNXX0kolx:...'..:l:,''.. ......   .    .        .xNNx'    ................... ........................#
+#......              .         .  ........      .xXXNNNkollc:c.    .............,;lKWWNNXKOl,;:odooxddoldOdl,.....,d0Kd'.     ....    .  ..         cXXl''......................    .....................#
+#.......                   ....    .. ...        :0XXNN0xll:..,.    ............'::oKXK0kkdc'.,cool:;'''cl,'...',,lXWWNO,. . .  ...    .            'kO, ... ...................      ...................#
+#............              ...    ..........  .. .lKXXNKklc,  ..      ...........,cckNNX0kdl,',;;:;;,...,cl:,,,'.'dNWWWNk' .. ..  ...               .ol.     ...................        .................#
+#...............          .       ..  .. ...      .oK0O0kl:.           ..........'lclOXXXKkl,...';:l:'',cdl,'....,OWWWWKd:......  ...               .,,.   ......................        ..  ............#
+#.................   ..   .             ...        .o0do0k:.            ..........cl;;ck0Od:;;,,,;:ooc,,oko,'....;0WWWNKc... .......                 .. ...........................  ....................#
+#......................                 .           .lOloKO:.            ........cddlllkXX0o;..';cloddxOX0c'''...cKWWWNXo. .........           ..     ............................................   . ..#
+#.......................                             .:d:lKd.              ....'dXXXXK0OO000OxxkO0KKXXXXXx;'''...cXWWWNXo.......                    ......................... .....................      #
+#...................                                  .,c,ld'              ...,dKXKXXXXXXKKXXXXNNNNNNNXXKo,,''...oXWWWXk;.......                  .....................................................  #
+#...........................                          . .'';;.              .:O00XXXKKKKKKXNNNWWWWWWNXXXO:,,''..'dNWXk:..  ... .                 ........................................................#
+#.............................                           .....      ..     .c0NXKXKKKXXK0XWWMMWWWNXXXXXKd,,,''..,xOo,..... ..                   ................................................,d0Oxd:',#
+#................................                                   ...  .,d0XNNNNNNXXXKKXWWWWNNXXXNXXX0c,,,',,,,'.     .    ..    .;,..            ..........................,................;OWMWWXo;l#
+#,.........       .................     ..                           ... .dXXXNNWWWWNXXXXXNNNNWNNWWNNXNk:',;:;'.            ...   .:dkO:.                 ...................','...............dNWMN0d:ck#
+##########################################################################################################################################################################################################
+
+l_russian:
+
+ #parties
+ FFR_communist_party:0 "СТ"
+ FFR_communist_party_long:0 "Сопротивление Трудящихся"
+ FFR_socialist_party:0 "ЕСФ"
+ FFR_socialist_party_long:0 "Единый Социалистический Фронт"
+ FFR_social_democrat_party:0 "ЕСФ"
+ FFR_social_democrat_party_long:0 "Единый Cоциалистический Aронт"
+ FFR_social_liberal_party:0 "ПНВ"
+ FFR_social_liberal_party_long:0 "Партия Новой Волны"
+ FFR_market_liberal_party:0 "ЛПСФ"
+ FFR_market_liberal_party_long:0 "Либеральная Партия Свободной Франции"
+ FFR_social_conservative_party:0 "ГПСФ"
+ FFR_social_conservative_party_long:0 "Голлистская Партия Cвободной Франции"
+ FFR_authoritarian_democrat_party:0 "ВП"
+ FFR_authoritarian_democrat_party_long:0 "Военное правительство"
+ FFR_despotism_party:0 "Бонапартисты"
+ FFR_despotism_party_long:0 "Бонапартисты"
+ FFR_fascism_party:0 "ПНВ"
+ FFR_fascism_party_long:0 "Партия Национального Возрождения"
+ FFR_national_socialism_party:0 "ПНВ"
+ FFR_national_socialism_party_long:0 "Партия Национального Возрождения"
+ FFR_ultranational_socialism_party:0 "ГОК"
+ FFR_ultranational_socialism_party_long:0 "Группа Огненноых Крестов"
+ 
+ FFR_despotism_party_challe:0 "Клика Шалле"
+
+ #Leader descriptions
+ POLITICS_CHARLES_DE_GAULLE_DESC:0 "С тех пор как появилась "Свободная Франция", Шарль де Голль стоит у её руля. На протяжении более 20 лет де Голль возглавляет последних свободных французов в отчаянной и затяжной борьбе за выживание с огромной несправедливостью. Когда-то он был командиром дивизий в армии Четвертой Французской Республики, пытавшимся провести реформы своих войск. Однако, эти попытки были предприняты слишком поздно, и Франция быстро пала от Вермахта. Стремясь продолжить борьбу, де Голль собрал всю свою поддержку и отправился в Африку. Несмотря на то, что бои продолжались, де Голль преуспел здесь немного лучше. На протяжении многих лет силы Свободной Франции безжалостно преследовались по всей Африке, пока не осталась лишь крошечная полоска того, что когда-то было колониальными владениями Французской Республики. Несмотря на все это, де Голль является как великим благом, так и великим проклятием для тех, кто все еще следует мечте о Свободной Франции. Человек абсолютно убежденный в "Освобождении" до такой степени, что трудно не разделить с ним абсолютный энтузиазм стареющего лидера. К сожалению, его убежденность сочетается с крайним упрямством. Де Голль не желает покончить с непопулярным военным правительством, несмотря на то, что его генералы, как правило, слишком заняты, работая наемниками для других западноафриканских стран и даже для немцев в центральной африке. Де Голь, делая свои радиообращения и ежедневно инспектируя войска, казалось бы, уже убежден, что это будет частью начала их возвращения домой. Он даже обещал выборы, хотя с приближением крайнего срока некоторые не уверены, готов ли де Голль настолько уступить народу. Он также не признал должным образом генералов, которые желают увидеть его уход, и тот факт, что они были бы вполне способны исполнить свои желания. Де Голль, возможно, должен осознать свое положение и быть готовым пойти на компромисс, если он хочет когда-нибудь снова увидеть свою Родину."
+ POLITICS_CHARLES_DE_GAULLE_DESC1:0 "Везде за пределами Свободной Франции. Де Голль считается неудачником. Он не смог поднять свою страну из самой темной точки. Он не смог помочь в войне. Он подвел Францию. Но это за пределами Свободной Франции. В Свободной Франции он герой, хотя и угасающий. Никто не может отрицать его харизму и оптимизм, и он максимально использовал его в крошечной империи, которую он и создал для себя. Во Франции, несмотря на все трудности, которые она переживает, они все еще маршируют по улицам, поют Марсельезу и скандируют "Свобода, Равенство, Братство".\n\nЕсли кто и может отдать должное Шарлю де Голлю, то это то, что он никогда не сдается Франции, и не сдастся, пока не сделает последний вздох."
+
+ #ideas
+
+ FFR_military_administration:0 "Военная администрация"
+ FFR_military_administration_desc:0 "Наша нынешняя ситуация вынудила Шарля де Голля поставить под военный контроль большую часть нашей территории. Генералы могут свободно дружить с местными вождями и лидерами, предоставляя им доступ к своим личным войскам. Хотя это эффективный метод, он мешает нам узнать, что происходит в остальной части страны, и оставляет много власти в руках наших генералов."
+ #7 Copies of the Военная администрация idea due to coding reasons, - Oh may the mercifull lord save us
+ FFR_military_administrationTRAINING_AND_NOTHING_ELSE:0 "Военная администрация"
+ FFR_military_administrationTRAINING_AND_NOTHING_ELSE_desc:0 "Наша нынешняя ситуация вынудила Шарля де Голля поставить под военный контроль большую часть нашей территории. Генералы могут свободно дружить с местными вождями и лидерами, предоставляя им доступ к своим личным войскам. Хотя это эффективный метод, он мешает нам узнать, что происходит в остальной части страны, и оставляет много власти в руках наших генералов."
+ FFR_military_administrationTRAINING_AND_org:0 "Военная администрация"
+ FFR_military_administrationTRAINING_AND_org_desc:0 "Наша нынешняя ситуация вынудила Шарля де Голля поставить под военный контроль большую часть нашей территории. Генералы могут свободно дружить с местными вождями и лидерами, предоставляя им доступ к своим личным войскам. Хотя это эффективный метод, он мешает нам узнать, что происходит в остальной части страны, и оставляет много власти в руках наших генералов."
+ FFR_military_administrationTRAINING_AND_org_AND_supply:0 "Военная администрация"
+ FFR_military_administrationTRAINING_AND_org_AND_supply_desc:0 "Наша нынешняя ситуация вынудила Шарля де Голля поставить под военный контроль большую часть нашей территории. Генералы могут свободно дружить с местными вождями и лидерами, предоставляя им доступ к своим личным войскам. Хотя это эффективный метод, он мешает нам узнать, что происходит в остальной части страны, и оставляет много власти в руках наших генералов."
+ FFR_military_administrationTRAINING_AND_supply:0 "Военная администрация"
+ FFR_military_administrationTRAINING_AND_supply_desc:0 "Наша нынешняя ситуация вынудила Шарля де Голля поставить под военный контроль большую часть нашей территории. Генералы могут свободно дружить с местными вождями и лидерами, предоставляя им доступ к своим личным войскам. Хотя это эффективный метод, он мешает нам узнать, что происходит в остальной части страны, и оставляет много власти в руках наших генералов."
+ FFR_military_administration_ORG_and_supply:0 "Военная администрация"
+ FFR_military_administration_ORG_and_supply_desc:0 "Наша нынешняя ситуация вынудила Шарля де Голля поставить под военный контроль большую часть нашей территории. Генералы могут свободно дружить с местными вождями и лидерами, предоставляя им доступ к своим личным войскам. Хотя это эффективный метод, он мешает нам узнать, что происходит в остальной части страны, и оставляет много власти в руках наших генералов."
+ FFR_military_administration_supply:0 "Военная администрация"
+ FFR_military_administration_supply_desc:0 "Наша нынешняя ситуация вынудила Шарля де Голля поставить под военный контроль большую часть нашей территории. Генералы могут свободно дружить с местными вождями и лидерами, предоставляя им доступ к своим личным войскам. Хотя это эффективный метод, он мешает нам узнать, что происходит в остальной части страны, и оставляет много власти в руках наших генералов."
+ FFR_military_administration_ORG:0 "Военная администрация"
+ FFR_military_administration_ORG_desc:0 "Наша нынешняя ситуация вынудила Шарля де Голля поставить под военный контроль большую часть нашей территории. Генералы могут свободно дружить с местными вождями и лидерами, предоставляя им доступ к своим личным войскам. Хотя это эффективный метод, он мешает нам узнать, что происходит в остальной части страны, и оставляет много власти в руках наших генералов."
+ #Done now 
+ 
+ #Ideas continued
+ FFR_precious_metal:0 "Экспорт драгметаллов"
+ FFR_precious_metal_desc:0 "Наша экономика может быть разрушена, инфраструктура уничтожена, но мы все еще можем эксплуатировать наши рудные шахты. Несмотря на то, что сталь не экспортируется, из-за ее решающего значения для поддержания нашего оборудования в рабочем состоянии, мы все еще можем экспортировать ценное золото и бокситы желающим покупателям."
+ #Just three copies of the precious metal exports because of coding
+ FFR_precious_metal2:0 "Экспорт драгметаллов"
+ FFR_precious_metal2_desc:0 "Наша экономика может быть разрушена, инфраструктура уничтожена, но мы все еще можем эксплуатировать наши рудные шахты. Несмотря на то, что сталь не экспортируется, из-за ее решающего значения для поддержания нашего оборудования в рабочем состоянии, мы все еще можем экспортировать ценное золото и бокситы желающим покупателям."
+ FFR_precious_metal3:0 "Экспорт драгметаллов"
+ FFR_precious_metal3_desc:0 "Наша экономика может быть разрушена, инфраструктура уничтожена, но мы все еще можем эксплуатировать наши рудные шахты. Несмотря на то, что сталь не экспортируется, из-за ее решающего значения для поддержания нашего оборудования в рабочем состоянии, мы все еще можем экспортировать ценное золото и бокситы желающим покупателям."
+ FFR_precious_metal4:0 "Экспорт драгметаллов"
+ FFR_precious_metal4_desc:0 "Наша экономика может быть разрушена, инфраструктура уничтожена, но мы все еще можем эксплуатировать наши рудные шахты. Несмотря на то, что сталь не экспортируется, из-за ее решающего значения для поддержания нашего оборудования в рабочем состоянии, мы все еще можем экспортировать ценное золото и бокситы желающим покупателям."
+ #Dun
+ 
+ 
+ FFR_spirit_french:0 "Дух Французской Республики"
+ FFR_spirit_french_desc:0 "В условиях существования только Свободной Франции дух наших давних демократических традиций по-прежнему существует. Хотя наша вооруженная рука на континенте все еще оказывает сопротивление, даже здесь, в глубоких землях побережья Слоновой Кости, мы все еще боремся за наши идеалы. Через линию кометы сюда отправлялись изгнанники из Франции и Бельгии, верившие во всемогущество демократии и свободы, сражавшиеся за свою страну даже за океанами."
+ FFR_case_belgian_citizenship:0 "Бельгийский вопрос"
+ FFR_case_belgian_citizenship_desc:0 "Линия кометы привела в Свободную Францию не только французских сопротивленцев, но и бельгийских. Бельгийское движение сопротивление оказало непосильную помощь в боях за Францию, и когда закончилась война, Де Голль предложил бельгийцам отправиться в свободную Францию на время до освобождения Бельгии, в обмен на обещание освобождения Бельгии сразу же после освобождения Франции. После более чем 15-летнего изгнания бельгийский политический статус все еще не определен, и бельгийцы призывают правительство Свободной Франции найти решение."
+
+ FFR_ami_plan:0 "План Амилахвари"
+ FFR_ami_plan_desc:0 "вставьте текст"
+ 
+ FFR_ivory_coast_rush:0 "Спешка на побережье Кот-Д'Ивуара"
+ FFR_ivory_coast_rush_desc:0 ""
+ #4 copies of the rush because you guessed it coding
+ FFR_ivory_coast_rush2:0 "Спешка на побережье Кот-Д'Ивуара"
+ FFR_ivory_coast_rush2_desc:0 ""
+ FFR_ivory_coast_rush3:0 "Спешка на побережье Кот-Д'Ивуара"
+ FFR_ivory_coast_rush3_desc:0 ""
+ FFR_ivory_coast_rush4:0 "Спешка на побережье Кот-Д'Ивуара"
+ FFR_ivory_coast_rush4_desc:0 ""
+ FFR_ivory_coast_rush5:0 "Спешка на побережье Кот-Д'Ивуара"
+ FFR_ivory_coast_rush5_desc:0 ""
+ #Dun
+ 
+ #Military overseen dev idea*3
+ FFR_mil_overseen_deployment:0 "Military Overseen Development"
+ FFR_mil_overseen_deployment_desc:0 ""
+ FFR_mil_overseen_deployment2:0 "Military Overseen Development"
+ FFR_mil_overseen_deployment2_desc:0 ""
+ FFR_mil_overseen_deployment3:0 "Military Overseen Development"
+ FFR_mil_overseen_deployment3_desc:0 ""
+
+
+ FFR_Dimitri_Amilakhvari_mil:0 "Дмитрий Амилахвари"
+ FFR_Edouard_Balladur_eco:0 "Эдуард Балладур"
+ FFR_Michel_Debre_dep:0 "Мишель Дебре"
+ 
+ 
+ #Decisions
+ FFR_Elections:0 "Свободные французские выборы"
+ FFR_Elections_desc:0 ""
+ Organize_FFR_Election:0 "Нам нужно организовать выборы!"
+ Organize_FFR_Election_desc:0 "Мы обещали когда-нибудь в будущем провести выборы, было бы разумно не затягивать с этим вопросом."
+ Organize_FFR_Election_real:0 "Организовать свободные французские выборы"
+ Organize_FFR_Election_real_desc:0 "Мы можем начать избирательный процесс в любое время."

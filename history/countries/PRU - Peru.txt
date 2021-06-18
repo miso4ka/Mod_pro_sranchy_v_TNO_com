@@ -1,0 +1,97 @@
+﻿capital = 303
+
+oob = "PRU_1962"
+set_stability = 0.65
+set_war_support = 0.25
+
+add_ideas = { 
+	##Ministers 
+	PRU_Carlos_Moreyra_hog
+	PRU_Alvarado_Garrido_pol
+	PRU_Gallo_Porras_eco
+	PRU_Ricardo_Elias_sec
+
+	##National Spirits
+	PRU_idea_fake_democratic_dream
+	PRU_idea_silent_liberation
+	PRU_idea_investor_war
+	PRU_idea_peru_diverse_problems
+}
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1957.06.17"
+	election_frequency = 71
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communist = 2
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 26
+    social_liberal = 25
+    market_liberal = 0
+    social_conservative = 20
+    authoritarian_democrat = 24
+    despotism = 2
+    fascism = 1
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Manuel Prado Ugarteche"
+	desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
+	picture = "Portrait_PRU_Manuel_Ugarteche.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		presidente_peru_latin
+		master_of_peruvian_politics_latin
+	}
+}
+
+create_country_leader = {
+	name = "Manuel Seoane Corrales"
+	desc = "POLITICS_MANUEL_SEOANE_DESC"
+	picture = "Portrait_PRU_Manuel_Seoane.dds"
+	expire = "1980.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Manuel Arturo Odría"
+	desc = "POLITICS_MANUEL_ARTURO_ODRIA_DESC"
+	picture = "Portrait_PRU_Manuel_Odria_Civ.dds"
+	expire = "1980.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fernando Belaunde Terry"
+	desc = "POLITICS_FBT_DESC"
+	picture = "Portrait_PRU_FBT.dds"
+	expire = "1990.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+##Secret####
+create_country_leader = {
+	name = "Salem y Margaret"
+	desc = "POLITICS_SALEM_MARGARET_DESC"
+	picture = "Portrait_PRU_Redacted.dds"
+	expire = "2000.1.1"
+	ideology = burgundian_system_subtype
+	traits = {
+		#
+	}
+}

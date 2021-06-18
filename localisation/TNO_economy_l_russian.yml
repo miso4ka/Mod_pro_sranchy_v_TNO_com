@@ -1,0 +1,464 @@
+﻿l_russian: 
+
+###GUI###
+topbar_economy_button_tt:0 "[get_topbar_economy_button_tt]"
+topbar_economy_button_tt_normal:0 "§YЭкономика§!\nПосмотрите на экономическое положение вашей страны."
+topbar_economy_button_tt_warlord:0 "§YЭкономика§!\nВ настоящее время недоступно из-за вашего статуса §Rварлорда§!."
+
+economy_view_title:0 "Экономика" 
+economy_view_GDP:0 "§GВВП§"
+economy_view_debt:0 "§SДОЛГ§"
+economy_view_income:0 "§nДОХОД§"
+economy_view_expenditures:0 "§YРАСХОДЫ§"
+economy_view_deficit_reserves:0 "§OДЕФИЦИТ & РЕЗЕРВЫ§" 
+
+military_buttons_value:0 "ВОЕНН. РАСХОДЫ"
+civilian_buttons_value:0 "ГРАЖД. РАСХОДЫ"
+reserves_buttons_value:0 "ЛИКВ. РЕЗЕРВЫ"
+construction_buttons_value:0 "СТРОИТЕЛЬСТВО" 
+
+gdp_value:0 "Совокупный ВВП: §W[ROOT.Get_GDP]§"
+income_rate_value:0 "Годовая норма дохода: §W[?ROOT.income_rate|%]§"
+gdp_growth_value:0 "Ежегодный рост ВВП: §W[?ROOT.GDP_growth_display|%]§"
+misc_income_value:0 "Прочие доходы: §W[ROOT.Get_misc_income]§"
+annual_budget_value:0 "Годовой доход: §W[ROOT.Get_total_budget]§"
+deficit_value:0 "Годовой дефицит: §W[ROOT.Get_deficit]§"
+national_debt_value:0 "Национальный долг: §W[ROOT.Get_national_debt]§"
+national_debt_interest_value:0 "Процент по задолженности: §W[?ROOT.interest_rates|%]§"
+civilian_expenditures_value:0 "Гражданские расходы: §W[ROOT.Get_civilian_expenditures]§"
+military_expenditures_value:0 "Военные расходы: §W[ROOT.Get_military_expenditures]§"
+construction_expenditures_value:0 "Строит. расходы: §W[ROOT.Get_construction_expenditures]§"
+misc_costs_value:0 "Прочие расходы: §W[ROOT.Get_misc_costs]§"
+money_reserves_value:0 "Ликвидные резервы: §W[ROOT.Get_money_reserves]§"
+total_expenditures_value:0 "Общие расходы: §W[ROOT.Get_total_expenditures]§"
+economy_line_break:0 "--------------------------------------------" 
+
+economy_topbar_GDP_text:0 "[ROOT.Get_GDP_topbar]"
+economy_topbar_GDP_short_tt:0 "Наш §YВВП§! в настоящее время составляет§Y[ROOT.Get_GDP]§!\nНаш §Yтемп роста ВВП составляет§! [?ROOT.GDP_growth|2Y%] ежегодно\n\nНаш §YНаш годовой бюджет§! составляет §Y[ROOT.Get_total_budget]§!\n\nНаше §Yсоотношение дефицита к доходу§! составляет [Get_deficit_ratio]"
+economy_topbar_GDP_long_tt:0 "§YВВП§! (§YВнутренний Валовой Продукт§!) нашей страны это денежная мера стоимости всех товаров и услуг, произведенных в течение года, измеряемая в долларах§!." 
+
+economy_topbar_debt_text:0 "[ROOT.Get_national_debt_topbar]"
+economy_topbar_debt_short_tt:0 "Наши §Yпроцентные ставки§! составляют [?ROOT.interest_rates|%Y]\nЕжегодные §Yгражданские расходы§!: §Y[ROOT.Get_civilian_expenditures]§!\nЕжегодные §Yвоенные расходы§!: §Y[ROOT.Get_military_expenditures]§!\nЕжегодные §Yрасходы на строительство и торговлю§!: §Y[ROOT.Get_construction_expenditures]§!"
+economy_topbar_debt_long_tt:0 "§YГосударственный долг§! представляет из себя общую сумму неоплаченных средств, находящихся в распоряжении нашего национального правительства, обычно оцениваемую по непогашенным ценным бумагам, выпущенным нашим казначейством, измеряемую в §Yдолларах США§!. Поскольку кредиторы не занимаются предоставлением свободных денег, мы должны ежемесячно выплачивать определенный процент от нашего государственного долга, определяемых нашими §Yпроцентными ставками§!." 
+
+military_expenditures_value_tt:0 "Зараты\n--------------\nПриблизительная рабочая сила: [?approx_fielded_manpower|Y0]\n§Y11k§! на человека ежегодно\n\nДополнительные факторы:\n[Get_training]\n[Get_military_supervision]\n[Get_oilcrisis_military]\n\nВ обшем: [Get_manpower_costs]\n\nИздержки производства\n--------------\nКол-во использованных военных заводов: [?used_mil_facs|Y0]\n§Y100M§! за каждый завод ежегодно\n\nДополнительные факторы:\n[Get_industrial_expertise]\n[Get_industrial_equipment]\n\nВ общем: [ROOT.Get_military_factory_costs]\n\nРасходы на ядерные запасы:\n--------------\n[Get_nuclear_weapons_cost]"
+military_expenditures_value_short_tt:0 "Затраты на персонал: [Get_manpower_costs]\nИздержки производства: [Get_military_factory_costs]\n[Get_nuclear_weapons_cost]\n[Get_military_budget_modifier]"
+income_rate_value_tt:0 "Пропорциональный доход (% от ВВП): [?ROOT.income_rate|%G]"
+income_rate_value_tt_delayed:0 "[Get_tax_rate]\n[Get_income_tax]\n\nMultiplicative Factors:\n[Get_income_rate_factor]"
+civilian_expenditures_value_short_tt:0 "Пропорциональный доход (% от ВВП): [?modifier@proportional_gdp_cost|-1%][Get_civilian_budget_modifier]"
+civilian_expenditures_value_tt:0 "[Get_health_care]\n[Get_education]\n[Get_security_service]\n[Get_pensions]\n[Get_unemployment]\n[Get_ausgrenzung_civilian][Get_oilcrisis_civilian]"
+construction_expenditures_value_short_tt:0 "Пропорциональный доход (% от ВВП): [?construction_expenditures_factor|-1%]"
+construction_expenditures_value_tt:0 "Уровень строительства:\n[Get_construction_level]\n\nДополнительные факторы:\n[Get_safety]\n[Get_pollution]\n[Get_penal_system]\n[Get_minimum_wage]\n[Get_max_workhours]\n[Get_child_labor]"
+national_debt_value_short_tt:0 "Минимальная годовая выплата процентов по долгу: [Get_annual_debt_payments]"
+national_debt_value_tt:0 "Для того чтобы наши кредиторы были довольны и поддерживали нашу экономику на плаву, мы должны выплачивать, хотя бы, минимальные проценты, определяемые нашими процентными ставками и общим долгом. Невыполнение этого требования приведет к тому, что мы займем больше, чем можем себе позволить, не оставив денег на гражданские и военные услуги, снизив доверие инвесторов и потенциально спровоцировав §Rэкономический кризис§!!"
+deficit_value_short_tt:0 "Наше текущее соотношение дефицита и бюджета составляет: [Get_deficit_ratio]" 
+
+tno_nuclear_stockpile_none_econ_tt:0 "Неядерная держава: §Y0.00§!"
+tno_nuclear_stockpile_one_econ_tt:0 "Одна боеголовка: §Y100.00M§!"
+tno_nuclear_stockpile_few_econ_tt:0 "Несколько боеголовок: §Y1.00B§!"
+tno_nuclear_stockpile_many_econ_tt:0 "Крупный арсеналe: §Y5.00B§!"
+tno_nuclear_stockpile_massive_econ_tt:0 "Массивный арсенал: §Y15.00B§!"
+tno_nuclear_stockpile_apocalyptic_econ_tt:0 "Арсенал, способный стереть в радиоактивный пепел: §Y50.00B§!" 
+
+#Income Rate 
+Factorstno_tax_rate_no_taxation_gui:0 "Без налогов: §Y+0.0%§!"
+tno_tax_rate_low_taxation_gui:0 "Низкое налогообложение: §G+30.0%§!"
+tno_tax_rate_medium_taxation_gui:0 "Среднее налогообложение: §G+50.0%§!"
+tno_tax_rate_high_taxes_gui:0 "Высокие налоги: §G+60.0%§!"
+tno_tax_rate_exploitative_taxation_gui:0 "Эксплуатационное налогообложение: §G+65.0%§!" 
+
+tno_income_taxation_elite_tax_exemptions_gui:0 "Элитные налоговые льготы: §G+1.5%§!"
+tno_income_taxation_tax_havens_gui:0 "Оффшоры: §G+5.0%§!"
+tno_income_taxation_low_income_weighted_gui:0 "Взвешенный показатель низкого дохода: §G+10.0%§!"
+tno_income_taxation_flat_taxes_gui:0 "Равные налоги: §G+15.0%§!"
+tno_income_taxation_high_income_weighted_gui:0 "Прогрессивное налогообложение: §G+20.0%§!" 
+
+tno_poverty_rate_spartan_ideal_gui:0 "Спартанский идеал: §Y100%§!"
+tno_poverty_rate_80_gui:0 ">80% Уровень бедности: §Y5%§!"
+tno_poverty_rate_50_gui:0 "50-80% Уровень бедности: §Y15%§!"
+tno_poverty_rate_25_gui:0 "25-50% Уровень бедности: §Y35%§!"
+tno_poverty_rate_15_gui:0 "15-25% Уровень бедности: §Y70%§!"
+tno_poverty_rate_10_gui:0 "10-15% Уровень бедности: §Y90%§!"
+tno_poverty_rate_5_gui:0 "5-10% Уровень бедности: §Y100%§!"
+tno_poverty_rate_0_gui:0 "<5% Уровень бедности: §Y100%§!" 
+
+#Civilian Expenditure Factors
+tno_health_care_no_health_care_gui:0 "Никакого здравоохранения: §Y+0.0%§!"
+tno_health_care_private_health_care_gui:0 "Частное здравоохранение: §R+1.0%§!"
+tno_health_care_public_health_care_gui:0 "Общественное здравоохранение: §R+3.5%§!"
+tno_health_care_universal_health_care_gui:0 "Всеобщее здравоохранение: §R+6.0%§!"
+tno_health_care_free_universal_care_gui:0 "Бесплатное всеобщее здравоохранение: §R+8.0%§!" 
+
+tno_education_elite_only_gui:0 "Образование только для элиты: §R+0.5%§!"
+tno_education_public_education_gui:0 "Государственное образование: §R+1.0%§!"
+tno_education_subsidised_higher_education_gui:0 "Субсидированное высшее образование: §R+2.5%§!"
+tno_education_public_higher_education_gui:0 "Государственное высшее образование: §R+3.5%§!"
+tno_education_free_education_gui:0 "Бесплатное образование: §R+5.5%§!" 
+
+tno_security_anarchic_gui:0 "Анархия: §Y+0.0%§!"
+tno_security_police_gui:0 "Полиция: §R+1.0%§!"
+tno_security_security_service_gui:0 "Служба безопасности: §R+2.0%§!"
+tno_security_data_cohesion_gui:0 "Сбор данных: §R+3.0%§!"
+tno_security_wire_tapping_gui:0 "Прослушка: §R+5.0%§!"
+tno_security_preemptive_security_gui:0 "Превентивные аресты: §R+9.0%§!" 
+
+tno_pensions_no_pensions_gui:0 "Без пенсий: §Y+0.0%§!"
+tno_pensions_trinket_pensions_gui:0 "Минимальная пенсия: §R+2.0%§!"
+tno_pensions_low_pensions_gui:0 "Низкая пенсия: §R+4.0%§!"
+tno_pensions_acceptable_pensions_gui:0 "Приемлемая пенсия: §R+6.0%§!"
+tno_pensions_good_pensions_gui:0 "Хорошая пенсия: §R+8.0%§!" 
+
+tno_unemployment_no_subsidies_gui:0 "Нет субсидий: §Y+0.0%§!"
+tno_unemployment_trinket_subsidies_gui:0 "Минимальные субсидии: §R+3.0%§!"
+tno_unemployment_low_subsidies_gui:0 "Маленькие субсидии: §R+6.0%§!"
+tno_unemployment_generous_subsidies_gui:0 "Щедрые субсидии: §R+9.0%§!"
+tno_unemployment_basic_income_gui:0 "Безусловный базовый доход: §R+15.0%§!" 
+
+tno_oil_crisis_civilian_expenditure:0 "Нефтяной кризис: [?OC_proportional_gdp_cost|-=%]\n"
+tno_ausgrenzung_civilian_expenditure:0 "Программа исключения: [?BOR_SlaveCost|-=%]\n"
+
+ #Military Expenditure Factors
+tno_training_none_gui:0 "Без подготовки: §G60%§!"
+tno_training_minimal_training_gui:0 "Минимальная подготовка: §G80%§!"
+tno_training_basic_training_gui:0 "Базовая подготовка: §Y100%§!"
+tno_training_combat_schooling_gui:0 "Боевые учения: §R120%§!"
+tno_training_advanced_training_methods_gui:0 "Улучшенные методы подготовки: §R140%§!" 
+
+tno_military_supervision_kill_em_all_gui:0 "Убивайте всех: §G80%§!"
+tno_military_supervision_no_supervision_gui:0 "Без надзора: §G90%§!"
+tno_military_supervision_military_policing_gui:0 "Военная полиция: §Y100%§!"
+tno_military_supervision_rules_of_engagement_gui:0 "Военные комиссары: §R110%§!"
+tno_military_supervision_watchdog_groups_gui:0 "Комиссарские отряды: §R120%§!"
+tno_military_supervision_total_supervision_gui:0 "Тотальная слежка: §R130%§!" 
+
+tno_industrial_expertise_pre_industrial_gui:0 "Доиндустриальные методы работы: §G50%§!"
+tno_industrial_expertise_incompetent_gui:0 "Некомпетентная промышленность: §G65%§!"
+tno_industrial_expertise_nascent_gui:0 "Зарождающаяся промышленность: §G80%§!"
+tno_industrial_expertise_experienced_gui:0 "Опытные рабочие и промышленники: §Y100%§!"t
+no_industrial_expertise_innovative_gui:0 "Инновационная промышленность: §R120%§!" 
+
+tno_industrial_equipment_hand_tools_gui:0 "Ручной труд: §G50%§!"
+tno_industrial_equipment_power_tools_gui:0 "Ручные инструменты: §G65%§!"
+tno_industrial_equipment_manufacturing_lines_gui:0 "Устаревшие станки: §G80%§!"
+tno_industrial_equipment_factory_complexes_gui:0 "Фабричные комплексы: §G90%§!"
+tno_industrial_equipment_modern_gui:0 "Современное промышленное оборудование: §Y100%§!"
+tno_industrial_equipment_cutting_edge_gui:0 "Прорывное промышленное оборудование: §R120%§!" 
+
+tno_oil_crisis_military_expenditure:0 "Нефтяной кризис: [?OC_personel_cost_modifier|Y=%]\n" 
+
+#Construction Expenditure Factors
+construction_level_0_gui:0 "§Yбез§! использования: §Y0.0%§! от ВВП"
+construction_level_1_gui:0 "§Y10%§! используется: §R5.0%§! от ВВП"
+construction_level_2_gui:0 "§Y20%§! используется: §R10.0%§! от ВВП"
+construction_level_3_gui:0 "§Y30%§! используется: §R15.0%§! от ВВП"
+construction_level_4_gui:0 "§Y40%§! используется: §R20.0%§! от ВВП"
+construction_level_5_gui:0 "§Y50%§! используется: §R25.0%§! от ВВП"
+construction_level_6_gui:0 "§Y60%§! используется: §R30.0%§! от ВВП"
+construction_level_7_gui:0 "§Y70%§! используется: §R35.0%§! от ВВП"
+construction_level_8_gui:0 "§Y80%§! используется: §R40.0%§! от ВВП"
+construction_level_9_gui:0 "§Y90%§! используется: §R45.0%§! от ВВП" 
+
+tno_safety_no_regulations_gui:0 "Нет законов о техники безопасности: §G80%§!"
+tno_safety_minimal_regulations_gui:0 "Минимальные регуляции: §G90%§!"
+tno_safety_limited_regulations_gui:0 "Ограниченные регуляции: §Y100%§!"
+tno_safety_acceptable_regulations_gui:0 "Приемлемые регуляции: §R110%§!"
+tno_safety_excellent_regulations_gui:0 "Отличные регуляции: §R120%§!" 
+
+tno_pollution_no_controls_gui:0 "Отсутствие эко-контроля: §G80%§!"
+tno_pollution_few_regulations_gui:0 "Небольшой контроль за экологией: §G90%§!"
+tno_pollution_some_regulations_gui:0 "Средний контроль за экологией: §Y100%§!"
+tno_pollution_good_regulations_gui:0 "Хороший контроль за экологией: §R110%§!"
+tno_pollution_strict_regulations_gui:0 "Пристальный контроль за экологией: §R120%§!" 
+
+tno_penal_system_penal_slavery_gui:0 "Уголовное рабство: §G70%§!"
+tno_penal_system_capital_punishment_gui:0 "Смертная казнь: §G80%§!"
+tno_penal_system_penal_labor_gui:0 "Каторжные работы: §G90%§!"
+tno_penal_system_incarceration_gui:0 "Лишение свободы: §G95%§!"
+tno_penal_system_rehabilitation_gui:0 "Реабилитация: §Y100%§!" 
+
+tno_minimum_wage_no_minimum_wage_gui:0 "Нет минимальной зарплаты: §G80%§!"
+tno_minimum_wage_trinket_minimum_wage_gui:0 "Минимальная зарплата на словах: §G90%§!"
+tno_minimum_wage_low_minimum_wage_gui:0 "Низкая минимальная зарплата: §Y100%§!"
+tno_minimum_wage_acceptable_minimum_gui:0 "Приемлемая минимальная зарплата: §R110%§!"
+tno_minimum_wage_good_minimum_wage_gui:0 "Хорошая минимальная зарплата: §R120%§!" 
+
+tno_max_workhours_unlimited_work_day_gui:0 "Неограниченный рабочий день: §G80%§!"
+tno_max_workhours_14_hour_work_day_gui:0 "14-часовой рабочий день: §G90%§!"
+tno_max_workhours_12_hour_work_day_gui:0 "12-часовой рабочий день: §Y100%§!"
+tno_max_workhours_8_hour_work_day_gui:0 "8-часовой рабочий день: §R110%§!"
+tno_max_workhours_6_hour_work_day_gui:0 "6-часовой рабочий день: §R110%§!" 
+
+tno_child_labor_legal_gui:0 "Детский труд разрешен: §G70%§!"
+tno_child_labor_restricted_gui:0 "Детский труд ограничен: §G85%§!"
+tno_child_labor_illegal_gui:0 "Детский труд запрещен: §Y100%§!" 
+
+GDP_billion:0 "[?ROOT.GDP_billion|2]B "
+GDP_million:0 "[?ROOT.GDP|2]M "
+GDP_thousand:0 "[?ROOT.GDP_thousand|2]k " 
+
+GDP_billion_topbar:0 "[?GDP_billion|2]B"
+GDP_million_topbar:0 "[?GDP|2]M"
+GDP_thousand_topbar:0 "[?GDP_thousand|2]K" 
+
+total_budget_billion:0 "[?ROOT.total_budget_billion|2]B"
+total_budget_million:0 "[?ROOT.total_budget|2]M"
+total_budget_thousand:0 "[?ROOT.total_budget_thousand|2]k" 
+
+total_expenditures_billion:0 "[?ROOT.total_expenditures_billion|2]B"
+total_expenditures_million:0 "[?ROOT.total_expenditures|2]M"
+total_expenditures_thousand:0 "[?ROOT.total_expenditures_thousand|2]k" 
+
+civilian_expenditures_billion:0 "[?ROOT.civilian_expenditures_billion|2]B"
+civilian_expenditures_million:0 "[?ROOT.civilian_expenditures|2]M"
+civilian_expenditures_thousand:0 "[?ROOT.civilian_expenditures_thousand|2]K" 
+
+civilian_expenditures_billion_topbar:0 "[?civilian_expenditures_billion|2]B"
+civilian_expenditures_million_topbar:0 "[?civilian_expenditures|2]M"
+civilian_expenditures_thousand_topbar:0 "[?civilian_expenditures_thousand|2]K" 
+
+military_expenditures_billion:0 "[?ROOT.military_expenditures_billion|2]B"
+military_expenditures_million:0 "[?ROOT.military_expenditures|2]M"
+military_expenditures_thousand:0 "[?ROOT.military_expenditures_thousand|2]K" 
+
+military_expenditures_billion_topbar:0 "[?military_expenditures_billion|2]B"
+military_expenditures_million_topbar:0 "[?military_expenditures|2]M"
+military_expenditures_thousand_topbar:0 "[?military_expenditures_thousand|2]K" 
+
+construction_expenditures_billion:0 "[?ROOT.construction_expenditures_billion|2]B"
+construction_expenditures_million:0 "[?ROOT.construction_expenditures|2]M"
+construction_expenditures_thousand:0 "[?ROOT.construction_expenditures_thousand|2]K" 
+
+money_reserves_billion:0 "[?ROOT.money_reserves_billion|2]B"
+money_reserves_million:0 "[?ROOT.money_reserves|2]M"
+money_reserves_thousand:0 "[?ROOT.money_reserves_thousand|2]K" 
+
+national_debt_billion:0 "[?ROOT.national_debt_billion|2]B "
+national_debt_million:0 "[?ROOT.national_debt|2]M "
+national_debt_thousand:0 "[?ROOT.national_debt_thousand|2]K " 
+
+national_debt_billion_topbar:0 "[?national_debt_billion|2]B"
+national_debt_million_topbar:0 "[?national_debt|2]M"
+national_debt_thousand_topbar:0 "[?national_debt_thousand|2]K" 
+
+deficit_billion:0 "[?ROOT.deficit_billion|2]B "
+deficit_million:0 "[?ROOT.deficit|2]M "
+deficit_thousand:0 "[?ROOT.deficit_thousand|2]K " 
+
+manpower_costs_billion:0 "§Y[?ROOT.manpower_costs_billion|2]B§! "
+manpower_costs_million:0 "§Y[?ROOT.manpower_costs|2]M§! "
+manpower_costs_thousand:0 "§Y[?ROOT.manpower_costs_thousand|2]K§! " 
+
+military_factory_costs_billion:0 "§Y[?ROOT.military_factory_costs_billion|2]B§! "
+military_factory_costs_million:0 "§Y[?ROOT.military_factory_costs|2]M§! "
+military_factory_costs_thousand:0 "§Y[?ROOT.military_factory_costs_thousand|2]K§! " 
+
+misc_costs_billion:0 "[?ROOT.misc_costs_billion|2]B "
+misc_costs_million:0 "[?ROOT.misc_costs|2]M "
+misc_costs_thousand:0 "[?ROOT.misc_costs_thousand|2]K " 
+
+misc_costs_billion_topbar:0 "[?misc_costs_billion|2]B"
+misc_costs_million_topbar:0 "[?misc_costs|2]M"
+misc_costs_thousand_topbar:0 "[?misc_costs_thousand|2]K" 
+
+misc_income_billion:0 "[?ROOT.misc_income_billion|2]B "
+misc_income_million:0 "[?ROOT.misc_income|2]M "
+misc_income_thousand:0 "[?ROOT.misc_income_thousand|2]K " 
+
+misc_income_billion_topbar:0 "[?misc_income_billion|2]B"
+misc_income_million_topbar:0 "[?misc_income|2]M"
+misc_income_thousand_topbar:0 "[?misc_income_thousand|2]K" 
+
+annual_debt_payments_billion:0 "§Y[?ROOT.annual_debt_payments_billion|2]B§! "
+annual_debt_payments_million:0 "§Y[?ROOT.annual_debt_payments|2]M§! "
+annual_debt_payments_thousand:0 "§Y[?ROOT.annual_debt_payments_thousand|2]K§! " 
+civilian_budget_cuts_gui:0 "\n(Изменено на §G85%§! из-за недавних мер жесткой экономии)"
+civilian_budget_boost_gui:0 "\n(Изменено на §R115%§! в связи с недавним увеличением финансирования)"
+civilian_budget_cuts_heavy_gui:0 "\n(Изменено на §G70%§! в связи с недавними чрезвычайными мерами жесткой экономии)"
+bankrupt_civilian_gui:0 "\n(Изменено на §G40%§! из-за недавнего банкротства)"
+
+military_budget_cuts_gui:0 "\n(Изменено на §G85%§! из-за недавних мер жесткой экономии)"
+military_budget_boost_gui:0 "\n(Изменено на §R115%§! в связи с недавним увеличением финансирования)"
+military_budget_cuts_heavy_gui:0 "\n(Изменено на §G70%§! в связи с недавними чрезвычайными мерами жесткой экономии)"
+bankrupt_military_gui:0 "\n(Изменено на §G40%§! из-за недавнего банкротства)" 
+
+deficit_ratio_green:0 "[?deficit_ratio|1G%]"
+deficit_ratio_yellow:0 "[?deficit_ratio|1Y%]"
+deficit_ratio_red:0 "[?deficit_ratio|1R%]" 
+
+increase_construction_budget_text:0 "£increase_texticon"
+increase_construction_budget_tt:0 "Увеличение бюджета строительства\nСтоимость: £pol_power 25\nВозможность использовать на §Y10%§! больше гражданских фабрик\nРасходы §Rувеличатся§! на §Y5%§!"
+increase_construction_budget_tt_delayed:0 "[!increase_construction_budget_click]" 
+
+decrease_construction_budget_text:0 "£decrease_texticon"
+decrease_construction_budget_tt:0 "Сокращение бюджета строительства\nСтоимость: £pol_power 25\nНам придется использовать на §Y10%§! меньше грпжданских фабрик\nРасходы §Gуменьшатся§! на §Y5%§!"
+decrease_construction_budget_tt_delayed:0 "[!decrease_construction_budget_click]" 
+
+increase_military_budget_tt:0 "Увеличение военного бюджета:\nВременно увеличивает военный бюджет на §Y15%§! в течение §Y120 дней§!, с соответствующими преимуществами."
+increase_military_budget_tt_delayed:0 "[!increase_military_budget_click]" 
+
+decrease_military_budget_tt:0 "Сокращение военного бюджета:\nВременно уменьшит военный бюджет на §Y15%§! в течение §Y120 дней§!, с соответсвующими штрафами."
+decrease_military_budget_tt_delayed:0 "[!decrease_military_budget_click]" 
+
+increase_civilian_budget_tt:0 "Увеличение гражданского бюджета:\nВременно увеличивает гражданский бюджет на §Y15%§! в течение §Y120 дней§!, с соответствующими преимуществами."
+increase_civilian_budget_tt_delayed:0 "[!increase_civilian_budget_click]" 
+
+decrease_civilian_budget_tt:0 "Сокращение гражданского бюджета:\nВременно уменьшит гражданский бюджет на §Y15%§! в течение §Y120 days§!, с соответсвующими штрафами."
+decrease_civilian_budget_tt_delayed:0 "[!decrease_civilian_budget_click]" 
+
+dump_liquid_reserves_tt:0 "Использовать все свои ликвидные резервы для погашения государственного долга."
+dump_liquid_reserves_tt_delayed:0 "[!dump_liquid_reserves_click]" 
+
+invest_liquid_reserves_tt:0 "Инвестировать свои ликвидные резервы в увеличение ВВП."i
+nvest_liquid_reserves_tt_delayed:0 "[!invest_liquid_reserves_click]" 
+
+econ_invest_money_tt:0 "Ваши ликвидные резервы будут конвертированы в ВВП по курсу §Y50%§!."
+econ_invest_money_no_money_tt:0 "Необходимо, чтобы ваши ликвидные резервы были §Yвыше 0§!, чтобы инвестировать их во что-то еще!"
+econ_dump_reserves_money_tt:0 "Это направить §YВСЕ§! ваши текущие ликвидные резервы на погашение государственного долга. Вы уверены?"
+econ_dump_reserves_no_debt_tt:0 "...У вас нет никаких долгов, которые вы можете погасить."
+econ_dump_reserves_no_money_tt:0 "Необходимо, чтобы ваши ликвидные резервы были §Yвыше 0§!, чтобы использовать любые деньги!" 
+
+econ_wait_for_expiration:0 "\nДождитесь истечения срока действия текущего модификатора, прежде чем выбрать новый!"
+econ_positive_budget:0 "\nУ нас достаточно денег для минимальных выплат по нашему долгу (то есть у нас есть положительный годовой бюджет)"
+econ_default_debt:0 "\n§RМы объявим дефолт по всем нашим государственным долгам!§!"
+econ_use_liquid_reserves_tt:0 "Мы направим все наши резервы на погашение государственного долга." 
+
+econ_debt_rate_generic_increase:0 "\n§RПроцентные ставки по нашему долгу будут расти!§!\n"
+econ_debt_rate_10_percent_increase:0 "\n§YПроцентные ставки по нашему долгу будут расти на 10%.§!\n"
+econ_debt_rate_20_percent_increase:0 "\n§YПроцентные ставки по нашему долгу будут расти на 20%.§!\n"
+econ_debt_rate_30_percent_increase:0 "\n§YПроцентные ставки по нашему долгу будут расти на 30%.§!\n"
+econ_debt_rate_40_percent_increase:0 "\n§YПроцентные ставки по нашему долгу будут расти на 40%.§!\n"
+econ_debt_rate_50_percent_increase:0 "\n§YПроцентные ставки по нашему долгу будут расти на 50%.§!\n"
+econ_debt_rate_60_percent_increase:0 "\n§RПроцентные ставки по нашему долгу будут расти на 60%!§!\n"
+econ_debt_rate_70_percent_increase:0 "\n§RПроцентные ставки по нашему долгу будут расти на 70%!§!\n"
+econ_debt_rate_80_percent_increase:0 "\n§RПроцентные ставки по нашему долгу будут расти на 80%!§!\n"
+econ_debt_rate_90_percent_increase:0 "\n§RПроцентные ставки по нашему долгу будут расти на 90%!§!\n"
+econ_debt_rate_100_percent_increase:0 "\n§RПроцентные ставки по нашему долгу удвоятся!§!\n"
+econ_debt_rate_200_percent_increase:0 "\n§RПроцентные ставки по нашему долгу утроятся!§!\n"
+econ_debt_rate_generic_decrease:0 "\n§YПроцентные ставки по нашему долгу будут снижены.§!\n" 
+
+##USEFUL TOOLTIPS 
+econ_decrease_GDP_small:0 "\n§YНаш§! §YВВП§! §Yвозьму небольшой удар на себя.§!\n"
+econ_decrease_GDP:0 "\n§YНаш§! §YВВП§! §Yвозьмет удар на себя!§!\n"
+econ_decrease_GDP_large:0 "\n§RНаш§! §YВВП§! §Rвозьмет весь удар на себя!§!\n" 
+
+econ_increase_GDP_small:0 "\nНаш §YВВП§! получит небольшой положителный толчок.\n"
+econ_increase_GDP:0 "\nНаш §YВВП§! получит положительный толчок!\n"
+econ_increase_GDP_large:0 "\n§GНаш§! §YВВП§! §Gполучит большой положителный толчок!§!\n" 
+
+econ_decrease_GDP_growth_small:0 "\nНаш §Yрост ВВП§! немного §Rснизится§!.\n"
+econ_decrease_GDP_growth:0 "\nНаш §Yрост ВВП§! §Rснизится§!.\n"
+econ_decrease_GDP_growth_large:0 "\nНаш §Yрост ВВП§! сильно §Rснизится§!.\n" 
+
+econ_increase_GDP_growth_small:0 "\nНаш §Yрост ВВП§! §Gнемного повысится.§!\n"
+econ_increase_GDP_growth:0 "\nНаш §Yрост ВВП§! §Gповысится.§!\n"
+econ_increase_GDP_growth_large:0 "\nНаш §Yрост ВВП§! §Gсильно повысится.§!\n" 
+
+econ_increase_money_reserves_small:0 "\n§GНебольшая сумма денег поступит в наши резервы.§!\n"
+econ_increase_money_reserves:0 "\n§GНаши резервы получат денежный приток.§!\n"
+econ_increase_money_reserves_large:0 "\n§GНаши резервы получат большой денежный приток!§!\n" 
+
+econ_decrease_money_reserves_small:0 "\n§RНебольшая сумма денег будет взята из наших резервов.§!\n"
+econ_decrease_money_reserves:0 "\n§RНаши резервы потеряют часть денег.§!\n"
+econ_decrease_money_reserves_large:0 "\n§RНаши резервы потеряют большую сумму денег!§!\n" 
+
+econ_decrease_debt_small:0 "\n§YНаш государственный долг немного уменьшится.§!\n"
+econ_decrease_debt:0 "\n§YНаш государственный долг уменьшится.§!\n"
+econ_decrease_debt_large:0 "\n§RНаш государственный долг сильно уменьшится.§!\n" 
+
+econ_increase_debt_small:0 "\n§YНаш государственный долг немного вырастет.§!\n"
+econ_increase_debt:0 "\n§YНаш государтсвенный долг вырастет.§!\n"
+econ_increase_debt_large:0 "\n§RНаш государственный долг сильно увеличится.§!\n" 
+
+econ_misc_expenses_add_small_increase:0 "\n§RНаши расходы немного возрастут.§!\n"
+econ_misc_expenses_add_medium_increase:0 "\n§RНаши расходы возрастут.§!\n"
+econ_misc_expenses_add_large_increase:0 "\n§RНаши расходы резко возрастут.§!\n" 
+
+econ_misc_expenses_add_small_decrease:0 "\n§GНаши расходы немного уменьшатся.§!\n"
+econ_misc_expenses_add_medium_decrease:0 "\n§Наши расходы уменьшатся.§!\n"
+econ_misc_expenses_add_large_decrease:0 "\n§GНаши расходы сильно уменьшатся.§!\n"
+econ_misc_costs_add_025_percent:0 "\n§RУ нас появятся новые расходы, которые составят 0,25% от нашего текущего ВВП.§!\n"
+econ_misc_costs_add_05_percent:0 "\n§RУ нас появятся новые расходы, которые составят 0,5% от нашего текущего ВВП.§!\n"
+econ_misc_costs_add_1_percent:0 "\n§RУ нас появятся новые расходы, которые составят 1% от нашего текущего ВВП.§!\n"
+econ_misc_costs_add_1_5_percent:0 "\n§RУ нас появятся новые расходы, которые составят 1,5% от нашего текущего ВВП.§!\n"
+econ_misc_costs_add_2_percent:0 "\n§RУ нас появятся новые расходы, которые составят 2% от нашего текущего ВВП.§!\n"
+econ_misc_costs_add_3_percent:0 "\n§RУ нас появятся новые расходы, которые составят 3% от нашего текущего ВВП.§!\n"
+econ_misc_costs_add_4_percent:0 "\n§RУ нас появятся новые расходы, которые составят 4% от нашего текущего ВВП§!\n"
+econ_misc_costs_add_5_percent:0 "\n§RУ нас появятся новые расходы, которые составят 5% от нашего текущего ВВП.§!\n"
+econ_misc_costs_add_6_percent:0 "\n§RУ нас появятся новые расходы, которые составят 6% от нашего текущего ВВП§!\n"
+econ_misc_costs_add_7_percent:0 "\n§RУ нас появятся новые расходы, которые составят 7% от нашего текущего ВВП§!\n"
+econ_misc_costs_add_8_percent:0 "\n§RУ нас появятся новые расходы, которые составят 8% от нашего текущего ВВП.§!\n"
+econ_misc_costs_add_9_percent:0 "\n§RУ нас появятся новые расходы, которые составят 9% от нашего текущего ВВП§!\n"
+econ_misc_costs_add_10_percent:0 "\n§RУ нас появятся новые расходы, которые составят 10% от нашего текущего ВВП.§!\n" 
+
+econ_misc_income_add_small_increase:0 "\n§GУ нас появится небольшой новый источник дохода.§!\n"
+econ_misc_income_add_medium_increase:0 "\n§GУ нас появится новый источник дохода.§!\n"
+econ_misc_income_add_large_increase:0 "\n§GУ нас появится большой новый источник дохода.§!\n" 
+
+econ_misc_income_add_small_decrease:0 "\n§RМы потеряем небольшую часть нашего дохода.§!\n"
+econ_misc_income_add_medium_decrease:0 "\n§RМы потеряем часть нашего дохода.§!\n"
+econ_misc_income_add_large_decrease:0 "\n§RМы потеряем большую часть нашего дохода.§!\n" 
+
+econ_misc_income_add_1_percent:0 "\n§GУ нас появится новый источник дохода, составляющий 1% от нашего нынешнего ВВП.§!\n"
+econ_misc_income_add_2_percent:0 "\n§GУ нас появится новый источник дохода, составляющий 2% от нашего нынешнего ВВП.§!\n"
+econ_misc_income_add_3_percent:0 "\n§GУ нас появится новый источник дохода, составляющий 3% от нашего нынешнего ВВП.§!\n"
+econ_misc_income_add_4_percent:0 "\n§GУ нас появится новый источник дохода, составляющий 4% от нашего нынешнего ВВП.§!\n"
+econ_misc_income_add_5_percent:0 "\n§GУ нас появится новый источник дохода, составляющий 5% от нашего нынешнего ВВП.§!\n"
+econ_misc_income_add_6_percent:0 "\n§GУ нас появится новый источник дохода, составляющий 6% от нашего нынешнего ВВП.§!\n"
+econ_misc_income_add_7_percent:0 "\n§GУ нас появится новый источник дохода, составляющий 7% от нашего нынешнего ВВП.§!\n"
+econ_misc_income_add_8_percent:0 "\n§GУ нас появится новый источник дохода, составляющий 8% от нашего нынешнего ВВП.§!\n"
+econ_misc_income_add_9_percent:0 "\n§GУ нас появится новый источник дохода, составляющий 9% от нашего нынешнего ВВП.§!\n"
+econ_misc_income_add_10_percent:0 "\n§GУ нас появится новый источник дохода, составляющий 10% от нашего нынешнего ВВП.§!\n" 
+
+econ_interest_rates_add_small_increase:0 "\n§YПроцентные ставки немного вырастут.§!\n"
+econ_interest_rates_add_medium_increase:0 "\n§YПроцентные ставки вырастут.§!\n"
+econ_interest_rates_add_large_increase:0 "\n§YПроцентные ставки резко вырастут.§!\n" 
+
+econ_interest_rates_add_small_decrease:0 "\n§YПроцентные ставки немного снизятся.§!\n"
+econ_interest_rates_add_medium_decrease:0 "\n§YПроцентные ставки снизятся.§!\n"
+econ_interest_rates_add_large_decrease:0 "\n§YПроцентные ставки резко снизятся.§!\n" 
+
+
+
+
+###IDEAS###
+construction_level_0:0 "Не используется"
+construction_level_1:0 "10% используется"
+construction_level_2:0 "20% используется"
+construction_level_3:0 "30% используется"
+construction_level_4:0 "40% используется"
+construction_level_5:0 "50% используется"
+construction_level_6:0 "60% используется"
+construction_level_7:0 "70% используется"
+construction_level_8:0 "80% используется"
+construction_level_9:0 "90% используется" 
+
+construction_laws:0 "Расходы На Строительство" 
+
+military_budget_cuts:0 "Военная экономия"
+military_budget_cuts_heavy:0 "Жесткая военная экономия"
+military_budget_boost:0 "Увеличение военного бюджета"
+civilian_budget_cuts:0 "Гражданская экономия"
+civilian_budget_cuts_heavy:0 "Жесткая гражданская экономия"
+civilian_budget_boost:0 "Увеличение гражданского бюджета" 
+
+bankrupt_military:0 "Военное банкротство"
+bankrupt_civilian:0 "Банкротство гражданских программ" 
+
+###DECISIONS###
+economy_test_category:0 "Экономический кризис"
+economy_test_category_desc:0 "святое гребаное дерьмо мы больше не можем платить наши долги" 
+
+economic_crisis:0 "Неконтролируемый долг"
+economic_crisis_desc:0 "так что в принципе мы умрем" 
+
+econ_emergency_taxes:0 "Чрезвычайное повышение налогов"
+econ_emergency_taxes_desc:0 ""
+econ_emergency_military_austerity:0 "Чрезвычайная военная экономия"
+econ_emergency_military_austerity_desc:0 ""
+econ_emergency_civilian_austerity:0 "Чрезвычайная гражданская экономия"
+econ_emergency_civilian_austerity_desc:0 ""
+econ_use_liquid_reserves:0 "Использовать ликвидные резервы"
+econ_use_liquid_reserves_desc:0 "" 
+
+worsen_army_professionalism_small:0 "§YПрофессионализм нашей армии§! начнет §Rмедленно ухудшаться§!\n"
+worsen_army_professionalism_medium:0 "§YПрофессионализм нашей армии§! начнет §Rухудшаться§!\n"

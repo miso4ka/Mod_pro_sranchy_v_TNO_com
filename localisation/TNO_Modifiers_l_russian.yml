@@ -1,0 +1,30 @@
+﻿l_russian:
+ # Economic modifiers
+ annual_gdp_growth_factor:0 "Годовой коэффициент роста ВВП"
+ proportional_gdp_cost:0 "Пропорционально стоимости ВВП"
+ personnel_cost_modifier:0 "Модификатор затрат на персонал"
+ taxable_population_modifier:0 "Налогооблагаемое население"
+ taxable_population_factor:0 "Фактор налогооблагаемого населения"
+ income_rate_modifier:0 "Подоходный налог"
+ income_rate_factor:0 "Коэффициент подоходного налога"
+ construction_costs_modifier:0 "Модификатор стоимсоти строительства"
+ income_rate_factor:0 "Коэффициент подоходного налога"
+ civilian_expenditures_factor:0 "Фактор гражданских расходов"
+ military_expenditures_factor:0 "Фактор военных расходов"
+ military_annual_cost:0 "Ежегодные расходы (военные)"
+ civilian_annual_cost:0 ""Ежегодные расходы (гражданские)"
+ misc_costs_modifier:0 "Прочие расходы"
+ misc_income_modifier:0 "Прочие доходы"
+ gdp_growth_modifier:0 "Рост ВВП"
+
+ # Social Development modifiers
+ academic_base_monthly_rate:0 "Ежемесячное измение Образованности"
+ research_facilities_monthly_rate:0 "Ежемесячное измение Исследований"
+ agriculture_monthly_rate:0 "Ежемесячное измение Сельского хозяйства"
+ poverty_monthly_rate:0 "Ежемесячное измение Бедности"
+ industrial_equipment_monthly_rate:0 "Ежемесячное измение Промышленного оборудования"
+ industrial_expertise_monthly_rate:0 "Ежемесячное измение Промышленного опыта"
+ army_professionalism_monthly_rate:0 "Ежемесячное измение Профессионализма армии"
+ nuclear_stockpile_monthly_rate:0 "Ежемесячное измение Ядерного арсенала"
+
+ #space_test_decisions_desc:0 "Annual GDP Growth Factor: [?modifier@annual_gdp_growth_factor]\nProportional GDP Cost: [?modifier@proportional_gdp_cost]\nPersonnel Cost Modifier: [?modifier@personnel_cost_modifier]\nTaxable Population: [?modifier@taxable_population_modifier]\nTaxable Population Factor: [?modifier@taxable_population_factor]\nIncome Rate: [?modifier@income_rate_modifier]\nIncome Rate Factor: [?modifier@income_rate_factor]\nConstruction Costs Modifier: [?modifier@construction_costs_modifier]\nCivilian Spending Modifier: [?modifier@civilian_expenditures_factor]\nMilitary Spending Modifier: [?modifier@military_expenditures_factor]\nAnnual Cost (military): [?modifier@military_annual_cost]"

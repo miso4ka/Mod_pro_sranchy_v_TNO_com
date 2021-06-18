@@ -1,0 +1,304 @@
+ division_template = {
+	name = "Divisão de Infantaria Leve"				# Brazil Light Infantry Division
+	regiments = {
+    light_infantry = { x = 0 y = 0 }
+    light_infantry = { x = 0 y = 1 }
+    light_infantry = { x = 1 y = 0 }
+    light_infantry = { x = 1 y = 1 }
+    }
+	support = {
+  artillery = { x = 0 y = 1 }
+    }
+}
+division_template = {
+	name = "Divisão de Infantaria"				# Brazil Normal Army Division
+	regiments = {
+    infantry = { x = 0 y = 0 }
+    infantry = { x = 0 y = 1 }
+    infantry = { x = 0 y = 2 }
+    infantry = { x = 1 y = 0 }
+    infantry = { x = 1 y = 1 }
+    }
+	support = {
+  engineer = { x = 0 y = 0 }
+  artillery = { x = 0 y = 1 }
+    }
+}
+division_template = {
+	name = "Divisão de Cavalaria"				# Brazil Cavalry Division
+	regiments = {
+    cavalry = { x = 0 y = 0 }
+    cavalry = { x = 0 y = 1 }
+    cavalry = { x = 1 y = 0 }
+    cavalry = { x = 1 y = 1 }
+    }
+	support = {
+  artillery = { x = 0 y = 0 }
+    }
+}
+division_template = {
+	name = "Fuzileiros Navais de Infantaria"				# Brazil Normal Marine Corps
+	regiments = {
+    marine = { x = 0 y = 0 }
+    marine = { x = 0 y = 1 }
+    marine = { x = 1 y = 0 }
+    }
+	support = {
+  engineer = { x = 0 y = 0 }
+  signal_company = { x = 0 y = 1 }
+  artillery { x = 0 y = 2 }
+    }
+}
+division_template = {
+	name = "Brigada Motorizda"				# Brazil Normal Motorized Corps
+	regiments = {
+    motorized = { x = 0 y = 0 }
+    motorized = { x = 0 y = 1 }
+    motorized = { x = 1 y = 0 }
+    motorized = { x = 1 y = 1 }
+    }
+	support = {
+  engineer = { x = 0 y = 0 }
+  logistics_company = { x = 0 y = 1 }
+    }
+}
+division_template = {
+	name = "Brigada Blindada"				# Brazil Normal Tank Division
+	regiments = {
+    APC = { x = 0 y = 0 }
+    APC = { x = 0 y = 1 }
+    APC = { x = 0 y = 2 }
+    MBT = { x = 1 y = 0 }
+    MBT = { x = 1 y = 1 }
+    }
+	support = {
+  engineer = { x = 0 y = 0 }
+  logistics_company = { x = 0 y = 1 }
+    }
+}
+division_template = {
+    name = "Division Aerotransportada"
+    regiments = {
+        air_assault = { x = 0 y = 0 }
+        air_assault = { x = 1 y = 0 }
+        air_assault = { x = 0 y = 1 }
+        air_assault = { x = 1 y = 1 }
+    }
+    support = {
+        artillery = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        logistics_company = { x = 0 y = 2 }
+    }
+}
+
+units = {
+division = {
+name = "1st Divisão de Aerotransportada"
+location = "10980"
+division_template = "Division Aerotransportada"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "1st Divisão de Infantaria"
+location = "10447"
+division_template = "Divisão de Infantaria"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "2nd Divisão de Infantaria"
+location = "4575"
+division_template = "Divisão de Infantaria"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "3rd Divisão de Infantaria"
+location = "12466"
+division_template = "Divisão de Infantaria"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "4th Divisão de Infantaria"
+location = "10513"
+division_template = "Divisão de Infantaria"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "5th Divisão de Infantaria"
+location = "10980"
+division_template = "Divisão de Infantaria"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "6th Divisão de Infantaria"
+location = "5208"
+division_template = "Divisão de Infantaria"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "1st Divisão de Infantaria Leve"
+location = "12853"
+division_template = "Divisão de Infantaria Leve"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "2nd Divisão de Infantaria Leve"
+location = "7638"
+division_template = "Divisão de Infantaria Leve"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "3rd Divisão de Infantaria Leve"
+location = "1585"
+division_template = "Divisão de Infantaria Leve"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "4th Divisão de Infantaria Leve"
+location = "5110"
+division_template = "Divisão de Infantaria Leve"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+division = {
+name = "1st Divisão de Cavalaria"
+location = "5168"
+division_template = "Divisão de Cavalaria"
+start_experience_factor = 0.1
+start_equipment_factor = 1
+
+}
+
+division = {
+name = "1st Fuzileiros Navais de Infantaria"
+location = "10980"
+division_template = "Fuzileiros Navais de Infantaria"
+start_experience_factor = 0.5
+start_equipment_factor = 1
+
+}
+
+division = {
+name = "1st Brigada Motorizda"
+location = "5112"
+division_template = "Divisão de Cavalaria"
+start_experience_factor = 0.3
+start_equipment_factor = 1
+
+}
+
+division = {
+name = "2nd Brigada Motorizda"
+location = "1598"
+division_template = "Brigada Motorizda"
+start_experience_factor = 0.3
+start_equipment_factor = 1
+
+}
+
+division = {
+name = "1st Brigada Blindada"
+location = "10447"
+division_template = "Brigada Blindada"
+start_experience_factor = 0.7
+start_equipment_factor = 1
+}
+division = {
+name = "2nd Brigada Blindada"
+location = "5112"
+division_template = "Brigada Blindada"
+start_experience_factor = 0.7
+start_equipment_factor = 1
+
+}
+division = {
+name = "3rd Brigada Blindada"
+location = "12466"
+division_template = "Brigada Blindada"
+start_experience_factor = 0.7
+start_equipment_factor = 1
+}
+}
+
+air_wings = {
+	500 = { 
+		jet_fighter_equipment_1 = {
+			owner = "BRA" 
+			amount = 48
+		}
+	}
+	502 = { 
+		jet_fighter_equipment_1 = {
+			owner = "BRA" 
+			amount = 48
+		}
+	}
+	500 = { 
+		jet_CAS_equipment_1 = {
+			owner = "BRA" 
+			amount = 36
+		}
+	}
+	500 = { 
+		jet_strat_bomber_equipment_1 = {
+			owner = "BRA" 
+			amount = 20
+		}
+	}
+	502 = { 
+		jet_strat_bomber_equipment_1 = {
+			owner = "BRA" 
+			amount = 24
+		}
+	}
+	498 = { 
+		jet_interceptor_equipment_1 = {
+			owner = "BRA" 
+			amount = 24
+		}
+	}
+	498 = { 
+		jet_strat_bomber_equipment_1 = {
+			owner = "BRA" 
+			amount = 24
+		}
+	}
+	500 = { 
+		transport_plane_equipment_1 = {
+			owner = "BRA" 
+			amount = 50
+		}
+	}
+	500 = { 
+		jet_tac_bomber_equipment_1 = {
+			owner = "BRA" 
+			amount = 24
+		}
+	}
+	498 = { 
+		jet_tac_bomber_equipment_1 = {
+			owner = "BRA" 
+			amount = 24
+		}
+	}
+}

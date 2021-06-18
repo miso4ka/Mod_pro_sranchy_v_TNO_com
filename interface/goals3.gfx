@@ -1,0 +1,22 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Honor_Kaganovich"
+		texturefile = "gfx/interface/goals/GFX_Honor_Kaganovich.dds"
+	}
+		SpriteType = {
+		name = "GFX_NIK_ruina_imperii"
+		texturefile = "gfx/interface/goals/NIK_ruina_imperii.dds"
+	}
+	SpriteType = {
+		name = "GFX_MOS_reds"
+		texturefile = "gfx/interface/goals/MOS_reds.dds"
+	}
+	SpriteType = {
+		name = "GFX_gulags"
+		texturefile = "gfx/interface/goals/GFX_Gulags.dds"
+	}
+		SpriteType = {
+		name = "GFX_sudin"
+		texturefile = "gfx/interface/goals/GFX_sudin.dds"
+	}
+}

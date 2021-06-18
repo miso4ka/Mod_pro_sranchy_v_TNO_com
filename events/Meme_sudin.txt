@@ -1,0 +1,672 @@
+add_namespace = meme_sudin
+
+country_event = {
+	id = meme_sudin.0
+	immediate meme_sudin { log = "[GetDateText]: [Root.GetName]: event meme_sudin.0" }
+	title = meme_sudin.0.t
+	desc = meme_sudin.0.d
+	picture = GFX_report_event_german_radio_espionage
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = meme_sudin.0.a
+				create_country_leader = {
+				name = "Comrade Sudin"
+				desc = "POLITICS_SUDIN_DESC"
+				picture = "gfx/leaders/ORE/Comrade_Sudin.dds"
+				expire = "1999.1.1"
+				ideology = communist_subtype
+			}
+	set_politics = {
+	ruling_party = communist
+	elections_allowed = no
+    }
+		load_focus_tree = SUDIN_tree
+	add_ideas = {
+	Sudin_defend_revolution
+	Sudin_beetwen_tno_infighting
+	Sudin_fightback_from_shturmoviks
+	}
+}
+}
+country_event = {
+	id = meme_sudin.1984
+	immediate meme_sudin { log = "[GetDateText]: [Root.GetName]: event meme_sudin.0" }
+	title = meme_sudin.1984.t
+	desc = meme_sudin.1984.d
+	picture = GFX_report_event_german_radio_espionage
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+			name = meme_sudin.1984.a
+       NIK = {
+			transfer_state = 866
+			transfer_state = 397
+			transfer_state = 868
+			transfer_state = 867
+			transfer_state = 854
+			transfer_state = 400
+			transfer_state = 752
+			transfer_state = 865
+			create_country_leader = {
+				name = "Viktor Larionov"
+				desc = "POLITICS_VIKTOR_LARIONOV_AM_DESC"
+				picture = "gfx/leaders/NIK/Portrait_NIK_Viktor_Larionov.dds"
+				expire = "1999.1.1"
+				ideology = burgundian_system_subtype
+			}
+			set_politics = {
+				ruling_party = burgundian_system
+			}
+			add_ideas = {
+				NIK_imperium_nihilus
+				NIK_hermit_kingdom
+			}
+		}
+		PAV = {
+			set_politics = {
+				ruling_party = despotism
+			}
+			create_country_leader = {
+				name = "Mikhail Baganov"
+				desc = "POLITICS_MIKHAIL_BAGANOV_AM_DESC"
+				picture = "gfx/leaders/PAV/Portrait_Novosibirsk_Mikhail_Baganov.dds"
+				expire = "1999.1.1"
+				ideology = despotism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 570
+			transfer_state = 40
+			transfer_state = 588
+			add_ideas = PAV_Benevolent_Authoritarianism
+		}
+		AKT = {
+			set_politics = {
+				ruling_party = ultranational_socialism
+			}
+			create_country_leader = {
+				name = "Safa Gaziz"
+				desc = "POLITICS_SAFA_GAZIZ_AM_DESC"
+				picture = "gfx/leaders/AKT/Portrait_AKT_Safa_Gaziz_AM.dds"
+				expire = "1999.1.1"
+				ideology = ultranational_socialism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 402
+			transfer_state = 406
+			transfer_state = 587
+			add_ideas = AKT_eye_for_an_eye
+		}
+		KOK = {
+			set_politics = {
+				ruling_party = social_conservative
+			}
+			create_country_leader = {
+				name = "Sultanakhmet Kozhikov"
+				desc = "POLITICS_SULTANAKHMET_KOZHIKOV_AM_DESC"
+				picture = "gfx/leaders/KOK/Portrait_Sultanakhmet_Kozhikov.dds"
+				expire = "1999.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+				}
+			}
+			transfer_state = 583
+			transfer_state = 590
+			transfer_state = 404
+			transfer_state = 589
+			add_ideas = KOK_scarred_steppes
+		}
+		MAG = {
+			set_politics = {
+				ruling_party = despotism
+			}
+			create_country_leader = {
+				name = "Nikolai Abramov"
+				desc = "POLITICS_NIKOLAI_ABRAMOV_AM_DESC"
+				picture = "gfx/leaders/MAG/Portrait_Magadan_Nikolai_Abramov.dds"
+				expire = "1999.1.1"
+				ideology = despotism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 562
+			add_ideas = {
+				MAG_shiver_my_soul
+				MAG_greed_and_felony
+			}
+		}
+		ERS = {
+			set_politics = {
+				ruling_party = authoritarian_democrat
+			}
+			create_country_leader = {
+				name = "Alexander Zinoviev"
+				desc = "POLITICS_ALEXANDER_ZINOVIEV_AM_DESC"
+				picture = "gfx/leaders/ERS/Portrait_ERS_Alexander_Zinoviev.dds"
+				expire = "1999.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+				}
+			}
+			transfer_state = 576
+			transfer_state = 888
+			transfer_state = 887
+			transfer_state = 578
+			transfer_state = 577
+			transfer_state = 516
+			add_ideas = {
+				ERS_legacy_of_the_salons
+				ERS_Crumbling_City
+			}
+		}
+		OMS = {
+			set_politics = {
+				ruling_party = ultranational_socialism
+			}
+			create_country_leader = {
+				name = "Abaddon"
+				desc = "POLITICS_ABADDON_AM_DESC"
+				picture = "gfx/leaders/OMS/Portrait_Omsk_Abaddon.dds"
+				expire = "1999.1.1"
+				ideology = ultranational_socialism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 571
+			add_ideas = {
+				OMS_evil_unbound
+				OMS_deranged_cult
+			}
+		}
+		BAS = {
+			set_politics = {
+				ruling_party = communist
+			}
+			create_country_leader = {
+				name = "Nikolai Kardashev"
+				desc = "POLITICS_NIKOLAI_KARDASHEV_AM_DESC"
+				picture = "gfx/leaders/NIK/Portrait_NIK_Nikolai_Kardashev.dds"
+				expire = "1999.1.1"
+				ideology = communist_subtype
+				traits = {
+				}
+			}
+			transfer_state = 754
+			add_ideas = {
+				BAS_visionary_enclave
+				BAS_cutting_edge
+			}
+		}
+		TOB = {
+			set_politics = {
+				ruling_party = ultranational_socialism
+			}
+			create_country_leader = {
+				name = "Alexander Lazarenko"
+				desc = "POLITICS_ALEXANDER_LAZARENKO_AM_DESC"
+				picture = "gfx/leaders/OMS/Portrait_Omsk_Alexander_Lazarenko.dds"
+				expire = "1999.1.1"
+				ideology = ultranational_socialism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 845
+			transfer_state = 580
+			transfer_state = 653
+			transfer_state = 572
+			transfer_state = 403
+			add_ideas = {
+				TOB_insular_enclave
+				TOB_redemptionary_service
+			}
+		}
+		BRY = {
+			set_politics = {
+				ruling_party = burgundian_system
+			}
+			create_country_leader = {
+				name = "Andrey Dikiy"
+				desc = "POLITICS_ANDREY_DIKIY_AM_DESC"
+				picture = "gfx/leaders/NIK/Portrait_NIK_Andrey_Dikiy_DDS.dds"
+				expire = "1999.1.1"
+				ideology = burgundian_system_subtype
+				traits = {
+				}
+			}
+			transfer_state = 564
+			transfer_state = 656
+			transfer_state = 760
+			add_ideas = {
+				BRY_all_alone
+			}
+		}
+		SAH = {
+			set_politics = {
+				ruling_party = despotism
+			}
+			create_country_leader = {
+				name = "Androniy Mishurenko"
+				desc = "POLITICS_ANDRONIY_MISHURENKO_AM_DESC"
+				picture = "gfx/leaders/KHA/Portrait_SBA_Androniy_Mishurenko.dds"
+				expire = "1999.1.1"
+				ideology = despotism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 567
+			add_ideas = {
+				SAH_Black_Bandits
+			}
+		}
+		WRS = {
+			set_politics = {
+				ruling_party = despotism
+			}
+			create_country_leader = {
+				name = "Alexander Altunin"
+				desc = "POLITICS_ALEXANDER_ALTUNIN_AM_DESC"
+				picture = "gfx/leaders/WRS/Portrait_WRS_Alexander_Altunin.dds"
+				expire = "1999.1.1"
+				ideology = despotism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 859
+			transfer_state = 858
+			transfer_state = 861
+			transfer_state = 214
+			transfer_state = 860
+			transfer_state = 862
+			transfer_state = 262
+			transfer_state = 870
+			transfer_state = 869
+			transfer_state = 863
+			add_ideas = {
+				WRS_nothing_left_but_the_people
+				WRS_impossible_position
+			}
+		}
+		IRK = {
+			set_politics = {
+				ruling_party = despotism
+			}
+			create_country_leader = {
+				name = "Alexei II"
+				desc = "POLITICS_ALEXEI_II_AM_DESC"
+				picture = "gfx/leaders/IRK/Portrait_Irkutsk_Alexei_II.dds"
+				expire = "1999.1.1"
+				ideology = despotism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 566
+			transfer_state = 758
+			set_popularities = {
+				communist = 4
+				ultranational_socialism = 0
+				socialist = 9
+				social_democrat = 22
+				social_liberal = 0
+				market_liberal = 0
+				social_conservative = 0
+				authoritarian_democrat = 0
+				despotism = 65
+				fascism = 0
+				burgundian_system = 0
+			}
+			add_ideas = {
+				IRK_the_pretender_of_the_people
+				IRK_a_red_tsar
+			}
+		}
+		AMR = {
+			set_politics = {
+				ruling_party = despotism
+			}
+			create_country_leader = {
+				name = "Anatoly Sobchak"
+				desc = "POLITICS_ANATOLY_SOBCHAK_AM_DESC"
+				picture = "gfx/leaders/AMR/Portrait_Amur_Anatoly_Sobchak.dds"
+				expire = "1999.1.1"
+				ideology = despotism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 886
+			transfer_state = 1364
+			transfer_state = 561
+			transfer_state = 563
+			add_ideas = AMR_critical_supply_shortage
+		}
+		ALT = {
+			set_politics = {
+				ruling_party = despotism
+			}
+			create_country_leader = {
+				name = "Boris I"
+				desc = "POLITICS_BORIS_I_AM_DESC"
+				picture = "gfx/leaders/KEM/Portrait_Kemerovo_Boris_Krylov_AM.dds"
+				expire = "1999.1.1"
+				ideology = despotism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 654
+			transfer_state = 569
+			transfer_state = 757
+			add_ideas = ALT_The_Practical_Kingdom
+		}
+		TAR = {
+			set_politics = {
+				ruling_party = authoritarian_democrat
+			}
+			create_country_leader = {
+				name = "Joint Council of the Free Peoples"
+				desc = "POLITICS_JOINT_COUNCIL_AM_DESC"
+				picture = "gfx/leaders/TAR/Portrait_Tatarstan_Joint_Council.dds"
+				expire = "1999.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+				}
+			}
+			transfer_state = 249
+			transfer_state = 399
+			transfer_state = 651
+			add_ideas = TAR_bitter_survivors
+		}
+		MAR = {
+			set_politics = {
+				ruling_party = burgundian_system
+			}
+			create_country_leader = {
+				name = "Yuri Evtukhovich"
+				desc = "POLITICS_YURI_EVTUKOVICH_AM_DESC"
+				picture = "gfx/leaders/NIK/Portrait_NIK_Yuri_Evtukovich.dds"
+				expire = "1999.1.1"
+				ideology = burgundian_system_subtype
+				traits = {
+				}
+			}
+			transfer_state = 864
+			add_ideas = MAR_horsemans_ride
+		}
+		URL = {
+			set_politics = {
+				ruling_party = authoritarian_democrat
+			}
+			create_country_leader = {
+				name = "Hadji-Umar Mamsurov"
+				desc = "POLITICS_HADJI_UMAR_MAMSUROV_AM_DESC"
+				picture = "gfx/leaders/URL/Portrait_Ural_League_Hadji_Umar_Mamsurov.dds"
+				expire = "1999.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+				}
+			}
+			transfer_state = 582
+			transfer_state = 848
+			transfer_state = 573
+			transfer_state = 753
+			transfer_state = 398
+			transfer_state = 871
+			add_ideas = URL_memories_of_heroism
+		}
+		KHA = {
+			set_politics = {
+				ruling_party = socialist
+			}
+			create_country_leader = {
+				name = "Yevgeniya Taratuta"
+				desc = "POLITICS_YEVGENIYA_TARATUTA_AM_DESC"
+				picture = "gfx/leaders/KHA/Portrait_SBA_Yevgeniya_Taratuta.dds"
+				expire = "1999.1.1"
+				ideology = socialist_subtype
+				traits = {
+				}
+			}
+			transfer_state = 814
+			transfer_state = 568
+			transfer_state = 329
+			add_ideas = KHA_Empty_Magazines_Full_Hearts
+		}
+		KMC = {
+			set_politics = {
+				ruling_party = authoritarian_democrat
+			}
+			create_country_leader = {
+				name = "Nikolai Artamonov"
+				desc = "POLITICS_NIKOLAI_ARTAMONOV_AM_DESC"
+				picture = "gfx/leaders/KMC/Portrait_KMC_Nikolai_Artamonov.dds"
+				expire = "1999.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+				}
+			}
+			transfer_state = 637
+			transfer_state = 891
+			add_ideas = KMC_a_light_from_the_east
+		}
+		ORE = {
+			set_politics = {
+				ruling_party = communist
+			}
+			create_country_leader = {
+				name = "Mikhail Pervukhin"
+				desc = "POLITICS_MIKHAIL_PERVUKHIN_AM_DESC"
+				picture = "gfx/leaders/ORE/Portrait_ORE_Mikhail_Pervukhin.dds"
+				expire = "1999.1.1"
+				ideology = communist_subtype
+				traits = {
+				}
+			}
+			transfer_state = 853
+			transfer_state = 852
+			transfer_state = 849
+			transfer_state = 652
+			transfer_state = 846
+			transfer_state = 847
+			add_ideas = {
+				ORE_new_land_of_iron
+				ORE_last_revolution
+			}
+		}
+		SAM = {
+			set_politics = {
+				ruling_party = social_conservative
+			}
+			create_country_leader = {
+				name = "Sergey Izvekov"
+				desc = "POLITICS_SERGEY_IZEKOV_AM_DESC"
+				picture = "gfx/leaders/KOM/Portrait_Yugra_Sergey_Mikhailovich_Izvekov.dds"
+				expire = "1999.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+				}
+			}
+			transfer_state = 252
+			transfer_state = 256
+			transfer_state = 250
+			transfer_state = 851
+			transfer_state = 850
+			add_ideas = {
+				SAM_beacon_in_the_wastes
+				SAM_blessed_isolation
+			}
+		}
+		MIR = {
+			set_politics = {
+				ruling_party = socialist
+			}
+			create_country_leader = {
+				name = "Ryszard Kuklinski"
+				desc = "POLITICS_RYSZARD_KUKLINSKI_AM_DESC"
+				picture = "gfx/leaders/DON/Portrait_Nowa_Polska_Ryszard_Kuklinski.dds"
+				expire = "1999.1.1"
+				ideology = socialist_subtype
+				traits = {
+				}
+			}
+			set_party_name = {
+				ideology = socialist
+				long_name = MIR_AM_party_long
+				name = MIR_AM_party
+			}
+			set_party_name = {
+				ideology = despotism
+				long_name = MIR_AM_party_long
+				name = MIR_AM_party
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = MIR_AM_party_long
+				name = MIR_AM_party
+			}
+			set_party_name = {
+				ideology = authoritarian_democrat
+				long_name = MIR_AM_party_long
+				name = MIR_AM_party
+			}
+			transfer_state = 251
+			transfer_state = 755
+			transfer_state = 407
+			add_ideas =	MIR_not_yet_lost
+		}
+		VOL = {
+			set_politics = {
+				ruling_party = fascism
+			}
+			create_country_leader = {
+				name = "Nikolay Talberg"
+				desc = "POLITICS_NIKOLAY_TALBERG_AM_DESC"
+				picture = "gfx/leaders/NIK/Portrait_NIK_Nikolay_Talberg.dds"
+				expire = "1999.1.1"
+				ideology = fascism_subtype
+				traits = {
+				}
+			}
+			transfer_state = 855
+			transfer_state = 351
+			transfer_state = 856
+			transfer_state = 857
+			add_ideas = {
+				VOL_corporate_pillars
+				VOL_fraying_strings
+			}
+		}
+		KOM = {
+			set_politics = {
+				ruling_party = despotism
+			}
+			create_country_leader = {
+				name = "Ivan Melkikh"
+				desc = "POLITICS_IVAN_MELKIKH_AM_DESC"
+				picture = "gfx/leaders/NIK/Portrait_NIK_Ivan_Melkikh.dds"
+				expire = "1999.1.1"
+				ideology = despotism_subtype
+				traits = {
+				}
+			}
+			844 = {
+				set_building_level = {
+					type = air_base
+					level = 2
+				}
+			}
+			transfer_state = 844
+			transfer_state = 756
+			transfer_state = 581
+			add_ideas = KOM_sky_reavers
+		}
+		FAV = {
+			set_politics = {
+				ruling_party = socialist
+			}
+			create_country_leader = {
+				name = "Alexander Zvyagin"
+				desc = "POLITICS_ALEXANDER_ZVYAGIN_AM_DESC"
+				picture = "gfx/leaders/FAV/Portrait_Nenetsia_Alexander_Zvyagin.dds"
+				expire = "1999.1.1"
+				ideology = socialist_subtype
+				traits = {
+				}
+			}
+			transfer_state = 579
+			add_ideas = FAV_depleted_population
+		}
+		VIL = {
+			create_country_leader = {
+				name = "The Wilderness"
+				desc = "POLITICS_WILDERNESS_DESC"
+				picture = "gfx/leaders/OMO/Portrait_Kamchatka_No_Authority.tga"
+				expire = "3000.1.1"
+				ideology = socialist_subtype
+				traits = {}
+			}
+			set_victory_points = {
+				province = 13059
+				value = 10
+			}
+			CHK = { #Reset Vilyuy's capital
+				annex_country = {
+					target = VIL 
+				}
+			}
+			transfer_state = 644
+			transfer_state = 759
+			transfer_state = 889
+			transfer_state = 574
+			transfer_state = 890
+			transfer_state = 761
+			transfer_state = 575
+		}
+		every_country = {
+			limit = {
+				OR = {
+					is_kazakh_nation = yes
+					AND = {
+						is_russian_nation = yes
+						is_moskowien_splits = no
+					}
+				}
+			}
+			every_owned_state = {
+				remove_core_of = NIK
+			}
+			TNO_AM_country_setup = yes
+		}
+		set_global_flag = AFTER_MIDNIGHT_COMMENCED
+		TNO_AM_Assign_Generals = yes
+		news_event = {
+			id = WORLD.18111
+		}
+ 	}
+}
+news_event = { #Semin unites Russia
+	id = meme_sudin.1185
+	immediate = {log = "[GetDateText]: [Root.GetName]: event meme_sudin.1185"}
+	title = meme_sudin.1185.t
+	desc = meme_sudin.1185.desc
+	picture = GFX_news_event_russia_sudin_national
+
+	is_triggered_only = yes
+
+	option = { #
+		name = meme_sudin.1185.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			tag = ORE
+		}
+		if = {
+            limit = {
+                is_ai = no
+            }
+        }
+	}

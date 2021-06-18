@@ -1,0 +1,302 @@
+#### TEMPLATES SUPPLIED BY FLAVIFEELS. ALL OOB RESEARCH GOES TO HIM.
+
+
+division_template = {
+    name = "Division de Infanteria"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        elite_infantry = { x = 0 y = 2 }
+        elite_infantry = { x = 1 y = 2 }
+        artillery_brigade = { x = 0 y = 3 }
+        artillery_brigade = { x = 1 y = 3 }
+    }
+    support = { 
+        engineer = { x = 0 y = 0 }
+        scout_helicopter_company = { x = 0 y = 1 }
+        logistics_company = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 3 }
+    }
+}
+division_template = {
+    name = "Division de Infanteria Mecanizada"
+    regiments = {
+        APC = { x = 0 y = 0 }
+        APC = { x = 1 y = 0 }
+        APC = { x = 0 y = 1 }
+        APC = { x = 1 y = 1 }
+        MBT = { x = 2 y = 0 }
+        MBT = { x = 2 y = 1 }
+        mot_artillery_brigade = { x = 0 y = 2 }
+        mot_artillery_brigade = { x = 1 y = 2 }
+    }
+    support = {
+        ifv_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        logistics_company = { x = 0 y = 2}
+        signal_company = { x = 0 y = 3}
+    }
+}
+division_template = {
+    name = "Division de Caballeria Blindada"
+    regiments = {
+        MBT = { x = 0 y = 0 }
+        MBT = { x = 1 y = 0 }
+        MBT = { x = 0 y = 1 }
+        MBT = { x = 1 y = 1 }
+        APC = { x = 2 y = 0 }
+        APC = { x = 2 y = 1 }
+        sp_artillery_brigade = { x = 3 y = 0 }
+        sp_artillery_brigade = { x = 3 y = 1 }
+    }
+    support = {
+        ifv_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        logistics_company = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 3 }
+    }
+}
+division_template = {
+    name = "Division de Infanteria de Montaña"
+    regiments = {
+        mountaineers = { x = 0 y = 0 }
+        mountaineers = { x = 1 y = 0 }
+        mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 1 y = 1 }
+        mountaineers = { x = 0 y = 2 }
+        mountaineers = { x = 1 y = 2 }
+        artillery_brigade = { x = 0 y = 3 }
+        artillery_brigade = { x = 1 y = 3 }
+    }
+    support = { 
+        engineer = { x = 0 y = 0 }
+        scout_helicopter_company = { x = 0 y = 1 }
+        logistics_company = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 3 }
+    }
+}
+division_template = {
+    name = "Division Aerotransportada"
+    regiments = {
+        air_assault = { x = 0 y = 0 }
+        air_assault = { x = 1 y = 0 }
+        air_assault = { x = 0 y = 1 }
+        air_assault = { x = 1 y = 1 }
+    }
+    support = {
+        transport_helicopter_company = { x = 0 y = 0 }
+        scout_helicopter_company = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+        engineer = { x = 0 y = 3 }
+        logistics_company = { x = 0 y = 4 }
+    }
+}
+division_template = {
+    name = "Division de Infanteria de Marina"
+    regiments = {
+        marine = { x = 0 y = 0 }
+        marine = { x = 1 y = 0 }
+        marine = { x = 0 y = 1 }
+        marine = { x = 1 y = 1 }
+        artillery_brigade = { x = 0 y = 2 }
+        artillery_brigade = { x = 1 y = 2 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        anti_air = { x = 0 y = 1 }
+        logistics_company = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 3 }
+        IFV_recon = { x = 0 y = 4 }
+    }
+}
+
+
+units = {
+    division = {
+        name = "9no Regimiento Mecanizado"
+        location = "10953"
+        division_template = "Division de Infanteria Mecanizada"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+    }
+    
+    division = {
+        name = "10mo Regimiento Mecanizado"
+        location = "12379"
+        division_template = "Division de Infanteria Mecanizada"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "8vo Regimiento de Montaña"
+        location = "10992"
+        division_template = "Division de Infanteria de Montaña"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "6to Regimiento de Montaña"
+        location = "12306"
+        division_template = "Division de Infanteria de Montaña"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "2do Regimiento de Caballeria Blindada"
+        location = "1449"
+        division_template = "Division de Caballeria Blindada"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "1er Regimiento de Caballeria Blindada"
+        location = "4602"
+        division_template = "Division de Caballeria Blindada"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.67
+    }
+
+    division = {
+        name = "3er Regimiento de Infanteria"
+        location = "2106"
+        division_template = "Division de Infanteria"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.9
+    }
+
+    division = {
+        name = "12do Regimiento de Infanteria"
+        location = "12964"
+        division_template = "Division de Infanteria"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.9
+    }
+
+    division = {
+        name = "5to Regimiento de Infanteria"
+        location = "12970"
+        division_template = "Division de Infanteria"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.9
+    }
+
+    division = {
+        name = "Comando de la Infanteria de Marina"
+        location = "1639"
+        division_template = "Division de Infanteria de Marina"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.7
+    }
+    
+    division = {
+        name = "Fuerza de Infanteria de Marina Austral"
+        location = "11009"
+        division_template = "Division de Infanteria de Marina"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.7
+    }
+
+    division = {
+        name = "4to Regimiento de Aerotransportada"
+        location = "12942"
+        division_template = "Division Aerotransportada"
+        start_experience_factor = 0.7
+        start_equipment_factor = 0.65
+    }
+}
+
+### Place Holder Positioning in Paranas, place of the Second Brigade ###
+### LEGEND ###
+### (I) = Interceptors ###
+### (AAT) = Ataque a Tierra. CAS ###
+### (C) = Cazas. Fighters ###
+### (ESTRAT) = Bombarderos Estrategicos. Strategic Bombers ###
+
+air_wings = {
+
+    510 = { ##Paranas##
+        jet_tac_bomber_equipment_1 = {
+            owner = "ARG"
+            amount = 48
+        }
+        name = "II Brigada Aérea"
+    }
+
+    510 = { ##Reconquista##
+        CAS_equipment_1 = {
+            owner = "ARG"
+            amount = 48
+        }
+        name = "III Brigada Aérea"
+    }
+
+    511 = { ##Mendoza##
+        jet_fighter_equipment_2 = {
+            owner = "ARG"
+            amount = 24
+        }
+    name = "IV Brigada Aérea (C)"
+    }
+
+    511 = { ##Mendoza##
+        CAS_equipment_1 = {
+            owner = "ARG"
+            amount = 48
+        }
+        name = "IV Brigada Aérea (AAT)"
+    }
+
+    510 = { ##Villa Mercedes##
+        jet_interceptor_equipment_1 = {
+            owner = "ARG"
+            amount = 24
+        }
+        name = "V Brigada Aérea (I)"
+    }
+
+    510 = { ##Villa Mercedes##
+        jet_strat_bomber_equipment_1 = {
+            owner = "ARG"
+            amount = 36
+        }
+        name = "V Brigada Aérea (ESTRAT)"
+    }
+    
+    510 = { ##Tandil##
+        jet_fighter_equipment_1 = {
+            owner = "ARG"
+            amount = 24
+        }
+        name = "VI Brigada Aérea (C)"
+    }
+
+    510 = { ##Tandil##
+        CAS_equipment_1 = {
+            owner = "ARG"
+            amount = 48
+        }
+        name = "VI Brigada Aérea (AAT)"
+    }
+
+    510 = { ##Moron##
+        transport_plane_equipment_3 = {
+            owner = "ARG"
+            amount = 6
+        }
+        name = "VII Brigada Aérea"
+    }
+
+    510 = { ##Comodoro Rivadavia##
+        transport_plane_equipment_4 = {
+            owner = "ARG"
+            amount = 6
+        }
+        name = "IX Brigada Aérea"
+    }
+}

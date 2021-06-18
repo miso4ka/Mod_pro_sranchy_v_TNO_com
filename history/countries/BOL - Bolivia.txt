@@ -1,0 +1,47 @@
+capital = 302
+
+oob = "BOL_1962"
+
+add_ideas = {
+	#Ministers
+	BOL_Mario_R_Gutierrez_minister
+	BOL_Raul_Lema_Pelaez_minister
+	BOL_Floriano_Mendieta_minister
+	BOL_Luiz_Garcia_Meza_hog
+	#Ideas
+	#BOL_germania_boot
+	#BOL_anti_nationalist_attitude
+	#BOL_german_training
+}
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communist = 10
+    socialist = 5
+    social_democrat = 12
+    social_liberal = 14
+    market_liberal = 0
+    social_conservative = 8
+    authoritarian_democrat = 30
+    despotism = 21
+    fascism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Hugo Banzer Suárez"
+	picture = "Portrait_BOL_Hugo_Banzer.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

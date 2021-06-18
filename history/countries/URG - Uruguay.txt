@@ -1,0 +1,309 @@
+capital = 300
+
+oob = "URG_1962"
+
+### variables ###
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1958.11.30"
+	election_frequency = 4
+	elections_allowed = yes
+
+}
+
+### Placeholder Tech, copy and pasted from the argentine history file ###
+
+set_technology = {
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	infantry_weapons_improvements_5 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	night_vision_1 = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	night_vision_2 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	
+	motorized_infantry = 1
+	motorized_rocket_unit = 1
+	motorized_infantry_1 = 1
+	marines = 1
+	marines2 = 2
+	tech_mountaineers = 1
+	tech_mountaineers2 = 1
+	tech_mountaineers3 = 1
+	paratroopers = 1
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers2 = 1
+	tech_engineers_flamethrowers_2 = 1
+	tech_engineers3 = 1
+	tech_engineers_flamethrowers_3 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	tech_scout_helicopter_company = 1
+	tech_transport_helicopter_company = 1
+	
+	##ARMOR##
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	APC_1950_basic_armor = 1
+	APC_1960 = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+	MBT_1950_basic_armor = 1
+	
+	##ARTILLERY##
+	
+	antiair5 = 1
+	antiair_1950 = 1
+	light_SPAA_1950 = 1
+	light_SPAA_1960 = 1
+	SPAA_1950 = 1
+	gw_artillery = 1
+	artillery4 = 1
+	artillery_1950 = 1
+	light_SPART_1950 = 1
+	light_SPART_1950_soft_attack = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+
+	###AERIAL###
+
+	early_fighter = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	fighter_1945 = 1
+	cv_1945_fighter = 1
+	fighter_1950 = 1
+	cv_1950_fighter = 1
+	fighter_1960 = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	CAS_1945 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+	transport_air_1960 = 1
+	scout_plane_1945 = 1
+
+	###HELICOPTERS##
+
+	very_early_helicopter = 1
+	early_helicopter = 1
+	scout_helicopter_1960 = 1
+	transport_helicopter_1960 = 1
+
+	###MISC###
+	helicopter_engines = 1
+
+	#### ENGINEERING ####
+	electronic_mechanical_engineering = 1
+
+	radio = 1
+	radio_detection = 1
+
+	decimetric_radar = 1
+	centimetric_radar = 1
+
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+
+	#### INDUSTRY ####
+
+	ww2_line_production = 1
+
+	countrywide_improvements = 1
+
+	constructionmethods = 1
+	construction0 = 1
+	construction1 = 1
+	military_construction0 = 1
+
+	resource_extraction_methods = 1
+}
+
+set_popularities = {
+    communist = 3
+    ultranational_socialism = 2
+    socialist = 3
+    social_democrat = 4
+    social_liberal = 22
+    social_conservative = 30
+    authoritarian_democrat = 22
+    despotism = 10
+    fascism = 4
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "National Executive Council"
+	desc = "POLITICS_COUNCILURG_DESC"
+	picture = "Portrait_Palacio_Legislativo.dds"
+	expire = "2100.2.2"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Raul \"Bebe\" Sendic"
+	desc = "POLITICS_SENDIC_DESC"
+	picture = "Portrait_Raul_Sendic.dds"
+	expire = "2100.2.2"
+	ideology = socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "National Executive Council"
+	desc = "POLITICS_COUNCILURG_DESC"
+	picture = "Portrait_Palacio_Legislativo.dds"
+	expire = "2100.2.2"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "National Executive Council"
+	desc = "POLITICS_COUNCILURG_DESC"
+	picture = "Portrait_Palacio_Legislativo.dds"
+	expire = "2100.2.2"
+	ideology = communist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "National Executive Council"
+	desc = "POLITICS_COUNCILURG_DESC"
+	picture = "Portrait_Palacio_Legislativo.dds"
+	expire = "2100.2.2"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "National Executive Council"
+	desc = "POLITICS_COUNCILURG_DESC"
+	picture = "Portrait_Palacio_Legislativo.dds"
+	expire = "2100.2.2"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "National Executive Council"
+	desc = "POLITICS_COUNCILURG_DESC"
+	picture = "Portrait_Palacio_Legislativo.dds"
+	expire = "2100.2.2"
+	ideology = despotism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "National Executive Council"
+	desc = "POLITICS_COUNCILURG_DESC"
+	picture = "Portrait_Palacio_Legislativo.dds"
+	expire = "2100.2.2"
+	ideology = national_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "National Executive Council"
+	desc = "POLITICS_COUNCILURG_DESC"
+	picture = "Portrait_Palacio_Legislativo.dds"
+	expire = "2100.2.2"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "National Executive Council"
+	desc = "POLITICS_COUNCILURG_DESC"
+	picture = "Portrait_Palacio_Legislativo.dds"
+	expire = "2100.2.2"
+	ideology = fascism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = { # fuck off we're not doing burgsys uruguay
+	name = "Disorganized cells"
+	desc = "POLITICS_HOWDIDYOUEVENGETTHIS_DESC"
+	picture = "Portrait_WHAT.dds"
+	expire = "2100.2.2"
+	ideology = burgundian_system_subtype
+	traits = {
+		
+	}
+}
+
+add_ideas = {
+	#spirits
+	URG_free_breadbasket
+	URG_sectarian_violence
+	URG_Switzerland_of_Latin_America
+	#ministers
+	URG_Victor_Haedo_hog
+	URG_Homero_Martinez_pol
+	URG_Juan_Eduardo_Azzini_eco
+	URG_Nicolas_Storace_sec
+}
+
+add_manpower = 21752
+### placeholder until modifications to the state can be made

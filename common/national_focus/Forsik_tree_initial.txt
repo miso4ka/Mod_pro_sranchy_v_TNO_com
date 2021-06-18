@@ -1,0 +1,144 @@
+focus_tree = {
+	id = Forsik_tree_initial
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ORE
+		}
+	}
+	default = no
+	focus = {
+		id = MIS_legit_ruler
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = MIS_find_support_vk
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MIS_legit_ruler
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = MIS_open_borders
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MIS_legit_ruler
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = MIS_strengthen_interigation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MIS_find_support_vk
+		}
+		prerequisite = {
+			focus = MIS_open_borders
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = MIS_chronicles_of_war
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MIS_strengthen_interigation
+		}
+		mutually_exclusive = {
+			focus = MIS_no_time_for_child_play
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = MIS_no_time_for_child_play
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MIS_strengthen_interigation
+		}
+		mutually_exclusive = {
+			focus = MIS_chronicles_of_war
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = MIS_watch_eva
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MIS_no_time_for_child_play
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = MIS_play_tno
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MIS_no_time_for_child_play
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = MIS_watch_miso
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MIS_no_time_for_child_play
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = MIS_remember_sans_spiedel_watches
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MIS_watch_eva
+		}
+		prerequisite = {
+			focus = MIS_play_tno
+		}
+		prerequisite = {
+			focus = MIS_watch_miso
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = MIS_mod_is_complete
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MIS_chronicles_of_war
+		}
+		x = 6
+		y = 4
+
+	}
+}

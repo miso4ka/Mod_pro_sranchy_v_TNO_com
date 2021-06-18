@@ -1,0 +1,44 @@
+
+state={
+	id=495
+	name="STATE_495"
+	resources={
+		aluminium=22.000
+		rubber=60.000
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			12853 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			10934 5
+		}
+		victory_points = {
+			12853 5 
+		}
+		victory_points = {
+			4980 3 
+		}
+		victory_points = {
+			10874 10 
+		}
+		victory_points = {
+			2035 3 
+		}
+	}
+
+	provinces={
+		1979 2198 5083 5214 5216 5232 8185 8254 10934 10960 12919 12965 13083
+		5008 2035 8172 10956 2214 12999 12853 10874 4980
+	}
+	manpower= 2718093
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

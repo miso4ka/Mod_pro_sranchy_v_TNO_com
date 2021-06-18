@@ -1,0 +1,269 @@
+﻿capital = 301
+
+
+oob = "PAR_1962"
+
+
+
+set_politics = {	
+
+	ruling_party = fascism	
+	last_election = "1940.1.20"
+
+	election_frequency = 48
+	
+	elections_allowed = no
+
+}
+
+add_opinion_modifier = { target = BRA modifier = SOUTHAM_guaira }
+add_opinion_modifier = { target = USA modifier = SOUTHAM_guaira }
+BRA = { add_opinion_modifier = { target = PAR modifier = SOUTHAM_guaira } }
+USA = { add_opinion_modifier = { target = PAR modifier = SOUTHAM_guaira } }
+
+add_opinion_modifier = { target = ARG modifier = PAR_black_spot }
+add_opinion_modifier = { target = BRA modifier = PAR_black_spot }
+add_opinion_modifier = { target = CHL modifier = PAR_black_spot }
+add_opinion_modifier = { target = BOL modifier = PAR_black_spot }
+add_opinion_modifier = { target = PRU modifier = PAR_black_spot }
+add_opinion_modifier = { target = COL modifier = PAR_black_spot }
+add_opinion_modifier = { target = VEN modifier = PAR_black_spot }
+add_opinion_modifier = { target = ECU modifier = PAR_black_spot }
+add_opinion_modifier = { target = GUY modifier = PAR_black_spot }
+add_opinion_modifier = { target = URG modifier = PAR_black_spot }
+ARG = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+BRA = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+CHL = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+BOL = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+PRU = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+COL = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+VEN = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+ECU = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+GUY = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+URG = { add_opinion_modifier = { target = PAR modifier = PAR_black_spot } }
+
+set_popularities = {
+	communist = 6	
+	socialist = 0
+	social_democrat = 3
+	social_liberal = 3
+	market_liberal = 0
+	social_conservative = 14
+	authoritarian_democrat = 12	
+	despotism = 0
+	fascism = 37
+	national_socialism = 23
+	ultranational_socialism = 0
+	burgundian_system = 2
+}
+
+
+
+add_ideas = {
+	##Spirits
+		
+		PAR_bastion_of_latin_american_fascism
+	
+	##Ministers
+	
+		juan_natalicio_gonzalez_hog
+	
+		auguste_ricord_sec
+
+		epifano_mendez_fleitas_for
+	
+		amancio_pampliega_eco
+	
+	##Laws
+	
+		#Political
+	
+			tno_political_parties_one_party_state
+	
+			tno_religious_rights_secularism
+	
+			tno_trade_unions_illegal
+	
+			tno_immigration_quota_immigration
+	
+			tno_slavery_outlawed
+	
+			tno_public_meetings_regulated
+	
+			tno_vote_franchise_elite_voting
+	
+			tno_refugees_banned
+	
+		#Military
+	
+			tno_conscription_two_year_draft
+	
+			tno_women_banned
+	
+			tno_military_supervision_no_supervision
+	
+			tno_military_spending_large_spending
+	
+			tno_training_basic_training
+	
+			tno_racial_integration_segregated_regiments
+	
+			tno_draft_exemptions_none
+	
+		#Economic
+	
+			tno_trade_laws_export_focus
+	
+			tno_economic_focus_early_mobilization
+	
+			tno_tax_rate_low_taxation
+	
+			tno_income_taxation_elite_tax_exemptions
+	
+			tno_minimum_wage_trinket_minimum_wage
+	
+			tno_max_workhours_14_hour_work_day
+	
+			tno_child_labor_restricted
+	
+			tno_pensions_trinket_pensions
+	
+			tno_unemployment_no_subsidies
+	
+		#Social
+	
+			tno_safety_minimal_regulations
+
+			tno_health_care_private_health_care
+	
+			tno_pollution_few_regulations
+	
+			tno_education_public_education
+	
+			tno_penal_system_penal_labor
+	
+			tno_lgbt_rights_lgbt_outlawed
+	
+			tno_gender_rights_traditional_roles
+	
+			tno_minorities_segregation
+	
+			tno_security_police
+	
+		##Social Development
+	
+			tno_academic_base_basic_literacy
+	
+			tno_research_facilities_outdated
+	
+			tno_agriculture_centralized
+	
+			tno_industrial_equipment_power_tools
+	
+			tno_industrial_expertise_incompetent
+	
+			tno_army_professionalism_cronyism
+	
+			tno_nuclear_stockpile_none
+	
+			tno_poverty_rate_50
+
+}
+
+
+
+### Leaders ###
+
+#Fascist
+	
+create_country_leader = {
+	name = "Higinio Morínigo"
+	picture = "Portrait_PAR_Higinio_Morínigo.dds"
+	desc = "Paraguay_Higinio_Morinigo_desc"
+	expire = "1990.1.1"
+	ideology = fascism_subtype
+	traits = { 
+			dictator
+	}
+}
+
+#AuthSoc
+
+create_country_leader = {
+	name = "Miguel Ángel Soler"
+	picture = "Portrait_Paraguay_Miguel_Angel_Soler.dds"
+	desc = "Paraguay_Miguel_Angel_Soler_desc"
+	expire = "1990.1.1"
+	ideology = communist_subtype
+	
+	traits = {
+		#Placeholder
+		red_caudillo
+		rebel_leader
+	}
+}
+	
+create_country_leader = {
+	name = "Rafael Franco"
+	picture = "Portrait_Paraguay_Rafael_Franco.dds"
+	desc = "Paraguay_Rafael_Franco_desc"
+	expire = "1990.1.1"
+	ideology = social_democrat_subtype
+	traits = { 
+		old_hero
+	}
+}
+
+create_country_leader = {
+	name = "Power Vacuum"
+	picture = "Portrait_PAR_Liberales_Vacuum"
+	desc = "Paraguay_Liberales_Vacuum_desc"
+	expire = "1990.1.1"
+	ideology = social_liberal_subtype
+	traits = { 
+		old_hero
+	}
+}
+
+create_country_leader = {
+	name = "Frederico Chávez"
+	picture = "Portrait_PAR_Frederico_Chavez.dds"
+	desc = "Paraguay_Frederico_Chavez_desc"
+	expire = "1990.1.1"
+	ideology = social_conservative_subtype
+	traits = { 
+		strongman
+	}
+}
+	
+create_country_leader = {
+	name = "Epifano Mendez Fleitas"
+	picture = "Portrait_PAR_Epifano_Mendez_Fleitas.dds"
+	desc = "Paraguay_Mendez Fleitas_desc"
+	expire = "1990.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		affable_puppet 
+	}
+}
+
+create_country_leader = {
+	name = "Mutshuito Villasboa"
+	picture = "Portrait_PAR_Mutshuito_Villasboa.dds"
+	desc = "Paraguay_Mutshuito_Villasboa_desc"
+	expire = "1990.1.1"
+	ideology = national_socialism_subtype
+	traits = {
+		little_caudillo
+		flippant_ideologue
+	}
+}
+
+create_country_leader = {
+	name = "[REDACTED]"
+	picture = "Portrait_PAR_Liberales_Vacuum.dds"
+	desc = "Paraguay_Liberales_Vacuum_desc"
+	expire = "1990.1.1"
+	ideology = burgundian_system_subtype
+	traits = {}
+}
