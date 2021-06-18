@@ -1,10 +1,10 @@
 add_namespace = meme_sudin
 
 country_event = {
-	id = meme_sudin.0
-	immediate meme_sudin { log = "[GetDateText]: [Root.GetName]: event meme_sudin.0" }
-	title = meme_sudin.0.t
-	desc = meme_sudin.0.d
+	id = Test_debug.0
+	immediate - { log = "[GetDateText]: [Root.GetName]: event Test_debug.0" }
+	title = Test_debug.0.t
+	desc = Test_debug.0.d
 	picture = GFX_report_event_german_radio_espionage
 	
 	fire_only_once = yes
@@ -12,31 +12,16 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = meme_sudin.0.a
-				create_country_leader = {
-				name = "Comrade Sudin"
-				desc = "POLITICS_SUDIN_DESC"
-				picture = "gfx/leaders/ORE/Comrade_Sudin.dds"
-				expire = "1999.1.1"
-				ideology = communist_subtype
-			}
-	set_politics = {
-	ruling_party = communist
-	elections_allowed = no
-    }
-		load_focus_tree = SUDIN_tree
-	add_ideas = {
-	Sudin_defend_revolution
-	Sudin_beetwen_tno_infighting
-	Sudin_fightback_from_shturmoviks
-	}
-}
-}
+		name = Test_debug.0.a
+        }
+   
+   }
+   
 country_event = {
-	id = meme_sudin.1984
-	immediate meme_sudin { log = "[GetDateText]: [Root.GetName]: event meme_sudin.0" }
-	title = meme_sudin.1984.t
-	desc = meme_sudin.1984.d
+	id = Test_debug.1984
+	immediate Test_debug { log = "[GetDateText]: [Root.GetName]: event meme_sudin.0" }
+	title = Test_debug.1984.t
+	desc = Test_debug.1984.d
 	picture = GFX_report_event_german_radio_espionage
 	
 	fire_only_once = yes
@@ -44,7 +29,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-			name = meme_sudin.1984.a
+			name = Test_debug.1984.a
        NIK = {
 			transfer_state = 866
 			transfer_state = 397
@@ -649,24 +634,3 @@ country_event = {
 		}
  	}
 }
-news_event = { #Semin unites Russia
-	id = meme_sudin.1185
-	immediate = {log = "[GetDateText]: [Root.GetName]: event meme_sudin.1185"}
-	title = meme_sudin.1185.t
-	desc = meme_sudin.1185.desc
-	picture = GFX_news_event_russia_sudin_national
-
-	is_triggered_only = yes
-
-	option = { #
-		name = meme_sudin.1185.a
-		ai_chance = { factor = 1 }
-		trigger = {
-			tag = ORE
-		}
-		if = {
-            limit = {
-                is_ai = no
-            }
-        }
-	}
