@@ -9,7 +9,6 @@ dependencies={
 	"The New Order: Last Days of Europe"
 }
 replace_path="common/country_tags"
-replace_path="localisation"
 replace_path="events"
 name="Edniy TNO MOD"
 supported_version="1.10.*"
