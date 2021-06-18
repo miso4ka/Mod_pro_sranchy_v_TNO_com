@@ -1,6 +1,6 @@
 ﻿capital = 397
 
-oob = "NIK_1962"
+oob = "NIK_AM"
 
 add_manpower = 12000
 
