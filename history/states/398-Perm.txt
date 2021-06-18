@@ -9,14 +9,14 @@ state={
 	}
 
 	history={
-		owner = MAR
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 		}
 		victory_points = { 12187 3 }
 		victory_points = { 12527 7 }
-		add_core_of = MAR
+		add_core_of = NIK
 
 	}
 

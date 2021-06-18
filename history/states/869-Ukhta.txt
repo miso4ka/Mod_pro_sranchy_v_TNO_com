@@ -11,7 +11,7 @@ state={
 		1295 4298 7712 7898 10579 12558 9225
 	}
 	history={
-		owner = UKH
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -21,7 +21,7 @@ state={
 		victory_points = { 1295 15 }
 		victory_points = { 7898 3 }
 		victory_points = { 7712 5 }
-		add_core_of = UKH
+		add_core_of = NIK
 	}
 	manpower=188000
 	state_category=town

@@ -6,13 +6,13 @@ state={
 		75 106 174 2996 3157 3175 6097 9110 9131 9168 9199 9202 11095 11107 11143 11177 11189 11213 
 	}
 	history={
-		owner = VOL
+		owner = NIK
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		victory_points = { 3175 1 }
-		add_core_of = VOL
+		add_core_of = NIK
 		add_claim_by = MCW
 	}
 		manpower=121000

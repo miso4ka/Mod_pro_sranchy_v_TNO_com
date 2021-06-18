@@ -6,7 +6,7 @@ state={
 		steel = 10
 	}
 	history={
-		owner = VOL
+		owner = NIK
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -15,8 +15,7 @@ state={
 		victory_points = { 11035 3 }
 		victory_points = { 11035 3 }
 		victory_points = { 9136 1 }
-		add_core_of = VOL
-		add_claim_by = MCW
+		add_core_of = NIK
 	}
 
 	provinces={

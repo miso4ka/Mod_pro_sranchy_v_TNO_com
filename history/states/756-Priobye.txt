@@ -4,13 +4,13 @@ state={
 	name="STATE_756"
 
 	history={
-		owner = KOM
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = { 7796 1 }
 		victory_points = { 13348 5 }
-		add_core_of = KOM
+		add_core_of = NIK
 	}
 	resources={
 		oil = 7

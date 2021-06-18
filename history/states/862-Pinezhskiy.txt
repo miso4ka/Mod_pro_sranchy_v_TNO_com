@@ -9,12 +9,12 @@ state={
 		87 180 3075 6016 6105 9041 11042 11089 
 	}
 	history={
-		owner = WRS
+		owner = NIK
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = { 9041 1 }
-		add_core_of = WRS
+		add_core_of = NIK
 	}
 	manpower=71000
 	state_category=pastoral

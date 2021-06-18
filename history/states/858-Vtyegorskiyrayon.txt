@@ -6,12 +6,12 @@ state={
 		89 166 3160 6017 6109 11036 11103 
 	}
 	history={
-		owner = VTY
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = { 6017 1 }
-		add_core_of = VTY
+		add_core_of = NIK
 	}
 	manpower=37000
 	state_category=pastoral

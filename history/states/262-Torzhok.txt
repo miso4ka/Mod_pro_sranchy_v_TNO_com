@@ -6,7 +6,7 @@ state={
 		aluminium = 10
 	}
 	history={
-		owner = WRS
+		owner = NIK
 		buildings = {
 			infrastructure = 4
 			12530 = {
@@ -16,7 +16,7 @@ state={
 
 		}
 		victory_points = { 105 1 }
-		add_core_of = WRS
+		add_core_of = NIK
 
 	}
 

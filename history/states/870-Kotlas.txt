@@ -9,12 +9,12 @@ state={
 		3081 3155 7330 11200 13347 
 	}
 	history={
-		owner = MIR
+		owner = NIK
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = { 11200 1 }
-		add_core_of = MIR
+		add_core_of = NIK
 	}
 	manpower=42000
 	state_category=rural

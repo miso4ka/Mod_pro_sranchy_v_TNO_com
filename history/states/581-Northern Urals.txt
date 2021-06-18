@@ -10,12 +10,12 @@ state={
 	}
 
 	history={
-		owner = KOM
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = { 10551 1 }
-		add_core_of = KOM
+		add_core_of = NIK
 	}
 
 	provinces={

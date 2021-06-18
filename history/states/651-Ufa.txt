@@ -6,7 +6,7 @@ state={
 		oil = 7
 	}
 	history={
-		owner = BKR
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -14,7 +14,7 @@ state={
 		victory_points = { 273 15 }
 		victory_points = { 12172 5 }
 		victory_points = { 9385 10 }
-		add_core_of = BKR
+		add_core_of = NIK
 
 	}
 

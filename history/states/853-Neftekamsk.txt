@@ -10,12 +10,12 @@ state={
 		1258 1278 12130 10226
 	}
 	history={
-		owner = BKR
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = { 1278 3 }
-		add_core_of = BKR
+		add_core_of = NIK
 	}
 	manpower=115000
 	state_category=rural

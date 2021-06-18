@@ -9,13 +9,13 @@ state={
 		4314 4802 11195 12175 12587 
 	}
 	history={
-		owner = GAY
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 		}
 		victory_points = { 4314 3 }
-		add_core_of = GAY
+		add_core_of = NIK
 	}
 	manpower=31300
 	state_category=pastoral

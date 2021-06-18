@@ -6,7 +6,7 @@ state={
 		72 183 3065 6075 6166 9130 9187 11074 
 	}
 	history={
-		owner = MIR
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -14,8 +14,7 @@ state={
 		}
 		victory_points = { 9187 5 }
 		victory_points = { 72 10 }
-		add_core_of = MIR
-		add_claim_by = MCW
+		add_core_of = NIK
 	}
 	manpower=126000
 	state_category=town
