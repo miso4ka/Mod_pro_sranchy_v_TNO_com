@@ -12,10 +12,10 @@ add_ideas = {
 	PRM_aryan_control_3
 	PRM_aryan_schematics
 	##MINISTERS##
-	PRM_Ernst_Gruber_hog
-	PRM_Johan_Schwartz_for
-	PRM_Markus_Shtayner_eco
-	PRM_Siegfried_Schulz_sec
+	AM_Empty_hog 
+	AM_Empty_for 
+	AM_Empty_eco 
+	AM_Empty_sec 
 	##POLITICAL LAWS##
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_atheism
@@ -133,37 +133,26 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = national_socialism
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 0
-	ultranational_socialism = 0
-	national_socialism = 49
-	socialist = 0
-	social_democrat = 0
-	social_liberal = 0
-	market_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 29
-	despotism = 12
-	fascism = 10
-	burgundian_system = 0
+	fascism = 100
 }
 
 ### Country Leader ###
 create_country_leader = {
-	name = "Gutrum Vagner"
-	desc = "POLITICS_GUTRUM_VAGNER_DESC"
-	picture = "Portrait_Aryan_Brotherhood_Alexey_Dobrovolsky.dds"
+	name = "Konstantin Rodzaevsky"
+	#desc = "POLITICS_GUTRUM_VAGNER_DESC"
+	picture = "gfx/leaders/AMR/Portrait_Amur_Konstantin_Rodzaevsky_70s.dds"
 	expire = "1999.1.1"
-	ideology = national_socialism_subtype
-	traits = {
-		the_fyurer
-	}
+	ideology = fascism_subtype
+	#traits = {
+		#the_fyurer
+	#}
 }
 
 ### Generals ###
