@@ -14,10 +14,10 @@ add_ideas = {
 	RUS_terror_bombing
 	RUS_warlord_manpower
 	### MINISTERS ###
-	BKR_Gabdelbary_Isaev_hog
-	BKR_Muhammed_Gabdulkhay_Kurbangaliev_for
-	BKR_Midhat_Shakirov_eco
-	BKR_Tagir_Kusimov_sec
+	AM_Empty_hog
+	AM_Empty_for
+	AM_Empty_eco
+	AM_Empty_sec
 	##POLITICAL LAWS##
 	tno_political_parties_controlled_opposition
 	tno_religious_rights_state_religion
@@ -105,34 +105,23 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = communist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 9
-	ultranational_socialism = 0
-	national_socialism = 0
-	socialist = 6
-	social_democrat = 0
-	social_liberal = 0
-	market_liberal = 0
-	social_conservative = 19
-	authoritarian_democrat = 66
-	despotism = 0
-	fascism = 0
-	burgundian_system = 0
+	communist = 100
 }
 
 ### Country Leaders ###
 create_country_leader = {
-	name = "Ähmätzäki Välidi Tuġan"
-	desc = "POLITICS_VALIDI_TUGAN_DESC"
-	picture = "Portrait_Bashkiria_Validi_Tugan.dds"
+	name = "Butylka Kumysa"
+	#desc = "POLITICS_VALIDI_TUGAN_DESC"
+	picture = "Butylka_Kumysa.dds"
 	expire = "1999.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = communist_subtype
 	traits = {
 
 	}

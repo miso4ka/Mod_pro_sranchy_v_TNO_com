@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = YAK
+		owner = OMO
 		victory_points = { 10641 3 }
 		buildings = {
 			infrastructure = 3
@@ -18,7 +18,7 @@ state={
 
 		}
 		
-		add_core_of = YAK
+		add_core_of = OMO
 	}
 
 	provinces={

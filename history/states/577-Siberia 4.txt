@@ -8,14 +8,14 @@ state={
 		oil = 14
 	}
 	history={
-		owner = ERS
+		owner = TOB
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
 		victory_points = { 4771 5 }
 		victory_points = { 12514 1 }
-		add_core_of = ERS
+		add_core_of = TOB
 	}
 
 	provinces={

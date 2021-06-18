@@ -11,7 +11,7 @@ state={
 		oil = 7
 	}
 	history={
-		owner = SAH
+		owner = KEM
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
@@ -20,7 +20,7 @@ state={
 		victory_points = { 1777 25 }
 		victory_points = { 10649 3 }
 		victory_points = { 7815 1 }
-		add_core_of = SAH
+		add_core_of = KEM
 		
 	}
 	state_category="city"

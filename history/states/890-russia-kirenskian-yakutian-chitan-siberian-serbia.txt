@@ -9,12 +9,12 @@ state = {
 		7726 10557 12531 12608 12668 13059 
 	}
 	history = {
-		owner = VIL
+		owner = ERS
 		buildings = {
 			infrastructure = 1
 			air_base = 1
 		}
-		add_core_of = VIL
+		add_core_of = ERS
 		victory_points = { 12608 1 }
 	}
 	state_category = wasteland

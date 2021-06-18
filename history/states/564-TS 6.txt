@@ -9,14 +9,14 @@ state={
 	}
 
 	history={
-		owner = BRY
+		owner = ERS
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
 
 		}
 		
-		add_core_of = BRY
+		add_core_of = ERS
 		victory_points = { 7835 10 }
 		victory_points = { 1696 5 }
 		victory_points = { 4705 5 }

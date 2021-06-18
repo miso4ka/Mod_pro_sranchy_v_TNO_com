@@ -10,7 +10,7 @@ state={
 		1666 4675 4762 4795 4821 4868 10565 10681 12538 12565 13327 7889 4855
 	}
 	history={
-		owner = SEV
+		owner = ERS
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -18,7 +18,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = SEV
+		add_core_of = ERS
 		victory_points = { 12565 3 }
 		add_extra_state_shared_building_slots = 1
 	}

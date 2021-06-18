@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = SEM
+		owner = BKR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -18,7 +18,7 @@ state={
 		}
 		victory_points = { 7708 5 }
 		victory_points = { 1864 1 }
-		add_core_of = SEM
+		add_core_of = BKR
 	}
 	
 	provinces={

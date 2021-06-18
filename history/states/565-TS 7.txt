@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = BRY
+		owner = ERS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -16,7 +16,7 @@ state={
 		}
 		victory_points = { 7759 5 }
 		victory_points = { 14461 3 }
-		add_core_of = BRY
+		add_core_of = ERS
 	}
 
 	provinces={

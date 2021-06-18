@@ -9,14 +9,14 @@ state = {
 		4878 6211 12634 13350 13355 13356 
 	}
 	history = {
-		owner = KOL
+		owner = OMO
 		buildings = {
 			infrastructure = 1
 			air_base = 1
 
 		}
 		victory_points = { 6211 1 }
-		add_core_of = KOL
+		add_core_of = OMO
 	}
 	state_category = wasteland
 	manpower = 23000

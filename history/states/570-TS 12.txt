@@ -7,7 +7,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = PAV
+		owner = BKR
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
@@ -18,7 +18,7 @@ state={
 		victory_points = { 12679 1 }
 		victory_points = { 4734 5 }
 		victory_points = { 1860 3 }
-		add_core_of = PAV
+		add_core_of = BKR
 	}
 	resources={
 		oil = 7

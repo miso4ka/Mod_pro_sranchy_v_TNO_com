@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = ISH
-		add_core_of = ISH
+		owner = PRM
+		add_core_of = PRM
 		add_extra_state_shared_building_slots = 1
 		buildings = {
 			infrastructure = 6

@@ -6,12 +6,12 @@ state={
 		1679 1780 1828 7701 7750 10576 10705 12595 12666 
 	}
 	history={
-		owner = ERS
+		owner = TOB
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = { 10705 5 }
-		add_core_of = ERS
+		add_core_of = TOB
 	}
 	manpower=132000
 	state_category=pastoral

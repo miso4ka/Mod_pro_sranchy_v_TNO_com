@@ -6,11 +6,11 @@ state = {
 		steel = 16
 	}
 	history = {
-		owner = CHK
+		owner = MAG
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = CHK
+		add_core_of = MAG
 		victory_points = { 10540 1 }
 	}
 
