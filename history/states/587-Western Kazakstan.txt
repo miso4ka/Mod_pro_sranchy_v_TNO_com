@@ -6,7 +6,7 @@ state={
 		oil=3
 	}
 	history={
-		owner = ARL
+		owner = PRM
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -14,7 +14,7 @@ state={
 		}
 		victory_points = { 11701 3 }
 		victory_points = { 10262 1 }
-		add_core_of = ARL		
+		add_core_of = PRM
 
 	}
 

@@ -9,13 +9,13 @@ state={
 	}
 
 	history={
-		owner = BAS
+		owner = PRM
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
 		}
 		victory_points = { 7328 3 }
-		add_core_of = BAS
+		add_core_of = PRM
 	}
 	manpower=592000
 	state_category=rural

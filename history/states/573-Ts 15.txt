@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = UDM
+		owner = NIK
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -18,7 +18,7 @@ state={
 		}
 		victory_points = { 1233 10 }
 		victory_points = { 12567 7 }
-		add_core_of = UDM
+		add_core_of = NIK
 
 	}
 

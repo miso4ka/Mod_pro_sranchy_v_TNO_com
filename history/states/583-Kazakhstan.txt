@@ -4,7 +4,7 @@ state={
 	name="STATE_583"
 
 	history={
-		owner = DER
+		owner = PRM
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -12,7 +12,7 @@ state={
 		}
 		victory_points = { 10284 5 }
 		victory_points = { 7429 1 }
-		add_core_of = DER	
+		add_core_of = PRM
 
 	}
 
