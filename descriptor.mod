@@ -10,7 +10,7 @@ dependencies={
 }
 replace_path="common/country_tags"
 replace_path="common/on_actions"
-replace_path = "localisation"
+replace_path ="localisation"
 replace_path="events"
 name="Edniy TNO MOD"
 supported_version="1.10.*"
