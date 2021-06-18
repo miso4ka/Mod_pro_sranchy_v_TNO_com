@@ -10,13 +10,13 @@ state={
 		4311 4383 7300 7373 12200 13303 
 	}
 	history={
-		owner = URL
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 		}
 		victory_points = { 7373 1 }
-		add_core_of = URL
+		add_core_of = NIK
 	}
 	manpower=213000
 	state_category = rural

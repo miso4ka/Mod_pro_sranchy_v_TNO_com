@@ -136,25 +136,14 @@ set_technology = {
 load_focus_tree = NIK_pre_election
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 13
-	ultranational_socialism = 7
-	socialist = 11
-	social_democrat = 25
-	social_liberal = 17
-	market_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 7
-	despotism = 2
-	fascism = 13
-	national_socialism = 5
-	burgundian_system = 0
+	despotism = 100
 }
 
 create_country_leader = {
@@ -233,13 +222,12 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sergey Taboritsky"
-	desc = "POLITICS_SERGEY_TABORITSKY_DESC"
+	name = "Misomaniac Forsik"
+	####desc = "POLITICS_SERGEY_TABORITSKY_DESC"
 	picture = "Portrait_NIK_Sergey_Taboritsky_Regent.dds"
 	expire = "1999.1.1"
 	ideology = despotism_subtype
 	traits = {
-		black_regent
 	}
 }
 

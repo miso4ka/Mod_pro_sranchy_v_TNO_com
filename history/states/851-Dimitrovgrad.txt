@@ -9,13 +9,13 @@ state={
 		339 3382 6404 9271 9354 11273 11281 11319 11377 355 3328 9401 292 11339 9514 11496 3214
 	}
 	history={
-		owner = SAM
+		owner = NIK
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = { 3382 1 }
 		victory_points = { 11377 5 }
-		add_core_of = SAM
+		add_core_of = NIK
 	}
 	manpower=640000
 	state_category = rural

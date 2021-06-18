@@ -6,13 +6,13 @@ state={
 		oil = 3
 	}
 	history={
-		owner = SAM
+		owner = NIK
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = { 338 3 }
 		victory_points = { 9391 5 }
-		add_core_of = SAM
+		add_core_of = NIK
 	}
 	manpower=550883
 

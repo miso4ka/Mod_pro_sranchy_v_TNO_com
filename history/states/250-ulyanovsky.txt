@@ -4,7 +4,7 @@ state={
 	name="STATE_250"
 
 	history={
-		owner = SAM
+		owner = NIK
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -13,7 +13,7 @@ state={
 		}
 		victory_points = { 6302 20 }
 		victory_points = { 6394 10 }
-		add_core_of = SAM
+		add_core_of = NIK
 	}
 	manpower=550883
 
