@@ -7,7 +7,7 @@ load_focus_tree = blank_no_tree_apoc
 add_ideas = {
 	### STANDARD ###
 	RUS_warlord_manpower
-
+    RUS_terror_bombing
 	### MINISTERS ###
 	AM_Empty_hog 
 	AM_Empty_for 

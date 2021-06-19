@@ -1,9 +1,9 @@
 ﻿l_russian:
  ### Country Names ###
  ##Reichskommissariat Moskowien
- MCW_GER_national_socialism:0 "Рейхскомиссариат Московия"
- MCW_GER_national_socialism_DEF:0 "Рейхскомиссариат Московия"
- MCW_GER_national_socialism_ADJ:0 "Московск."
+ MCW_GER_national_socialism:0 "Оккупационная Зона НАТО"
+ MCW_GER_national_socialism_DEF:0 "Оккупационная Зона НАТО"
+ MCW_GER_national_socialism_ADJ:0 "НАТО"
 
  MCW_GER_fascism:0 "Рейхскомиссариат Московия"
  MCW_GER_fascism_ADJ:0 "московск."
@@ -40,9 +40,9 @@
  MCW_socialist_ADJ:0 "московск."
  
  
- MCW_national_socialism:0 "Рейхскомиссариат Московия"
- MCW_national_socialism_DEF:0 "Рейхскомиссариат Московия"
- MCW_national_socialism_ADJ:0 "московск."
+ MCW_national_socialism:0 "Оккупационная Зона НАТО"
+ MCW_national_socialism_DEF:0 "Оккупационная Зона НАТО"
+ MCW_national_socialism_ADJ:0 "НАТО"
  
  MCW_ultranational_socialism:0 "Рейхскомиссариат Московия"
  MCW_ultranational_socialism_DEF:0 "Рейхскомиссариат Московия"

@@ -169,8 +169,8 @@ KMC = {
 }
 
 OMO = {
-	color = rgb { 147 149 161 }
-	color_ui = rgb { 147 149 161 }
+	color = rgb { 28 28 28 }
+	color_ui = rgb { 18 18 18 }
 }
 
 CHK = {
