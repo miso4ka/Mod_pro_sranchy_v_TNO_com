@@ -2,22 +2,17 @@
 
 oob = "KEM_1962"
 
-load_focus_tree = KEM_start
+load_focus_tree = blank_no_tree_apoc
 
 add_ideas = {
 	### STANDARD ###
-	RUS_siberia_plan_startscreen
 	RUS_warlord_manpower
-	KEM_esoteric_kingdom
-	KEM_the_two_wolves
-	KEM_kings_unions
-	RUS_kuznetsk_basin
 
 	### MINISTERS ###
-	KEM_Yuriy_Krylov_hog
-	KEM_Pyotr_Baranovsky_for
-	KEM_Lev_Voznesensky_eco
-	KEM_Ivan_Yakovlev_sec
+	AM_Empty_hog 
+	AM_Empty_for 
+	AM_Empty_eco 
+	AM_Empty_sec 
 
 	### POLITICAL ###
 	tno_political_parties_one_party_state
@@ -182,9 +177,9 @@ set_variable = { var = KEM_lydia_influence value = 1 }
 
 ### Country Leaders ###
 create_country_leader = {
-	name = "Rurik II"
-	desc = "POLITICS_RURIK_II_DESC"
-	picture = "Portrait_Kemerovo_Rurik_II.dds"
+	name = "Boris III"
+	#desc = "POLITICS_RURIK_II_DESC"
+	picture = "Portrait_Kemerovo_Boris_Rurikovich.dds"
 	expire = "1999.1.1"
 	ideology = despotism_subtype
 	traits = {	}
