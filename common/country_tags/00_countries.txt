@@ -1,8 +1,8 @@
 ###MISC###
 RMN = "countries/Hispania.txt"
 ZOM = "countries/Zombies.txt"
-ZZZ = "countries/anarchy.txt"
 PKT = "countries/Zollverein.txt"
+ZZZ = "countries/anarchy.txt"
 
 ###EUROPE###
 UKR = "countries/Ukraine.txt"

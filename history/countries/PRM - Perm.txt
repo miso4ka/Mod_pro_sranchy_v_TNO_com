@@ -2,15 +2,12 @@
 
 oob = "PRM_1962"
 
-load_focus_tree = PRM_AB_initial
+load_focus_tree = blank_no_tree_apoc
 
 add_ideas = {
 	##STANDARD##
 	RUS_terror_bombing
 	RUS_warlord_manpower
-	PRM_aryan_cult
-	PRM_aryan_control_3
-	PRM_aryan_schematics
 	##MINISTERS##
 	AM_Empty_hog 
 	AM_Empty_for 

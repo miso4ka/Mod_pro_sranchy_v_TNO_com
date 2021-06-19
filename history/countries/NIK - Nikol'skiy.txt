@@ -4,6 +4,8 @@ oob = "NIK_AM"
 
 add_manpower = 12000
 
+
+
 add_ideas = {
 	#standard#
 	RUS_terror_bombing
@@ -133,7 +135,7 @@ set_technology = {
 	military_construction0 = 1
 }
 
-load_focus_tree = NIK_pre_election
+load_focus_tree = blank_no_tree_apoc
 
 set_politics = {
 	ruling_party = despotism

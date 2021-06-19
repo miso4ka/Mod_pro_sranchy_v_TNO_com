@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_news_event_canal_riots"
+		texturefile = "gfx/event_pictures/news_event_canal_riots.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_canal_war"
+		texturefile = "gfx/event_pictures/news_event_canal_war.dds"
+	}
+}

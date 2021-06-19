@@ -12,192 +12,75 @@ bookmarks = {
 		date = 1962.1.1.1
 		picture = "GFX_select_date_1939"
 		default_country = "GER"
+		default = yes
 
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
-				## RUSSIA ##
-					"NIK" = {
-						minor = yes
-						history = "TOB_THENEWORDER_DESC"
-						ideology = despotism
-						#ideas = {
-						#
-						#}
-						#focuses = {
-						#}
-					}
 
-					"KHA" = {
-						minor = yes
-						history = "KHA_THENEWORDER_DESC"
-						ideology = socialist
-						ideas = {
-							KHA_anarchist_refuge
-							KHA_militarized_society
-							KHA_black_army_administration_2
-						}
-						focuses = {
-							KHA_intro_mother_anarchys_eldest_sons
-							KHA_intro_the_third_congress_of_tulun
-							KHA_intro_riding_on
-						}
-					}
-
-					"IRK" = {
-						minor = yes
-						history = "IRK_THENEWORDER_DESC"
-						ideology = communist
-						ideas = {
-							IRK_bitter_remnant
-							IRK_yagodas_paranoia
-							RUS_irkutsk_hydro_station
-						}
-						focuses = {
-							IRK_mutiny_the_response
-							IRK_mutiny_an_ironclad_union
-							IRK_mutiny_the_union_forever
-						}
-					}
-
-					"BRY" = {
-						minor = yes
-						history = "BRY_THENEWORDER_DESC"
-						ideology = socialist
-						ideas = {
-							BRY_uncertain_revolutionaries
-							BRY_ghost_of_bukharinism
-						}
-						focuses = {
-							BRY_the_spark
-							BRY_the_dreams_of_those_before
-							BRY_that_burns_the_tyrant_down
-						}
-					}
-				## RUSSIA ##
-
-				## CPS ##
-				## CPS ##
-				
-				## RUSSIA ##
-					"PAV" = {
-						minor = yes
-						history = "PAV_THENEWORDER_DESC"
-						ideology = authoritarian_democrat
-						ideas = {
-							PAV_Disproportionate_Population
-							PAV_The_All_Siberian_Army
-							RUS_novosibirsk_aircraft_plant
-						}
-						focuses = {
-							PAV_land_of_the_strong
-							PAV_the_champions_of_industry
-							PAV_the_soldiers_soviet
-						}
-					}
-
-					"WCH" = {
-						minor = yes
-						history = "WCH_THENEWORDER_DESC"
-						ideology = despotism
-						ideas = {
-							RUS_heirs_of_harbin
-							WCH_uneasy_figurhead
-							WCH_sunset_of_white_chivalry
-						}
-						focuses = {
-							WCH_the_true_heirs_of_harbin
-							WCH_Military_investments
-							WCH_civilian_investments
-						}
-					}
-
-					"MAG" = {
-						minor = yes
-						history = "MAG_THENEWORDER_DESC"
-						ideology = fascism
-						ideas = {
-							RUS_heirs_of_harbin
-							MAG_fascist_splitters
-							MAG_gateway_into_russia
-						}
-						focuses = {
-							MAG_the_true_heir_of_harbin
-							MAG_desperate_times
-							MAG_promise_to_reform
-						}
-					}
-
-					"AMR" = {
-						minor = yes
-						history = "AMR_THENEWORDER_DESC"
-						ideology = national_socialism
-						ideas = {
-							RUS_heirs_of_harbin
-							AMR_rusfascist_stronghold
-							AMR_paranoid_vozhd_1
-						}
-						focuses = {
-							AMR_the_true_heir_of_harbin
-							AMR_god_nation_labor
-							AMR_rodzaevskys_paranoia
-						}
-					}
-
-					"PRM" = {
-						minor = yes
-						history = "PRM_THENEWORDER_DESC"
-						ideology = national_socialism
-						ideas = {
-							PRM_aryan_cult
-							PRM_aryan_control_3
-							PRM_aryan_schematics
-						}
-						focuses = {
-							PRM_AB_initial_beneath_cross
-							PRM_AB_initial_ubermensch
-							PRM_AB_initial_brotherhood
-						}
-					}
-
-					"SVO" = {
-						minor = yes
-						history = "SVO_THENEWORDER_DESC"
-						ideology = communist
-						ideas = {
-							SVO_factionalism
-							SVO_red_army_exile
-							SVO_democratic_military
-						}
-						focuses = {
-							SVO_The_Eastern_Conflict
-							SVO_Legacy_of_the_Siberian_Red_Army
-							SVO_War_with_Menjiang
-						}
-					}
-				## RUSSIA ##
-
-				## CPS ##
-					"ZZZ" = {
-						minor = yes
-						history = ""
-					}
-
-					"ZZZ" = {
-						minor = yes
-						history = ""
-					}
-
-					"ZZZ" = {
-						minor = yes
-						history = ""
-					}
-				## CPS ##
-				
-				# Buffer
-				"ZZZ" = { minor = yes history = "" }
-			### ROW 3 ###
-		#### MINORS ####
-	}
+			"NIK" = {
+				history = "USA_THENEWORDER_DESC"
+				ideology = social_liberal
+				ideas = {
+					USA_last_bastion_of_liberty
+					USA_the_american_depression_4
+					USA_jim_crow
+				}
+				focuses = {
+					USA_the_nixon_presidency
+					USA_the_civil_rights_dillema
+					USA_Boxing_In_the_Sphere
+				}
+			}
+			
+			"BKR" = {
+				history = "GER_THENEWORDER_DESC"
+				ideology = national_socialism
+				ideas = {
+					to_banish_want
+					the_two_principles
+					endsieg
+				}
+				focuses = {
+					GER_a_man_on_the_moon
+					GER_the_enemy_of_my_enemy
+					GER_a_bridge_too_far
+				}
+			}
+			
+			"ZZZ" = { history = "" }
+			"ZZZ" = { history = "" }
+			
+			"ERS" = {
+				history = "JAP_THENEWORDER_DESC"
+				ideology = fascism
+				ideas = {
+					JAP_showa_emperor
+					JAP_nihon_ascendant
+					JAP_zaibatsu_question
+				}
+				focuses = {
+					JAP_never_been_better
+					JAP_fake_economy_end
+					JAP_fake_economy_end_end
+				}
+			}
+	
+			
+			"TOB" = {
+				history = "ITA_THENEWORDER_DESC"
+				ideology = fascism
+				ideas = {
+					ITA_king_umberto
+					ITA_fadingfascism
+					ITA_navy_strengthened
+				}
+				focuses = {
+					ita_road_to_freedom
+					ita_am_icizia
+					ita_road_to_order
+				}
+			}
+}
 }

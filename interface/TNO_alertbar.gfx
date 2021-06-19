@@ -1,0 +1,28 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CSS_alert_senado_voting"
+		texturefile = "gfx/interface/alerts/tno_alerts/senado_voting.dds"
+	}
+	spriteType = {
+		name = "GFX_CSS_alert_pres_voting"
+		texturefile = "gfx/interface/alerts/tno_alerts/pres_voting.dds"
+	}
+	spriteType = {
+		name = "GFX_CSS_alert_bill_voting"
+		texturefile = "gfx/interface/alerts/tno_alerts/bill_voting.dds"
+	}
+	spriteType = {
+		name = "GFX_CSS_alert_development"
+		texturefile = "gfx/interface/alerts/tno_alerts/develop_policy.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_TNO_alert_missing"
+		texturefile = "gfx/interface/alerts/tno_alerts/missing.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_alert_overlay"
+		texturefile = "gfx/interface/alerts/tno_alerts/overlay.dds"
+	}
+}

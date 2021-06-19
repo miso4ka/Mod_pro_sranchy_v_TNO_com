@@ -116,13 +116,12 @@ if = {
 add_ideas = {
 	### Standard ###
 	RUS_warlord_manpower
-	KMC_sailor_state
 
 	### Ministers ###
-	KMC_Ivan_Yumashev_hog
-	KMC_Emil_Spirodnov_for
-	KMC_Nikolay_Smirnov_eco
-	KMC_Pavel_Kolesnik_sec
+	AM_Empty_hog 
+	AM_Empty_for 
+	AM_Empty_eco 
+	AM_Empty_sec
 
 	### Political Laws ###
 	tno_political_parties_one_party_state
@@ -243,33 +242,23 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = ultranational_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 26
-	ultranational_socialism = 0
-	socialist = 0
-	social_democrat = 0
-	social_liberal = 0
-	market_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 52
-	despotism = 22
-	fascism = 0
-	burgundian_system = 0
+	ultranational_socialism = 100
 }
 
 ### Country Leaders ###
 create_country_leader = {
-	name = "Ivan Yumashev"
+	name = "Yuri Evtukovich"
 	desc = "POLITICS_IVAN_YUMASHEV_DESC"
-	picture = "Portrait_Kamchatka_Ivan_Yumashev.dds"
+	picture = "gfx/leaders/NIK/Portrait_NIK_Yuri_Evtukovich.dds"
 	expire = "1999.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = ultranational_socialism_subtype
 }
 
 ### Generals ###
