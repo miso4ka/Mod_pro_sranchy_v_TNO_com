@@ -31,7 +31,7 @@ bookmarks = {
 					MIS_legit_ruler
 					MIS_remember_sans_spiedel_watches
 					MIS_mod_is_complete
-				#}
+				}
 			}
 			
 			"BKR" = {
