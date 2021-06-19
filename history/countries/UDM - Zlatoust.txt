@@ -9,15 +9,12 @@ load_focus_tree = blank_no_tree_apoc
 add_ideas = {
 	###STANDARD###
 	RUS_warlord_manpower
-	SIB_terror_bombing
-	UDM_golden_republic
-	UDM_the_two_consuls
-	RUS_zlatoust_arms_plant
+
 	###MINISTERS###
-	UDM_Mikhail_Kalashnikov_hog
-	UDM_Konstantin_Rudnev_for
-	UDM_Vladimir_Konovalov_eco
-	UDM_Vasily_Boyarshinov_sec
+	AM_Empty_hog 
+	AM_Empty_for 
+	AM_Empty_eco 
+	AM_Empty_sec 
 	##POLITICAL LAWS##
 	tno_political_parties_controlled_opposition
 	tno_religious_rights_secularism
