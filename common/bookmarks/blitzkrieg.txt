@@ -22,31 +22,31 @@ bookmarks = {
 			"NIK" = {
 				history = "USA_THENEWORDER_DESC"
 				ideology = social_liberal
-				ideas = {
+				#ideas = {
 					USA_last_bastion_of_liberty
 					USA_the_american_depression_4
 					USA_jim_crow
-				}
-				focuses = {
+				#}
+				#focuses = {
 					USA_the_nixon_presidency
 					USA_the_civil_rights_dillema
 					USA_Boxing_In_the_Sphere
-				}
+				#}
 			}
 			
 			"BKR" = {
 				history = "GER_THENEWORDER_DESC"
 				ideology = national_socialism
-				ideas = {
+				#ideas = {
 					to_banish_want
 					the_two_principles
 					endsieg
-				}
-				focuses = {
+				#}
+				#focuses = {
 					GER_a_man_on_the_moon
 					GER_the_enemy_of_my_enemy
 					GER_a_bridge_too_far
-				}
+				#}
 			}
 			
 			"ZZZ" = { history = "" }
@@ -55,32 +55,32 @@ bookmarks = {
 			"ERS" = {
 				history = "JAP_THENEWORDER_DESC"
 				ideology = fascism
-				ideas = {
+				#ideas = {
 					JAP_showa_emperor
 					JAP_nihon_ascendant
 					JAP_zaibatsu_question
-				}
-				focuses = {
+				#}
+				#focuses = {
 					JAP_never_been_better
 					JAP_fake_economy_end
 					JAP_fake_economy_end_end
-				}
+				#}
 			}
 	
 			
 			"TOB" = {
 				history = "ITA_THENEWORDER_DESC"
 				ideology = fascism
-				ideas = {
+				#ideas = {
 					ITA_king_umberto
 					ITA_fadingfascism
 					ITA_navy_strengthened
-				}
-				focuses = {
+				#}
+				#focuses = {
 					ita_road_to_freedom
 					ita_am_icizia
 					ita_road_to_order
-				}
+				#}
 			}
 }
 }
