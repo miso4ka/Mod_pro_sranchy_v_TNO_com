@@ -244,9 +244,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Siegfried Kasche"
-	desc = "POLITICS_SIEGFRIED_KASCHE_DESC"
-	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
+	name = "Occupation Authority"
+	#desc = "POLITICS_SIEGFRIED_KASCHE_DESC"
+	picture = "Occupation_authority.dds"
 	expire = "1983.4.24"
 	ideology = national_socialism_subtype
 	traits = {
