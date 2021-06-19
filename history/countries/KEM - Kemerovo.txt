@@ -177,9 +177,9 @@ set_variable = { var = KEM_lydia_influence value = 1 }
 
 ### Country Leaders ###
 create_country_leader = {
-	name = "Boris III"
+	name = "Leon Degrelle"
 	#desc = "POLITICS_RURIK_II_DESC"
-	picture = "Portrait_Kemerovo_Boris_Rurikovich.dds"
+	picture = "Portrait_Leon_Degrelle.dds"
 	expire = "1999.1.1"
 	ideology = despotism_subtype
 	traits = {	}
