@@ -132,7 +132,7 @@ set_technology = {
 	military_construction0 = 1
 }
 
-load_focus_tree = blank_no_tree_apoc
+load_focus_tree = Forsik_tree_initial
 
 set_politics = {
 	ruling_party = despotism
