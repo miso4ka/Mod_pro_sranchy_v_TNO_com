@@ -4,7 +4,7 @@ oob = "UDM_1962"
 
 diplomatic_relation = { country = KOM relation = non_aggression_pact }
 
-load_focus_tree = UDM_tree
+load_focus_tree = blank_no_tree_apoc
 
 add_ideas = {
 	###STANDARD###

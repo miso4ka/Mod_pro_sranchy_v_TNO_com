@@ -10,9 +10,6 @@ add_ideas = {
 	#standard#
 	RUS_terror_bombing
 	RUS_warlord_manpower
-	NIK_syvtyvkartsi
-	NIK_clash_of_shadows_c_1
-	RUS_syktyvkar_arsenal
 	#ministers#
 	NIK_Vyacheslav_Malyshev_for
 	NIK_Yegor_Ligachev_sec
@@ -145,113 +142,25 @@ set_politics = {
 }
 
 set_popularities = {
-	despotism = 100
+	despotism = 56
+	authoritarian_democrat = 44
 }
-
-create_country_leader = {
-	name = "Nikolai Voznesensky"
-	desc = "POLITICS_NIKOLAI_VOZNESENSKY_DESC"
-	picture = "Portrait_NIK_Nikolai_Voznesensky.dds"
-	expire = "1999.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		controversial_populist
-	}
-}
-
-create_country_leader = {
-	name = "Svetlana Stalina"
-	desc = "POLITICS_SVETLANA_STALINA_DEM_DESC"
-	picture = "Portrait_NIK_Svetlana_Stalina.dds"
-	expire = "1999.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		steel_maiden
-	}
-}
-create_country_leader = {
-	name = "Andrei Zhdanov"
-	desc = "POLITICS_ANDREI_ZHDANOV_DESC"
-	picture = "Portrait_NIK_Andrei_Zhdanov.dds"
-	expire = "1999.1.1"
-	ideology = socialist_subtype
-	traits = {
-		ultravisionary_socialist
-	}
-}
-create_country_leader = {
-	name = "Alexei Kosygin"
-	desc = "POLITICS_ALEXEI_KOSIGIN_DESC"
-	picture = "Portrait_NIK_Alexei_Kosigin.dds"
-	expire = "1999.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		grim_pragmatist
-	}
-}
-
-create_country_leader = {
-	name = "Igor Shafarevich"
-	desc = "POLITICS_IGOR_SHAFAREVICH_DESC"
-	picture = "Portrait_NIK_Igor_Shafarevich.dds"
-	expire = "1999.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-		hog_intelligentsia
-	}
-}
-
-create_country_leader = {
-	name = "Igor Shafarevich"
-	desc = "POLITICS_IGOR_SHAFAREVICH_DESC"
-	picture = "Portrait_NIK_Igor_Shafarevich.dds"
-	expire = "1999.1.1"
-	ideology = fascism_subtype
-	traits = {
-		hog_intelligentsia
-	}
-}
-
-create_country_leader = {
-	name = "Mikhail Suslov"
-	desc = "POLITICS_MIKHAIL_SUSLOV_DESC"
-	picture = "Portrait_NIK_Mikhail_Suslov.dds"
-	expire = "1999.1.1"
-	ideology = communist_subtype
-	traits = {
-		master_ideologue
-	}
-}
-
 create_country_leader = {
 	name = "Misomaniac Forsik"
 	####desc = "POLITICS_SERGEY_TABORITSKY_DESC"
-	picture = "Portrait_NIK_Sergey_Taboritsky_Regent.dds"
+	picture = "Miso_Forsik.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype 
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Misomaniac Forsik"
+	####desc = "POLITICS_SERGEY_TABORITSKY_DESC"
+	picture = "Miso_Forsik.dds"
 	expire = "1999.1.1"
 	ideology = despotism_subtype
 	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Lev Gumilyov"
-	desc = "POLITICS_LEV_GUMILEV_DESC"
-	picture = "Portrait_NIK_Lev_Gumilyov.dds"
-	expire = "1999.1.1"
-	ideology = national_socialism_subtype
-	traits = {
-		diabolical_intellectual
-	}
-}
-
-create_country_leader = {
-	name = "Lev Gumilyov"
-	desc = "POLITICS_LEV_GUMILEV_DESC"
-	picture = "Portrait_NIK_Lev_Gumilyov.dds"
-	expire = "1999.1.1"
-	ideology = ultranational_socialism_subtype
-	traits = {
-		diabolical_intellectual
 	}
 }
 
