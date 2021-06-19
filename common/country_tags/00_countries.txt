@@ -50,6 +50,7 @@ YAK = "countries/Yakutsk.txt"
 MIR = "countries/Mirny.txt"
 KEM = "countries/Kemerovo.txt"
 KMC = "countries/Kamchatka.txt"
+MAN = "countries/Manchukou.txt"
 
 BAS = "countries/Bashkortostan.txt"
 ALT = "countries/Altai.txt"
