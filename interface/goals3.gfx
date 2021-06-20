@@ -19,4 +19,44 @@ spriteTypes = {
 		name = "GFX_sudin"
 		texturefile = "gfx/interface/goals/GFX_sudin.dds"
 	}
+	SpriteType = {
+		name = "GFX_pivo_pobeda"
+		texturefile = "gfx/interface/goals/MIS/pivo_pobeda.dds"
+	}
+	SpriteType = {
+		name = "GFX_imperskie_partisani"
+		texturefile = "gfx/interface/goals/MIS/imperskie_partisani.dds"
+	}
+	SpriteType = {
+		name = "GFX_grom_pobedi"
+		texturefile = "gfx/interface/goals/MIS/grom_pobedi.dds"
+	}
+	SpriteType = {
+		name = "GFX_lgoty"
+		texturefile = "gfx/interface/goals/MIS/lgoty.dds"
+	}
+	SpriteType = {
+		name = "GFX_propoganda"
+		texturefile = "gfx/interface/goals/MIS/propoganda.dds"
+	}
+	SpriteType = {
+		name = "GFX_reyd_eng_serverov"
+		texturefile = "gfx/interface/goals/MIS/reyd_eng_serverov.dds"
+	}
+	SpriteType = {
+		name = "GFX_rusifikasija"
+		texturefile = "gfx/interface/goals/MIS/rusifikasija.dds"
+	}
+	SpriteType = {
+		name = "GFX_glas_czar"
+		texturefile = "gfx/interface/goals/MIS/glas_czar.dds"
+	}
+	SpriteType = {
+		name = "GFX_tsaru_ploho"
+		texturefile = "gfx/interface/goals/MIS/tsaru_ploho.dds"
+	}
+	SpriteType = {
+		name = "GFX_tsar_community"
+		texturefile = "gfx/interface/goals/MIS/tsar_community.dds"
+	}
 }

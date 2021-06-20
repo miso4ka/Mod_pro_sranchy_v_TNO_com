@@ -2,11 +2,11 @@
 spriteTypes = {
 
 	SpriteType = {
-		name = "GFX_Honor_Kaganovich_shine"
-		texturefile = "gfx/interface/goals/GFX_Honor_Kaganovich.dds"
+		name = "GFX_pivo_pobeda_shine"
+		texturefile = "gfx/interface/goals/MIS/GFX_pivo_pobeda.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_Honor_Kaganovich.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_pivo_pobeda.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -19,7 +19,7 @@ spriteTypes = {
 		}
 	
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_Honor_Kaganovich.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_pivo_pobeda.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
