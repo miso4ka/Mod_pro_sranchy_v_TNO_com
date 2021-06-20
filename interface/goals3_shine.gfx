@@ -19,7 +19,7 @@ spriteTypes = {
 		}
 	
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_pivo_pobeda.dds"
+			animationmaskfile = "gfx/interface/goals/MIS/GFX_pivo_pobeda.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -33,11 +33,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 		SpriteType = {
-		name = "GFX_NIK_ruina_imperii_shine"
-		texturefile = "gfx/interface/goals/NIK_ruina_imperii.dds"
+		name = "GFX_glas_czar_shine"
+		texturefile = "gfx/interface/goals/MIS/glas_czar.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/NIK_ruina_imperii.dds"
+			animationmaskfile = "gfx/interface/goals/MIS/glas_czar.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -50,7 +50,69 @@ spriteTypes = {
 		}
 	
 		animation = {
-			animationmaskfile = "gfx/interface/goals/NIK_ruina_imperii.dds"
+			animationmaskfile = "gfx/interface/goals/MIS/glas_czar.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_propoganda_shine"
+		texturefile = "gfx/interface/goals/MIS/propoganda.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MIS/propoganda.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+	
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MIS/propoganda.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_tsar_community_shine"
+		texturefile = "gfx/interface/goals/MIS/tsar_community.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MIS/tsar_community.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+	
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MIS/tsar_community.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
